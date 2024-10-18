@@ -1,0 +1,1 @@
+#iopaint start --model=manga --device=cpu --port=8080
