@@ -1,0 +1,8 @@
+numpy ~= 1.26.4
+scipy ~= 1.13.1
+scikit-image ~= 0.24.0
+scikit-learn ~= 0.24.2
+matplotlib ~= 3.1.1
+opencv-python ~= 3.4.0
+Pillow
+pyaml

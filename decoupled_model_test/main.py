@@ -32,10 +32,11 @@ def forward_to_models(image, mask, line_model, inpaintor_model, device, logging=
         return: BGR IMAGE
         """
         cur_res = None
+        #seed = 42 #arbitrary seed
+        seed = random.randint(0, 1000000)
         #ive put the logging options here so that we don't have to check it for every logging call
         if logging == "ALL":
             logger.log("Forwarding image to models. Device: {}. Logging Mode: ALL".format(device))
-            seed = 42 #arbitrary seed
             random.seed(seed)
             np.random.seed(seed)
             logger.log(f"seed: {seed}")
@@ -43,10 +44,12 @@ def forward_to_models(image, mask, line_model, inpaintor_model, device, logging=
             torch.cuda.manual_seed_all(seed)
 
             gray_img = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+            print(image.shape, gray_img.shape, mask.shape)
             gray_img = torch.from_numpy(
                 gray_img[np.newaxis, np.newaxis, :, :].astype(np.float32)
             ).to(device)
             start = time.time()
+            print(image.shape, gray_img.shape, mask.shape)
             lines = line_model(gray_img)
             torch.cuda.empty_cache()
             lines = torch.clamp(lines, 0, 255)
@@ -111,15 +114,16 @@ def __main__():
         logger.log("Failed to load models")
         return
     
-    #Create a mask in the center of the image, 30% of the image size
+    #Create a mask in the center of the image, some % of the image size
+    mask_percentage = 4 #percentage of the image size in 10s e.g. 3 = 30%
     h, w, _ = test_img.shape
     mask = np.zeros((h, w, 1))
-    mask[h//3:h//3*2, w//3:w//3*2] = 1
+    mask[h//mask_percentage:h-h//mask_percentage, w//mask_percentage:w-w//mask_percentage] = 1
 
-    #show a preview of the mask as a black square
-    preview = test_img.copy()
-    preview[mask[:, :, 0] == 1] = [0, 0, 0]
     if False:
+        #show a preview of the mask as a black square
+        preview = test_img.copy()
+        preview[mask[:, :, 0] == 1] = [0, 0, 0]
         cv2.imshow("Mask", preview)
         cv2.waitKey(0)  # Wait for a key press to close the window
         cv2.destroyAllWindows()  # Close the window

@@ -1,0 +1,5 @@
+[0] Log file 'logs/Log_2024_Oct18_15:21:13.txt' created, print to console: True
+[1] Loading model from: models/line_model.jit
+[2] Loading model from: models/manga_inpaintor.jit
+[3] Forwarding image to models. Device: cpu. Logging Mode: ALL
+[4] seed: 688110
