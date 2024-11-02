@@ -1,6 +1,9 @@
 #models
 models/
 
+environment.yaml
+package-list.txt
+
 .vscode
 erika.pth
 
