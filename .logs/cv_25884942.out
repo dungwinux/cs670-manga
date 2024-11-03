@@ -1,0 +1,12 @@
+Removing cuda version 12.1
+Removing conda
+Loading conda
+
+EnvironmentNameNotFound: Could not find conda environment: manga
+You can list all discoverable environments with `conda info --envs`.
+
+
+Traceback (most recent call last):
+  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/translation/call_api.py", line 1, in <module>
+    from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor
+ModuleNotFoundError: No module named 'transformers'

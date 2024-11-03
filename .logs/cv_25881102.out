@@ -1,0 +1,30 @@
+Removing conda
+Loading conda
+/home/ctpham_umass_edu/.conda/envs/manga/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/38 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/38 [00:00<00:30,  1.23it/s]Loading checkpoint shards:   5%|▌         | 2/38 [00:01<00:26,  1.35it/s]Loading checkpoint shards:   8%|▊         | 3/38 [00:02<00:25,  1.36it/s]Loading checkpoint shards:  11%|█         | 4/38 [00:03<00:25,  1.33it/s]Loading checkpoint shards:  13%|█▎        | 5/38 [00:03<00:24,  1.32it/s]Loading checkpoint shards:  16%|█▌        | 6/38 [00:04<00:23,  1.34it/s]Loading checkpoint shards:  18%|█▊        | 7/38 [00:05<00:23,  1.34it/s]Loading checkpoint shards:  21%|██        | 8/38 [00:05<00:22,  1.34it/s]Loading checkpoint shards:  24%|██▎       | 9/38 [00:06<00:21,  1.33it/s]Loading checkpoint shards:  26%|██▋       | 10/38 [00:07<00:20,  1.34it/s]Loading checkpoint shards:  29%|██▉       | 11/38 [00:08<00:20,  1.34it/s]Loading checkpoint shards:  32%|███▏      | 12/38 [00:08<00:19,  1.34it/s]Loading checkpoint shards:  34%|███▍      | 13/38 [00:09<00:18,  1.33it/s]Loading checkpoint shards:  37%|███▋      | 14/38 [00:10<00:17,  1.35it/s]Loading checkpoint shards:  39%|███▉      | 15/38 [00:11<00:17,  1.34it/s]Loading checkpoint shards:  42%|████▏     | 16/38 [00:11<00:16,  1.33it/s]Loading checkpoint shards:  45%|████▍     | 17/38 [00:28<01:53,  5.39s/it]Loading checkpoint shards:  47%|████▋     | 18/38 [00:43<02:47,  8.40s/it]Loading checkpoint shards:  50%|█████     | 19/38 [00:58<03:16, 10.32s/it]Loading checkpoint shards:  53%|█████▎    | 20/38 [01:17<03:51, 12.86s/it]Loading checkpoint shards:  55%|█████▌    | 21/38 [01:31<03:45, 13.26s/it]Loading checkpoint shards:  58%|█████▊    | 22/38 [01:49<03:56, 14.78s/it]Loading checkpoint shards:  61%|██████    | 23/38 [02:06<03:51, 15.44s/it]Loading checkpoint shards:  63%|██████▎   | 24/38 [02:18<03:22, 14.45s/it]Loading checkpoint shards:  66%|██████▌   | 25/38 [02:32<03:06, 14.35s/it]Loading checkpoint shards:  68%|██████▊   | 26/38 [02:44<02:43, 13.65s/it]Loading checkpoint shards:  71%|███████   | 27/38 [02:57<02:25, 13.20s/it]Loading checkpoint shards:  74%|███████▎  | 28/38 [03:10<02:12, 13.27s/it]Loading checkpoint shards:  76%|███████▋  | 29/38 [03:27<02:09, 14.37s/it]Loading checkpoint shards:  79%|███████▉  | 30/38 [03:59<02:36, 19.57s/it]Loading checkpoint shards:  82%|████████▏ | 31/38 [04:13<02:06, 18.03s/it]Loading checkpoint shards:  84%|████████▍ | 32/38 [04:26<01:39, 16.58s/it]Loading checkpoint shards:  87%|████████▋ | 33/38 [04:41<01:20, 16.11s/it]Loading checkpoint shards:  89%|████████▉ | 34/38 [04:56<01:02, 15.62s/it]Loading checkpoint shards:  92%|█████████▏| 35/38 [05:15<00:50, 16.73s/it]Loading checkpoint shards:  95%|█████████▍| 36/38 [05:36<00:35, 17.88s/it]Loading checkpoint shards:  97%|█████████▋| 37/38 [05:46<00:15, 15.67s/it]Loading checkpoint shards: 100%|██████████| 38/38 [05:59<00:00, 14.90s/it]Loading checkpoint shards: 100%|██████████| 38/38 [05:59<00:00,  9.47s/it]
+  0%|          | 0/209 [00:00<?, ?it/s]  0%|          | 0/209 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/ctpham_umass_edu/.conda/envs/manga/lib/python3.10/site-packages/transformers/feature_extraction_utils.py", line 193, in convert_to_tensors
+    tensor = as_tensor(value)
+  File "/home/ctpham_umass_edu/.conda/envs/manga/lib/python3.10/site-packages/transformers/feature_extraction_utils.py", line 150, in as_tensor
+    return torch.from_numpy(value)
+TypeError: expected np.ndarray (got numpy.ndarray)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/translation/call_api.py", line 58, in <module>
+    inputs = processor(
+  File "/home/ctpham_umass_edu/.conda/envs/manga/lib/python3.10/site-packages/transformers/models/qwen2_vl/processing_qwen2_vl.py", line 115, in __call__
+    image_inputs = self.image_processor(images=images, videos=None, **output_kwargs["images_kwargs"])
+  File "/home/ctpham_umass_edu/.conda/envs/manga/lib/python3.10/site-packages/transformers/image_processing_utils.py", line 41, in __call__
+    return self.preprocess(images, **kwargs)
+  File "/home/ctpham_umass_edu/.conda/envs/manga/lib/python3.10/site-packages/transformers/models/qwen2_vl/image_processing_qwen2_vl.py", line 458, in preprocess
+    return BatchFeature(data=data, tensor_type=return_tensors)
+  File "/home/ctpham_umass_edu/.conda/envs/manga/lib/python3.10/site-packages/transformers/feature_extraction_utils.py", line 79, in __init__
+    self.convert_to_tensors(tensor_type=tensor_type)
+  File "/home/ctpham_umass_edu/.conda/envs/manga/lib/python3.10/site-packages/transformers/feature_extraction_utils.py", line 199, in convert_to_tensors
+    raise ValueError(
+ValueError: Unable to create tensor, you should probably activate padding with 'padding=True' to have batched tensors with the same length.

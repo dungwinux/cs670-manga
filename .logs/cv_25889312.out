@@ -1,0 +1,5153 @@
+Removing conda
+Loading conda
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:29<01:58, 29.65s/it]Loading checkpoint shards:  40%|████      | 2/5 [01:00<01:31, 30.52s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:32<01:02, 31.25s/it]Loading checkpoint shards:  80%|████████  | 4/5 [02:05<00:31, 31.94s/it]Loading checkpoint shards: 100%|██████████| 5/5 [02:14<00:00, 23.61s/it]Loading checkpoint shards: 100%|██████████| 5/5 [02:14<00:00, 26.95s/it]
+  0%|          | 0/209 [00:00<?, ?it/s]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  0%|          | 1/209 [00:12<44:29, 12.83s/it]  1%|          | 2/209 [00:19<31:30,  9.13s/it]  1%|▏         | 3/209 [00:22<21:14,  6.19s/it]  2%|▏         | 4/209 [00:37<33:59,  9.95s/it]  2%|▏         | 5/209 [00:53<40:19, 11.86s/it]  3%|▎         | 6/209 [01:04<39:13, 11.59s/it]  3%|▎         | 7/209 [01:11<34:51, 10.36s/it]  4%|▍         | 8/209 [01:29<42:24, 12.66s/it]  4%|▍         | 9/209 [01:47<47:20, 14.20s/it]  5%|▍         | 10/209 [02:08<54:23, 16.40s/it]  5%|▌         | 11/209 [02:15<44:30, 13.49s/it]  6%|▌         | 12/209 [02:25<41:16, 12.57s/it]  6%|▌         | 13/209 [02:36<39:20, 12.04s/it]  7%|▋         | 14/209 [02:50<41:21, 12.72s/it]  7%|▋         | 15/209 [03:06<43:47, 13.54s/it]  8%|▊         | 16/209 [03:19<42:52, 13.33s/it]  8%|▊         | 17/209 [03:35<45:20, 14.17s/it]  9%|▊         | 18/209 [03:43<38:56, 12.23s/it]  9%|▉         | 19/209 [03:46<30:50,  9.74s/it] 10%|▉         | 20/209 [04:01<35:30, 11.27s/it] 10%|█         | 21/209 [04:10<33:00, 10.54s/it] 11%|█         | 22/209 [04:23<34:52, 11.19s/it] 11%|█         | 23/209 [04:36<36:32, 11.79s/it] 11%|█▏        | 24/209 [04:47<35:13, 11.42s/it] 12%|█▏        | 25/209 [04:54<30:56, 10.09s/it] 12%|█▏        | 26/209 [05:05<31:33, 10.35s/it] 13%|█▎        | 27/209 [05:20<36:22, 11.99s/it] 13%|█▎        | 28/209 [05:37<40:24, 13.39s/it] 14%|█▍        | 29/209 [05:49<39:01, 13.01s/it] 14%|█▍        | 30/209 [06:02<39:05, 13.10s/it] 15%|█▍        | 31/209 [06:05<29:54, 10.08s/it] 15%|█▌        | 32/209 [06:08<22:54,  7.77s/it] 16%|█▌        | 33/209 [06:18<24:52,  8.48s/it] 16%|█▋        | 34/209 [06:34<31:24, 10.77s/it] 17%|█▋        | 35/209 [06:50<36:04, 12.44s/it] 17%|█▋        | 36/209 [07:00<33:44, 11.71s/it] 18%|█▊        | 37/209 [07:03<25:36,  8.93s/it] 18%|█▊        | 38/209 [07:15<27:51,  9.78s/it] 19%|█▊        | 39/209 [07:28<30:26, 10.75s/it] 19%|█▉        | 40/209 [07:40<31:47, 11.29s/it] 20%|█▉        | 41/209 [07:58<36:39, 13.10s/it] 20%|██        | 42/209 [08:10<35:43, 12.84s/it] 21%|██        | 43/209 [08:24<36:33, 13.22s/it] 21%|██        | 44/209 [08:37<36:34, 13.30s/it] 22%|██▏       | 45/209 [08:48<33:48, 12.37s/it] 22%|██▏       | 46/209 [09:03<36:23, 13.40s/it] 22%|██▏       | 47/209 [09:17<36:17, 13.44s/it] 23%|██▎       | 48/209 [09:40<44:02, 16.41s/it] 23%|██▎       | 49/209 [09:53<41:12, 15.45s/it] 24%|██▍       | 50/209 [10:07<39:30, 14.91s/it] 24%|██▍       | 51/209 [10:17<35:13, 13.37s/it] 25%|██▍       | 52/209 [10:33<36:58, 14.13s/it] 25%|██▌       | 53/209 [10:48<37:36, 14.46s/it] 26%|██▌       | 54/209 [11:04<38:37, 14.95s/it] 26%|██▋       | 55/209 [11:23<41:09, 16.04s/it] 27%|██▋       | 56/209 [11:33<36:31, 14.32s/it] 27%|██▋       | 57/209 [11:41<31:24, 12.40s/it] 28%|██▊       | 58/209 [11:51<29:32, 11.74s/it] 28%|██▊       | 59/209 [11:59<26:46, 10.71s/it] 29%|██▊       | 60/209 [12:03<21:06,  8.50s/it] 29%|██▉       | 61/209 [12:05<16:04,  6.52s/it] 30%|██▉       | 62/209 [12:19<21:55,  8.95s/it] 30%|███       | 63/209 [12:30<23:16,  9.56s/it] 31%|███       | 64/209 [12:32<17:28,  7.23s/it] 31%|███       | 65/209 [12:44<20:33,  8.57s/it] 32%|███▏      | 66/209 [13:00<25:38, 10.76s/it] 32%|███▏      | 67/209 [13:14<27:49, 11.75s/it] 33%|███▎      | 68/209 [13:22<24:59, 10.64s/it] 33%|███▎      | 69/209 [13:39<29:24, 12.60s/it] 33%|███▎      | 70/209 [13:45<24:41, 10.66s/it] 33%|███▎      | 70/209 [13:45<27:19, 11.79s/it]
+<item_0>
+    <text> 
+    夢の翼は
+    </text>
+    <translation> 
+    The wings of dreams are
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    蝋で固めてある
+    </text>
+    <translation> 
+    They are solidified with pitch
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    高く翔ぶほど
+    </text>
+    <translation> 
+    The higher they fly
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    太陽に溶かされてしまう
+    </text>
+    <translation> 
+    They will be melted by the sun
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    ーだったら
+    </text>
+    <translation> 
+    If it were
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    最初から翔ばない方がいい
+    </text>
+    <translation> 
+    It's better not to fly from the start
+    </translation>
+</item_5>
+<item_0>
+    <text> 
+    いつか必ず
+    </text>
+    <translation> 
+    Eventually
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    失敗です!!
+    </text>
+    <translation> 
+    It's a failure!!
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    有人ロケット「あさがお」が爆発!
+    </text>
+    <translation> 
+    The manned rocket "Asagao" exploded!
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    地に落ちるのだから
+    </text>
+    <translation> 
+    It will surely fall to the ground
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    日本初の有人宇宙飛行は失敗しました!!
+    </text>
+    <translation> 
+    The first manned space flight in Japan failed!!
+    </translation>
+</item_4>
+<item_0>
+    <text> 
+    バルーンドリーム
+    </text>
+    <translation> 
+    Balloon Dream
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    朽鷹みつき
+    </text>
+    <translation> 
+    Mitsuaki Kuroagi
+    </translation>
+</item_1>
+<item_0>
+    <text> 
+    十年後ーー夏
+    </text>
+    <translation> 
+    Ten years later—Summer
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    相川仁
+    </text>
+    <translation> 
+    Koseki Toshiro
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    お前には一流の大学を目指す学力がある
+    </text>
+    <translation> 
+    You have the academic ability to aim for a top university
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    なのになぜ三流大の推薦なんかを狙う?
+    </text>
+    <translation> 
+    Why are you aiming for a recommendation from a third-rate university?
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    実に夢がない
+    </text>
+    <translation> 
+    There is no dream at all
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    夢...?くだらない
+    </text>
+    <translation> 
+    Dream...? It's not worth it
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    楽で安全な道があるならそちらを選ぶべきでしょう
+    </text>
+    <translation> 
+    If there is an easy and safe path, it should be chosen
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    俺間違ってます?
+    </text>
+    <translation> 
+    Am I wrong?
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    いいぞぉ相川...
+    </text>
+    <translation> 
+    Good job, Koseki...
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    お前のようなかわいくない生徒には
+    </text>
+    <translation> 
+    For a student like you who is not cute
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    色々とモノを頼みやすい
+    </text>
+    <translation> 
+    It's easy to ask for various things
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    ?
+    </text>
+    <translation> 
+    ?
+    </translation>
+</item_11>
+<item_0>
+    <text> 
+    お前には夏休みの間
+    </text>
+    <translation> 
+    (During the summer vacation)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    我が天文部の手伝いをしてもらう
+    </text>
+    <translation> 
+    (I will help with the astronomy club)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    ?
+    </text>
+    <translation> 
+    (What?)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ちょっ
+    </text>
+    <translation> 
+    (Hey)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    なんで関係ない部活の手伝いなんかーー
+    </text>
+    <translation> 
+    (Why should I help with an unrelated club activity?)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    まあ聞け
+    </text>
+    <translation> 
+    (Okay, listen up)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    お前が石橋を叩いて渡るのが好きなのはわかるが
+    </text>
+    <translation> 
+    (I understand that you like to pass the stone bridge)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    世の中虎穴に入らずんば虎子を得ずだ
+    </text>
+    <translation> 
+    (If you don't enter the tiger's den, you won't get the tiger's cub)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    先生はそれをお前に教えたい
+    </text>
+    <translation> 
+    (I want to teach you that)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    だから先生が温泉に行ってる間天文部を頼む
+    </text>
+    <translation> 
+    (So, I'll ask the astronomy club to help during the time the teacher is at the hot springs)
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    旅行してぇだけだろ!!
+    </text>
+    <translation> 
+    (Just go on a trip, okay!!)
+    </translation>
+</item_10>
+<item_0>
+    <text> 
+    ちっくしょ〜
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    なぜ俺がこんなことを...
+    </text>
+    <translation> 
+    Why am I doing this...
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    手伝わんなら推薦はやらん
+    </text>
+    <translation> 
+    If you won't help, I won't recommend you.
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    脅迫じゃねーかあのパワハラ教師!!
+    </text>
+    <translation> 
+    Are you threatening me, that power harassment teacher!?
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    ...天文部
+    </text>
+    <translation> 
+    ...Astronomy Club
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    ここか
+    </text>
+    <translation> 
+    Here?
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    失礼しまーす
+    </text>
+    <translation> 
+    Excuse me
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    ん?
+    </text>
+    <translation> 
+    Huh?
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    うおおおおおおおおお!?
+    </text>
+    <translation> 
+    Oh my god!?
+    </translation>
+</item_8>
+<item_0>
+    <text> 
+    な、なんだこれ!?
+    </text>
+    <translation> 
+    What's this?!
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    ...風船?
+    </text>
+    <translation> 
+    Balloons...?
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    すっすみません今散らかってて
+    </text>
+    <translation> 
+    I'm sorry, I'm making a mess right now.
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    あっもしかしてお手伝いの方ですか?
+    </text>
+    <translation> 
+    Is this someone who's here to help?
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    ようこそ!
+    </text>
+    <translation> 
+    Welcome!
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    風船いっぱい夢いっぱいの天文部へ!
+    </text>
+    <translation> 
+    Welcome to the astronomy club full of balloons and dreams!
+    </translation>
+</item_5>
+<item_0>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_11>
+
+<item_12>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_12>
+
+<item_13>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_13>
+
+<item_14>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_14>
+<item_0>
+    <text> 
+    以前テレビで見たんです!
+    </text>
+    <translation> 
+    I saw it on TV before!
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    風船でフワフワとカメラが宇宙へ行って...
+    </text>
+    <translation> 
+    The balloon floats and the camera goes to space...
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    風船が割れてパラシュートで落ちてきて...
+    </text>
+    <translation> 
+    The balloon bursts and the parachute falls down...
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    カメラを回収したら地球の写真が撮れてるんです!
+    </text>
+    <translation> 
+    When we recover the camera, we get a picture of the earth!
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    ね?すっごくワクワクしませんか?
+    </text>
+    <translation> 
+    Hey? Aren't you excited?
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    なっ
+    </text>
+    <translation> 
+    Ah!
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    なにがちょっとした手伝いだあのボンクラ教師!!
+    </text>
+    <translation> 
+    What a little help is that, that Bon克拉 teacher!!
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    面倒くっさい奴人に押しつけてきやがって...!!
+    </text>
+    <translation> 
+    I'm being pushed by a troublesome person...!!
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    ?
+    </text>
+    <translation> 
+    ?
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    それに...
+    </text>
+    <translation> 
+    Besides...
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    だからたくさん風船がいるんですっ
+    </text>
+    <translation> 
+    That's why there are so many balloons...
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    相川さんもいっぱい膨らませちゃってください!
+    </text>
+    <translation> 
+    Please inflate them as much as possible, Mr. Saito!
+    </translation>
+</item_11>
+
+<item_12>
+    <text> 
+    あのなぁ
+    </text>
+    <translation> 
+    Hey...
+    </translation>
+</item_12>
+<item_0>
+    <text> 
+    ただ空気いれた風船をいくら集めても浮くわけねーだろ!!
+    </text>
+    <translation> 
+    Even if you collect helium-filled balloons, they won't float, right?!
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    むぐっ
+    </text>
+    <translation> 
+    Mmm...
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    こいつ絶対バカだし
+    </text>
+    <translation> 
+    This guy is definitely a fool.
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    .......?
+    </text>
+    <translation> 
+    What...?
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    なにあ然としてんの!?
+    </text>
+    <translation> 
+    What are you so surprised about!?
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    ヘリウム入れないと風船は浮かねーよ!!
+    </text>
+    <translation> 
+    If you don't put helium in, the balloon won't float, right!?
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    大体なんで使い捨てカメラなんだよ!
+    </text>
+    <translation> 
+    It's just a disposable camera, anyway!
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    あっ
+    </text>
+    <translation> 
+    Ah!
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    安かったので...
+    </text>
+    <translation> 
+    It was cheap, so...
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    宇宙でフィルム巻いてシャッターきる気か!?
+    </text>
+    <translation> 
+    Are you going to wind the film in space and take a picture?!
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    ったく
+    </text>
+    <translation> 
+    Really...
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    確かに原理的には可能かもしれないけどな...
+    </text>
+    <translation> 
+    It might be possible in theory, but...
+    </translation>
+</item_11>
+
+<item_12>
+    <text> 
+    地球の写真なんてネット上にいくらでも落ちてるだろ
+    </text>
+    <translation> 
+    There are plenty of photos of Earth on the internet, you know...
+    </translation>
+</item_12>
+
+<item_13>
+    <text> 
+    わざわざ自分で撮らなくたって...
+    </translation>
+    <translation> 
+    I don't have to take pictures myself...
+    </translation>
+</item_13>
+
+<item_14>
+    <text> 
+    ああ
+    </text>
+    <translation> 
+    Ah
+    </translation>
+</item_14>
+
+<item_15>
+    <text> 
+    それはですね...
+    </text>
+    <translation> 
+    That's right...
+    </translation>
+</item_15>
+<item_0>
+    <text>私の夢が</text>
+    <translation>My dream is</translation>
+</item_0>
+
+<item_1>
+    <text>宇宙飛行士になって丸い地球を見ることだからです</text>
+    <translation>Because I want to see the round Earth as an astronaut</translation>
+</item_1>
+
+<item_2>
+    <text>これは夢への第一歩</text>
+    <translation>This is the first step towards my dream</translation>
+</item_2>
+
+<item_3>
+    <text>だからどうしても自分で写真を撮りたいんです</text>
+    <translation>So I really want to take pictures myself</translation>
+</item_3>
+
+<item_4>
+    <text>そんな風に夢を語れるのは</text>
+    <translation>Only those who have seen the end of their dreams can</translation>
+</item_4>
+
+<item_5>
+    <text>夢の末路を見たことがない奴だけだ</text>
+    <translation>Only those who have not seen the end of their dreams</translation>
+</item_5>
+<item_0>
+    <text> 
+    (Translated English text here)
+    </text>
+    <translation> 
+    If you're aiming to become an astronaut, you should know this.
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    (Translated English text here)
+    </text>
+    <translation> 
+    Ten years ago...
+    </translation>
+    </item_1>
+
+<item_2>
+    <text> 
+    (Translated English text here)
+    </text>
+    <translation> 
+    The failure of Japan's first manned rocket "Asagao".
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    (Translated English text here)
+    </text>
+    <translation> 
+    Even though there's no significant return, just putting people on a rocket.
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    (Translated English text here)
+    </text>
+    <translation> 
+    The risks and costs also increase.
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    (Translated English text here)
+    </text>
+    <translation> 
+    Many people suffered because of the failure.
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    (Translated English text here)
+    </text>
+    <translation> 
+    It's a foolish thing to do without thinking about the consequences.
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    (Translated English text here)
+    </text>
+    <translation> 
+    It's a foolish thing to do without thinking about the consequences.
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    すっすまん
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    こんなこと言うつもりじゃ...
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    いいんです
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    それでも私にとっては
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    大切な夢ですから
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    てっ手伝いは...
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    手伝いはちゃんとするよ
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    推薦...
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    取らなきゃいけないからな
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_8>
+<item_0>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_11>
+<item_0>
+    <text> 
+    今回はもうちょいしたらタコ糸引いて回収な
+    </text>
+    <translation> 
+    (This time, if you can, please collect the tentacle thread)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    おぉ...なるほど
+    </text>
+    <translation> 
+    (Oh... I see)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    ......
+    </text>
+    <translation> 
+    (...)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    相川さん
+    </text>
+    <translation> 
+    (Mr. Aikawa)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    ん?
+    </text>
+    <translation> 
+    (Huh?)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    お手伝い
+    </text>
+    <translation> 
+    (Assistance)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    本当に
+    </text>
+    <translation> 
+    (Really)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    ありがとうございます
+    </text>
+    <translation> 
+    (Thank you very much)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    ......
+    </text>
+    <translation> 
+    (...)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    俺は推薦のために仕方なく....!!
+    </text>
+    <translation> 
+    (I had to do it for the recommendation...!!)
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    あれ?
+    </text>
+    <translation> 
+    (What?)
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    なんか
+    </text>
+    <translation> 
+    (Something)
+    </translation>
+</item_11>
+
+<item_12>
+    <text> 
+    変な手応えが...
+    </text>
+    <translation> 
+    (Strange response...)
+    </translation>
+</item_12>
+<item_0>
+    <text> 
+    あちゃー
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    これは...
+    </text>
+    <translation> 
+    This is...
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    糸が切れちまったのか...
+    </text>
+    <translation> 
+    Is the thread cut off...
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    こりゃどうしようもねぇな...
+    </text>
+    <translation> 
+    What should I do...
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    どうしよう
+    </text>
+    <translation> 
+    What should I do
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    追いかけなきゃ...
+    </text>
+    <translation> 
+    I have to chase...
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    いやいいよ別に
+    </text>
+    <translation> 
+    No, it's fine
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    中身は二千円のトイカメラだし
+    </text>
+    <translation> 
+    The contents are a 2000 yen toy camera
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    それにここら辺じゃ山か野原に落ちるだけさ
+    </text>
+    <translation> 
+    It will just fall into the mountains or meadow nearby
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    探す方がコストがかかる
+    </text>
+    <translation> 
+    It will cost more to search
+    </translation>
+</item_9>
+<item_0>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_11>
+<item_0>
+    <text> 
+    私
+    </text>
+    <translation> 
+    I
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    探しに行きます
+    </text>
+    <translation> 
+    I will go to look for it
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    さっきから聞いてりゃ
+    </text>
+    <translation> 
+    If you've been listening lately
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    フワフワしたことばかり言いやがって
+    </text>
+    <translation> 
+    You're just saying how fluffy it is
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    付き合ってられるか!!
+    </text>
+    <translation> 
+    Can I date you?!!
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    この風船女!!
+    </text>
+    <translation> 
+    This balloon girl!!
+    </translation>
+</item_5>
+<item_0>
+    <text> 
+    作業後は決まって探しに行きやがる...
+    </text>
+    <translation> 
+    (After work, he always goes looking for me...)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    本当に...
+    </text>
+    <translation> 
+    (Really...)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    バカな奴
+    </text>
+    <translation> 
+    (Stupid guy)
+    </translation>
+</item_2>
+<item_0>
+    <text> 
+    ......
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    なにが夢だ
+    </text>
+    <translation> 
+    What is the dream about?
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    ただいま
+    </text>
+    <translation> 
+    I'm back
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    おかえりお父さん!
+    </text>
+    <translation> 
+    Welcome back, dad!
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    仁
+    </text>
+    <translation> 
+    Ren
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    まだ起きてたのか
+    </text>
+    <translation> 
+    You were still up?
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    だってお父さん全然帰って来ないし...
+    </text>
+    <translation> 
+    Dad never comes back...
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    お仕事頑張りすぎだよ
+    </text>
+    <translation> 
+    You're working too hard, dad.
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    そうか?まあ仕方ないな
+    </text>
+    <translation> 
+    I see... There's nothing we can do about it.
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    「あさがお」は
+    </text>
+    <translation> 
+    "Asagao"
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    お父さんの夢だからな
+    </text>
+    <translation> 
+    It's your father's dream.
+    </translation>
+</item_10>
+<item_0>
+    <text> 
+    心労で倒れてそのまま...ですって
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    ロケットの開発責任者とはいえあれだけ非難の矢面に立たされたんじゃな...
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    日本初の打ち上げでつまずくとは
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    最悪の結末だな
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    きっとあの世で
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    やらなきゃよかったと思ってるさ
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_5>
+<item_0>
+    <text> 
+    あれ...
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    相川さん?
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    まだ残ってたんですか
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    園山...?
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    お前ずぶ濡れじゃないか
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    えへへ
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    今日も...
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    見つかりませんでした
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    ?
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    おっおい!!
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_9>
+<item_0>
+    <text> 
+    お前
+    </text>
+    <translation> 
+    You
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    すごい熱だぞ!?
+    </text>
+    <translation> 
+    What a high fever!
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    こんなんなるまで探してんじゃねーよ!
+    </text>
+    <translation> 
+    I'm not going to look for this until I find it!
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    なんでこんな無駄なことを...!!
+    </text>
+    <translation> 
+    Why are you doing such a pointless thing...!!
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    とりあえず保健室に...
+    </text>
+    <translation> 
+    Let's go to the infirmary...
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    ......
+    </text>
+    <translation> 
+    ...
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    ちがう
+    </text>
+    <translation> 
+    It's not...
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    無駄とかじゃないんです...
+    </text>
+    <translation> 
+    It's not useless...
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    おっおい
+    </text>
+    <translation> 
+    Hey!
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    だって
+    </text>
+    <translation> 
+    After all
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    私のーーー
+    </text>
+    <translation> 
+    My...
+    </translation>
+</item_10>
+<item_0>
+    <text>私の...</text>
+    <translation>My...</translation>
+</item_0>
+
+<item_1>
+    <text>夢ですから</text>
+    <translation>It's a dream...</translation>
+</item_1>
+
+<item_2>
+    <text>園山...</text>
+    <translation>Yamashita...</translation>
+</item_2>
+
+<item_3>
+    <text>.......</text>
+    <translation>......</translation>
+</item_3>
+
+<item_4>
+    <text>すみません</text>
+    <translation>I'm sorry</translation>
+</item_4>
+
+<item_5>
+    <text>相川さん</text>
+    <translation>Sakakawa-san</translation>
+</item_5>
+
+<item_6>
+    <text>吐きそう</text>
+    <translation>I feel like I'm going to vomit</translation>
+</item_6>
+
+<item_7>
+    <text>ウッッ</text>
+    <translation>Upp...</translation>
+</item_7>
+
+<item_8>
+    <text>まっ待て園山あああああ!!</text>
+    <translation>Wait, Yamashita ahh ahh ahh!!</translation>
+</item_8>
+<item_0>
+    <text> 
+    はあっ!?
+    </text>
+    <translation> 
+    What?!
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    旅行帰りだからゆっくりしたいだぁ!?
+    </text>
+    <translation> 
+    Since I'm back from a trip, I want to relax!
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    顧問なんだから車ぐらい出しやがれ!!
+    </text>
+    <translation> 
+    Since you're the advisor, at least get the car out!
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ったく
+    </text>
+    <translation> 
+    Really?
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    とりあえず落下地点までの足は確保っと
+    </text>
+    <translation> 
+    At least make sure to get to the landing site.
+    </translation>
+</item_4>
+<item_0>
+    <text> 
+    そろそろ打ち上げの準備するぞーー
+    </text>
+    <translation> 
+    It's time to prepare for the launch.
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    ってテンション低いなおい!!
+    </text>
+    <translation> 
+    That's a low tension, isn't it?!!
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    うぅ...風邪で寝込んでたらいつの間にか打ち上げ当日
+    </text>
+    <translation> 
+    Ugh... I was sick and sleeping, and now it's the day of the launch.
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    結局試作機は見つかりませんでした...
+    </text>
+    <translation> 
+    In the end, we couldn't find the prototype...
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    どうしても
+    </text>
+    <translation> 
+    Absolutely
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    宇宙に上げたいものが入ってたのに...
+    </text>
+    <translation> 
+    There was something I wanted to launch into space...
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    おら
+    </text>
+    <translation> 
+    Come here
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    顔上げろよ
+    </text>
+    <translation> 
+    Look up
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    これだろ
+    </text>
+    <translation> 
+    This is it
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    お前が入れた大事なものって
+    </text>
+    <translation> 
+    What important thing did you put in?
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    十年前に売られてた
+    </text>
+    <translation> 
+    It was sold ten years ago
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    「あさがお」の限定キーホルダー
+    </text>
+    <translation> 
+    Limited keychain of "Asagao"
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    気になったんだよ
+    </text>
+    <translation> 
+    I was curious
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    お前がそこまでこだわってんのがなんなのか
+    </text>
+    <translation> 
+    What is it that you are so particular about?
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    だからお前が寝込んでる間探しといてやったんだ
+    </text>
+    <translation> 
+    So I looked for it while you were sleeping
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    まさか地球の写真撮るついでに
+    </text>
+    <translation> 
+    I never thought you would take photos of Earth for fun
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    ロケットを供養しようとしてるなんてな
+    </text>
+    <translation> 
+    You're trying to offer a rocket as a memorial
+    </translation>
+</item_8>
+<item_0>
+    <text> 
+    あああっあいかわしゃん...
+    </text>
+    <translation> 
+    Ah, Aika-san...
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    ほらっ
+    </text>
+    <translation> 
+    Look at this!
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    載っけてやるからさっさと準備するぞ!
+    </text>
+    <translation> 
+    I'll carry you, so get ready quickly!
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    俺にとっても...
+    </text>
+    <translation> 
+    It's important to me too...
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    大事なものなんだよ
+    </text>
+    <translation> 
+    It's something important.
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    ...ひとつ
+    </text>
+    <translation> 
+    ...one thing
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    聞かせてくれ
+    </text>
+    <translation> 
+    Please tell me.
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    あのキーホルダー持ってるってことは
+    </text>
+    <translation> 
+    If you have that keychain...
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    お前も見てたんだろ
+    </text>
+    <translation> 
+    You also saw it, right?
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    「あさがお」が落ちるところ
+    </text>
+    <translation> 
+    The place where 'Asagao' falls
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    どうして平然と
+    </text>
+    <translation> 
+    Why are you so calm?
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    宇宙飛行士になりたいなんて言えるんだよ
+    </text>
+    <translation> 
+    You can say you want to become an astronaut?
+    </translation>
+</item_11>
+<item_0>
+    <text> 
+    色んな人の夢だった「あさがお」は
+    </text>
+    <translation> 
+    It was a dream for many people, "Asagao."
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    蝋で固めたまがい物の翼だった
+    </text>
+    <translation> 
+    It was a fake wing made solid with a spider.
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    あんなの見たら不安になるだろ
+    </text>
+    <translation> 
+    If you see that, you'll feel anxious, right?
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    失敗したらすべて失っちまう
+    </text>
+    <translation> 
+    If you fail, you'll lose everything.
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    恐いだろ普通...
+    </text>
+    <translation> 
+    It's scary, right? Ordinary...
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    挫折とか
+    </text>
+    <translation> 
+    Failure,挫折...
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    後悔とか
+    </text>
+    <translation> 
+    Regret, 后悔...
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    自分の翼が
+    </text>
+    <translation> 
+    My own wings...
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    偽物だったらどうしようとか
+    </text>
+    <translation> 
+    What should I do if it's a fake?
+    </translation>
+</item_8>
+<item_0>
+    <text> 
+    ありません
+    </text>
+    <translation> 
+    No
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    偽物の翼なんて
+    </text>
+    <translation> 
+    What a fake wing
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    飛べなかったとき
+    </text>
+    <translation> 
+    When I couldn't fly
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    翼が折れたときに本当に苦しいのは
+    </text>
+    <translation> 
+    The real pain is when the wing breaks
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    それがきっと
+    </text>
+    <translation> 
+    That's probably
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    本当の翼だから
+    </text>
+    <translation> 
+    Because it's the real wing
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    その苦しみだってはばたいてた証なんです
+    </text>
+    <translation> 
+    That's the proof that I flapped
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    だから私は
+    </text>
+    <translation> 
+    So I
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    后悔なんて
+    </text>
+    <translation> 
+    (No regrets)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    死んでもしません
+    </text>
+    <translation> 
+    (I will not die)
+    </translation>
+</item_1>
+<item_0>
+    <text> 
+    あった...
+    </text>
+    <translation> 
+    There was...
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    ありました!!
+    </text>
+    <translation> 
+    It was there!!
+    </translation>
+</item_1>
+<item_0>
+    <text> 
+    本当に宇宙まで上がったんでしょうか
+    </text>
+    <translation> 
+    Did you really go all the way to space?
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    なっなんだよ
+    </text>
+    <translation> 
+    What the hell?
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    疑ってんのか
+    </text>
+    <translation> 
+    Are you doubting me?
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    いっいえ! そういうわけでは...
+    </text>
+    <translation> 
+    No! It's not like that...
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    まあそんなのは
+    </text>
+    <translation> 
+    Well, that's not the case...
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    中身を確かめりゃわかることだ
+    </text>
+    <translation> 
+    If you check the contents, you'll understand.
+    </translation>
+</item_5>
+<item_0>
+    <text> 
+    ちっ地球は青かった
+    </text>
+    <translation> 
+    (The earth was blue, you know.)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    って感じですね...
+    </text>
+    <translation> 
+    (It feels like...)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    はっ
+    </text>
+    <translation> 
+    (Yes!)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    はは...
+    </text>
+    <translation> 
+    (Haha...)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    はははははははははははっ
+    </text>
+    <translation> 
+    (Hahaha...)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    えー!!
+    </text>
+    <translation> 
+    (What!!)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    私なにかおかしいこと言いました!?
+    </text>
+    <translation> 
+    (Did I say something strange?)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    いやスマン
+    </text>
+    <translation> 
+    (No, I'm sorry)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    まさか本当に
+    </text>
+    <translation> 
+    (I never thought it was true)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    風船なんかで撮れるなんて思わなくて
+    </text>
+    <translation> 
+    (I never thought I could take pictures with balloons)
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    あのっ
+    </text>
+    <translation> 
+    (Um...)
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    相川さん
+    </text>
+    <translation> 
+    (Sakurai-san)
+    </translation>
+</item_11>
+
+<item_12>
+    <text> 
+    ん?
+    </text>
+    <translation> 
+    (What?)
+    </translation>
+</item_12>
+<item_0>
+    <text> 
+    ありがとうございました
+    </text>
+    <translation> 
+    Thank you very much
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    私バカだから相川さんにおんぶにだっこで
+    </text>
+    <translation> 
+    Because I'm a fool, I hugged Sakaoka-san
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    ただのわがままなのに...
+    </text>
+    <translation> 
+    It's just a capricious thing...
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    宝物までのせていただいて...!!
+    </text>
+    <translation> 
+    I'll take it all the way to the treasure...!!
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    本当に...
+    </text>
+    <translation> 
+    Really...
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    いいよ別に
+    </text>
+    <translation> 
+    It's fine, you know
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    きっと
+    </text>
+    <translation> 
+    Definitely
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    大したことないんだ
+    </text>
+    <translation> 
+    It's nothing major
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    なんだってこの景色に比べたら
+    </text>
+    <translation> 
+    Compared to this scenery...
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    きっと大したことない
+    </text>
+    <translation> 
+    It's definitely nothing major
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    俺推薦やめるよ
+    </text>
+    <translation> 
+    I won't recommend it anymore
+    </translation>
+</item_10>
+<item_0>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    葬儀屋さん
+    </text>
+    <translation> 
+    Funeral Parlor
+    </translation>
+</item_0>
+<item_0>
+    <text> 
+    人は平等ではない
+    </text>
+    <translation> 
+    People are not equal
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    しかし...
+    </text>
+    <translation> 
+    However...
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    【死】は誰にも平等に訪れる
+    </text>
+    <translation> 
+    Death visits everyone equally
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    それでは
+    </text>
+    <translation> 
+    Well then
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    故人に最期のお別れを
+    </text>
+    <translation> 
+    A farewell to the deceased
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    いやぁ
+    </text>
+    <translation> 
+    No way
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    まさかね
+    </text>
+    <translation> 
+    Never thought that
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    こんなに来てくれるとはねぇ
+    </text>
+    <translation> 
+    I never thought so many would come
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    あ!
+    </text>
+    <translation> 
+    Ah!
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    あれは一丁目のスナックのママ!
+    </text>
+    <translation> 
+    That's the owner of the snack bar in the first district!
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    あっちは行きつけの店の女将!
+    </text>
+    <translation> 
+    That's the regular customer's hostess!
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ワシもまだまだ人気者ですなぁ!
+    </text>
+    <translation> 
+    I'm still a popular person, you know!
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    生き生きしますぞ!
+    </text>
+    <translation> 
+    I'll be alive and well!
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    葬儀屋とは
+    </text>
+    <translation> 
+    What is a funeral director?
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    生者と死者の最期の場所を作る仕事
+    </text>
+    <translation> 
+    A job that creates the final resting place for both the living and the dead.
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    ..もう
+    </text>
+    <translation> 
+    ...already
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    私はその中でも
+    </text>
+    <translation> 
+    I am among the best in that
+    </translation>
+</item_8>
+<item_0>
+    <text> 
+    死んでるんですよねぇ
+    </text>
+    <translation> 
+    (He's dead, isn't he?)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    ようこそ
+亡霊葬儀屋さん
+吉良いと
+    </text>
+    <translation> 
+    Welcome to the Spirit Funeral Parlor, Mr. Yoshitake.
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    「視える」人間ってヤツでして
+    </text>
+    <translation> 
+    You're the kind of person who can see things.
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    え?
+    </text>
+    <translation> 
+    What?
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    亡くなったお姉さんのお化粧を?
+    </text>
+    <translation> 
+    The makeup of the deceased older sister?
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    烏丸葬儀社社長
+烏丸枢(からすまくるる）　２５歳
+    </text>
+    <translation> 
+    Kurasuma Kururu, 25 years old, is the owner of the Kurasuma Funeral Parlor.
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    はい...
+    </text>
+    <translation> 
+    Yes...
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    葬儀依頼人
+桜野　すずめ　１９歳
+    </text>
+    <translation> 
+    Funeral service requester
+    Sakura no Suzume, 19 years old
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    エンゼルメイク
+    </text>
+    <translation> 
+    Angel Make
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    っていうんですよね
+    </text>
+    <translation> 
+    That's right, isn't it?
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    無理は承知です
+    </text>
+    <translation> 
+    I understand that it's unreasonable.
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    でもどうしても私
+    </text>
+    <translation> 
+    But I really want...
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    お姉ちゃんにメイクをしたくって...
+    </text>
+    <translation> 
+    I really want to do makeup for my sister...
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    ハァ
+    </text>
+    <translation> 
+    Huh
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    まだプロじゃないですけど...
+    </text>
+    <translation> 
+    I'm not a professional yet...
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    専門学校に通うメイクの卵です!
+    </text>
+    <translation> 
+    I'm a makeup student going to a vocational school!
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    ちゃんとできます!烏丸さんっ
+    </text>
+    <translation> 
+    I can do it properly! Mr. Usui!
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    やめた方がいいです
+    </text>
+    <translation> 
+    It's better to stop.
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    !
+    </text>
+    <translation> 
+    !
+    </translation>
+</item_10>
+<item_0>
+    <text> 
+    私は「生きている彼女」に会ったことはないですが
+    </text>
+    <translation> 
+    I have never met a living girlfriend before
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    さぞかし美しいお顔だったのでしょう
+    </text>
+    <translation> 
+    It must have been a beautiful face, right?
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    なぜですかっ!?
+    </text>
+    <translation> 
+    Why?!
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    すずめさん
+    </text>
+    <translation> 
+    Suzume-san
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    お姉さんは有名な美人女優だったそうですね
+    </text>
+    <translation> 
+    It seems that my sister was a famous beautiful actress
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    連日メディアが騒いでいます
+    </text>
+    <translation> 
+    The media is making a big fuss every day
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    ...私では
+    </text>
+    <translation> 
+    ...I am...
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    姉のメイクをするには実力不足ということですか
+    </text>
+    <translation> 
+    Is it that I am not capable of doing my sister's makeup?
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    ハハそういう訳では
+    </text>
+    <translation> 
+    Ha, it's not like that
+    </translation>
+</item_8>
+<item_0>
+    <text> 
+    お姉さんの事故後のお顔
+    </text>
+    <translation> 
+    The face of the older sister after the accident
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    ご覧になりました?
+    </text>
+    <translation> 
+    Have you seen it?
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    それはそうでしょうねぇ
+    </text>
+    <translation> 
+    That's probably true, huh?
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ...いえ
+    </text>
+    <translation> 
+    ...no
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    病院の方から
+    </text>
+    <translation> 
+    From the hospital
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    あまり見ない方がいいと言われて...
+    </text>
+    <translation> 
+    It's said that it's better not to see it too often...
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    今の桜野ツバメさんは
+    </text>
+    <translation> 
+    The current Sakurai Tsubame is
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    貴女の知っているお顔じゃありませんから
+    </text>
+    <translation> 
+    It's not the face you know
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    車の事故
+    </text>
+    <translation> 
+    Car accident
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    それもスピード超過によるガードレールへの正面衝突
+    </text>
+    <translation> 
+    It was a head-on collision due to speeding and hitting the guardrail
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    顔は割れたフロントガラスでズタズタに引き裂かれ
+    </text>
+    <translation> 
+    The front glass shattered and tore the face
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    折れた骨が皮膚を突き破っている
+    </text>
+    <translation> 
+    Broken bones are piercing through the skin
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    病院で簡単な処置はされていますが
+    </text>
+    <translation> 
+    Simple treatment has been done at the hospital
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    生前のお姉さんとは誰が見ても気づかないでしょう
+    </text>
+    <translation> 
+    No one would notice the older sister before she passed away
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    お顔を見てから「やっぱり出来ません」
+    </text>
+    <translation> 
+    After seeing the face, "I can't do it"
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    では困るんです
+    </text>
+    <translation> 
+    I'm in trouble
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    .....私は
+    </text>
+    <translation> 
+    .....I am
+    </translation>
+</item_8>
+<item_0>
+    <text> 
+    どうです?
+    </text>
+    <translation> 
+    How about it?
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    それでも
+    </text>
+    <translation> 
+    Even so
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    今のお姉さんと向き合う覚悟はありますか?
+    </text>
+    <translation> 
+    Are you prepared to face my sister?
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ちょっと葬儀屋さんッ!
+    </text>
+    <translation> 
+    Hey, funeral director!
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    あんまりすずめをいじめないでくれる!?
+    </text>
+    <translation> 
+    Don't bully Suzume too much, okay!?
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    アタシの妹なんだから!
+    </text>
+    <translation> 
+    She's my sister!
+    </translation>
+</item_5>
+<item_0>
+    <text> 
+    ...ツバメさん
+    </text>
+    <translation> 
+    (Tsukame-san)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    アナタが私に依頼してきたんでしょ
+    </text>
+    <translation> 
+    (You asked me to do it, right?)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    当たり前じゃない!
+    </text>
+    <translation> 
+    (That's not right!)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    あんなヒドイ顔をすずめには見られたくないもの!
+    </text>
+    <translation> 
+    (I don't want Tsukame to see such a terrible face!)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    他人から嫌われるのには慣れてるッ
+    </text>
+    <translation> 
+    (I'm used to being disliked by others.)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    でも妹には引かれたくないの
+    </text>
+    <translation> 
+    (But I don't want to be disliked by my sister.)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    そういうもんですかねぇ...
+    </text>
+    <translation> 
+    (Is that what you mean...?)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    すずめさんに自分のメイクをさせるな
+    </text>
+    <translation> 
+    (Don't let Tsukame do your makeup!)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    って
+    </text>
+    <translation> 
+    (That)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    ですがすずめさんの気持ちも考えてあげたらどうです?
+    </text>
+    <translation> 
+    (But what if I consider Tsukame's feelings?)
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    たった二人の家族なんですし
+    </text>
+    <translation> 
+    (It's just the two of them as a family.)
+    </translation>
+</item_10>
+<item_0>
+    <text> 
+    …アンタに
+    </text>
+    <translation> 
+    (To you)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    何がわかるのよッ
+    </text>
+    <translation> 
+    (What do you know?)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    とにかく!
+    </text>
+    <translation> 
+    (Anyway!)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    アタシは認めないわ!!
+    </text>
+    <translation> 
+    (I won't admit it!!)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    他の代理を立てて頂戴!
+    </text>
+    <translation> 
+    (Please appoint another agent!)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    それと...
+    </text>
+    <translation> 
+    (And...)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    それと?
+    </text>
+    <translation> 
+    (And what?)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    ...何でもないわ!!
+    </text>
+    <translation> 
+    (It's nothing!!)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    ......誰だって
+    </text>
+    <translation> 
+    (Everyone...)
+    </translation>
+</item_8>
+<item_0>
+    <text> 
+    後悔だらけのお別れは
+    </text>
+    <translation> 
+    A farewell filled with regret
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    寂しいもんですよねぇ
+    </text>
+    <translation> 
+    It's so lonely, isn't it?
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    らっしゃい!
+    </text>
+    <translation> 
+    Goodbye!
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    美人女優である桜野ツバメの交通事故死
+    </text>
+    <translation> 
+    The death of beautiful actress Sakurai Tsubame in a car accident
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    世の中では様々な噂に溢れていますが
+    </text>
+    <translation> 
+    There are many rumors circulating in the world
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    皆様はどうお考えですか?
+    </text>
+    <translation> 
+    What do you all think?
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    誰かに殺されたという噂も立っていますよね
+    </text>
+    <translation> 
+    There are rumors that she was killed by someone
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    彼女は芸能界の中でも変わり者でしたから
+    </text>
+    <translation> 
+    She was a standout in the entertainment industry
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    というと?
+    </text>
+    <translation> 
+    What about that?
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    まぁいわゆる枕とか....新人漬しとかですね
+    </text>
+    <translation> 
+    Well, it's like a pillow... new kid on the block, you know
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    あくまで噂ですが
+    </text>
+    <translation> 
+    It's just a rumor
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    ぶっちゃけ好感度も良くないでしょ?
+    </text>
+    <translation> 
+    Honestly, it's not very popular
+    </translation>
+</item_11>
+
+<item_12>
+    <text> 
+    顔と演技力は確かですけど
+    </text>
+    <translation> 
+    Her face and acting skills are solid, though
+    </translation>
+</item_12>
+
+<item_13>
+    <text> 
+    中身が......ねぇ?
+    </text>
+    <translation> 
+    The content... huh?
+    </translation>
+</item_13>
+
+<item_14>
+    <text> 
+    ーの後は引き続き
+    </text>
+    <translation> 
+    And so on, continuing
+    </translation>
+</item_14>
+
+<item_15>
+    <text> 
+    桜野ツバメさんの死の真相に迫っていきた
+    </text>
+    <translation> 
+    I want to get closer to the truth of Sakurai Tsubame's death
+    </translation>
+</item_15>
+<item_0>
+    <text> 
+    あ!
+    </text>
+    <translation> 
+    Hey!
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    見てたのにぃ
+    </text>
+    <translation> 
+    I saw it, you know.
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    すずめちゃん!
+    </text>
+    <translation> 
+    Suzume-chan!
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    これ4番テーブルに持ってって!
+    </text>
+    <translation> 
+    Take this to table 4!
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    お待たせしました!
+    </text>
+    <translation> 
+    I'm sorry for the wait!
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    はいっ
+    </text>
+    <translation> 
+    Yes!
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    ...って
+    </text>
+    <translation> 
+    ... and
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    あれ?
+    </text>
+    <translation> 
+    What?
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    葬儀屋さん?
+    </text>
+    <translation> 
+    (Funeral director?
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    ドウモ
+    </text>
+    <translation> 
+    (Domo)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    ラーメン美味しかったです
+    </text>
+    <translation> 
+    (The ramen was delicious)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    でしょう?
+    </text>
+    <translation> 
+    (Right?)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    当店自慢の味なんですよ!
+    </text>
+    <translation> 
+    (This is the pride of our shop!)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    自分で稼ぎながら専門学校に通っているんですね
+    </text>
+    <translation> 
+    (You're working and attending a vocational school, right?)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    学校に通うのにもお金が要りますから!1日だって休めませんっ
+    </text>
+    <translation> 
+    (I need money to go to school! I can't even take a day off!)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    できるだけお姉ちゃんに負担がかからないように...
+    </text>
+    <translation> 
+    (I'll try not to burden my sister as much as possible...)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    ....
+    </text>
+    <translation> 
+    (...)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    あ...
+    </text>
+    <translation> 
+    (...)
+    </translation>
+</item_9>
+<item_0>
+    <text> 
+    !
+    </text>
+    <translation> 
+    ! 
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    行きましょうか
+    </text>
+    <translation> 
+    Shall we go? 
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    えっ
+    </text>
+    <translation> 
+    What? 
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    どこに!?
+    </text>
+    <translation> 
+    Where? 
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    お姉さんが今いるトコロ
+    </text>
+    <translation> 
+    The place where my sister is now 
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    ここって...
+    </text>
+    <translation> 
+    This place... 
+    </translation>
+</item_5>
+<item_0>
+    <text> 
+    幽霊はね
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    居場所が決まっているんです
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    一つ目は亡くなった場所
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    二つ目は遺骨が埋葬されている場所
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    そして三つ目は
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    大切な人のそば
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    ってね
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    実はここにいるんですよ
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    お姉さん
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    ふふ
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    葬儀屋さんも冗談とか言うんですか
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    どうぞ枢（くるる）と呼んでください
+    </text>
+    <translation> 
+    (translated English text here)
+    </translation>
+</item_11>
+<item_0>
+    <text> 
+    枢さん...
+    </text>
+    <translation> 
+    (Mr. Kashiwagi...)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    は
+    </text>
+    <translation> 
+    (Yes)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    姉のことを悪く思っていたりしないんですか
+    </text>
+    <translation> 
+    (Don't you think poorly of my sister?)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    いろんな噂とかされてますけど...
+    </text>
+    <translation> 
+    (There are many rumors about her...)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    噂は噂でしょう?
+    </text>
+    <translation> 
+    (Is it just rumors?)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    真実は本人に聞けばいいですから
+    </text>
+    <translation> 
+    (The truth can be found out by asking the person themselves.)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    枢さんって面白いですね
+    </text>
+    <translation> 
+    (Mr. Kashiwagi is interesting, isn't he?)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    ......私も
+    </text>
+    <translation> 
+    (...I also...)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    直前まで乗っていたんです
+    </text>
+    <translation> 
+    (I was riding in it until just before...)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    事故を起こした姉の車に
+    </text>
+    <translation> 
+    (in the car that caused the accident)
+    </translation>
+</item_9>
+<item_0>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_11>
+
+<item_12>
+    <text> 
+    (Original Japanese text here)
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_12>
+<item_0>
+    <text> 
+    アンタはまだまだ子供なんだから
+    </text>
+    <translation> 
+    You're still a child, aren't you?
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    そう言われて
+    </text>
+    <translation> 
+    When they said that
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    ムカついて
+    </text>
+    <translation> 
+    Getting angry
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ちょっと!すずめッ
+    </text>
+    <translation> 
+    Hey! Suzume!
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    車から飛び出しちゃった
+    </text>
+    <translation> 
+    I jumped out of the car
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    大っ嫌いッ
+    </text>
+    <translation> 
+    I hate it so much
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    お姉ちゃんなんて
+    </text>
+    <translation> 
+    That older sister
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    それが
+    </text>
+    <translation> 
+    That's
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    私がお姉ちゃんに言った最後の言葉だった
+    </text>
+    <translation> 
+    That was the last thing I said to my older sister
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    お姉ちゃんの事故
+    </text>
+    <translation> 
+    My older sister's accident
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    スピードの出し過ぎが原因だったでしょう?
+    </text>
+    <translation> 
+    Was it because of excessive speed?
+    </translation>
+</item_10>
+<item_0>
+    <text> 
+    たぶん私を追いかけてくれていたんだと思う
+    </text>
+    <translation> 
+    I think they were chasing me.
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    私が車を出て走った後に
+    </text>
+    <translation> 
+    After I got out of the car and ran away.
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    すごい雨が降ってきたから
+    </text>
+    <translation> 
+    Because it started raining heavily.
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ...私の夢は
+    </text>
+    <translation> 
+    ...my dream was
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    舞台に立つお姉ちゃんのメイクを担当することだったの
+    </text>
+    <translation> 
+    I was supposed to be in charge of the makeup for the older sister standing on stage.
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    でも
+    </text>
+    <translation> 
+    But
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    もう叶わなくなっちゃった
+    </text>
+    <translation> 
+    It's too late now.
+    </translation>
+</item_6>
+<item_0>
+    <text>私のせいで</text>
+    <translation>It's my fault</translation>
+</item_0>
+
+<item_1>
+    <text>私のせいで...</text>
+    <translation>It's my fault...</translation>
+</item_1>
+
+<item_2>
+    <text>お姉ちゃん死んじゃった</text>
+    <translation>My older sister died</translation>
+</item_2>
+
+<item_3>
+    <text>最期まで</text>
+    <translation>Until the end</translation>
+</item_3>
+
+<item_4>
+    <text>お姉ちゃんに迷惑をかけて...</text>
+    <translation>I caused trouble for my older sister...</translation>
+</item_4>
+
+<item_5>
+    <text>...迷惑かどうかなんて</text>
+    <translation>...how troublesome it is, right?</translation>
+</item_5>
+
+<item_6>
+    <text>自分で決めつけるもんじゃないでしょ</text>
+    <translation>You can't decide it yourself, right?</translation>
+</item_6>
+<item_0>
+    <text> 
+    実際はどうです?
+    </text>
+    <translation> 
+    What is the actual situation?
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    ツバメさん
+    </text>
+    <translation> 
+    Tsubame-san
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    迷惑だった?
+    </text>
+    <translation> 
+    Was it a bother?
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ....?
+    </text>
+    <translation> 
+    ....?
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    「迷惑なんて思っていたら」
+    </text>
+    <translation> 
+    "I didn't think it was a bother"
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    「私は側になんていてやらない」
+    </text>
+    <translation> 
+    "I won't be by your side"
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    「妹のアンタが一番よくわかっているでしょう?」
+    </text>
+    <translation> 
+    "You know your sister the best, right?"
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    ですって
+    </text>
+    <translation> 
+    "Right?"
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    ......不思議です
+    </text>
+    <translation> 
+    It's strange...
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    今一瞬お姉ちゃんが見えました
+    </text>
+    <translation> 
+    I saw my sister for a moment just now.
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    枢さん...
+    </text>
+    <translation> 
+    Mr. Kashiwagi...
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    改めてお願いしてもいいですか
+    </text>
+    <translation> 
+    Could I make another request?
+    </translation>
+</item_3>
+<item_0>
+    <text> 
+    お姉ちゃんのすべてを受け止める覚悟なら
+    </text>
+    <translation> 
+    If you're ready to take on everything that my sister has
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    できました
+    </text>
+    <translation> 
+    I did it
+    </translation>
+</item_1>
+<item_0>
+    <text> 
+    ねぇ〜
+    </text>
+    <translation> 
+    Hey, you know what I'm saying?
+    </translation>
+</item_0>
+<item_0>
+    <text> 
+    もう目開けていい?
+    </text>
+    <translation> 
+    Can you open your eyes now?
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    うん!
+    </text>
+    <translation> 
+    Yes!
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    今日のメイクはね
+    </text>
+    <translation> 
+    How's your makeup today?
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    自信あるんだ!
+    </text>
+    <translation> 
+    I'm confident!
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    ...ぶ
+    </text>
+    <translation> 
+    ...but
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    あはは!
+    </text>
+    <translation> 
+    Haha!
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    下手ッ
+    </text>
+    <translation> 
+    It's terrible!
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    ...頑張ったのにぃ
+    </text>
+    <translation> 
+    I tried hard, but...
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    私の専属メイクになれるのはまだまだ先ね
+    </text>
+    <translation> 
+    I'll be your专属 makeup artist in the future.
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    私もなれる!?
+    </text>
+    <translation> 
+    Can I do it too!?
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    お姉ちゃんのメイク担当!
+    </text>
+    <translation> 
+    I'll be the makeup artist for my sister!
+    </translation>
+</item_10>
+<item_0>
+    <text> 
+    こら
+    </text>
+    <translation> 
+    Stop
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    人生はそんなに甘くはないの
+    </text>
+    <translation> 
+    Life isn't that sweet
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    私を満足させるメイクができるようになったら
+    </text>
+    <translation> 
+    When I can make you happy with my makeup
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    考えてあげてもいいわ
+    </text>
+    <translation> 
+    I'll consider it
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    その時が来たらご褒美あげるわよ
+    </text>
+    <translation> 
+    When that time comes, I'll give you a reward
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    ホント!?
+    </text>
+    <translation> 
+    Really!?
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    だからせいぜい
+    </text>
+    <translation> 
+    So, do your best
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    腕を磨きなさい!
+    </text>
+    <translation> 
+    Polish your arm!
+    </translation>
+</item_7>
+<item_0>
+    <text> 
+    ツバメさん
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+<item_0>
+    <text> 
+    綺麗でしたねぇ
+    </text>
+    <translation> 
+    It was so pretty, wasn't it?
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    .....私はいつだって綺麗よ
+    </text>
+    <translation> 
+    .....I am always pretty, you know.
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    何を拗ねているんですか
+    </text>
+    <translation> 
+    What are you pouting about?
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    すずめさんの側にもいなかったですし
+    </text>
+    <translation> 
+    I wasn't even near Suzume-san, you know.
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    当たり前でしょ!
+    </text>
+    <translation> 
+    It's obvious, isn't it!
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    すずめにはあんな顔見られたくなかったのにツ
+    </text>
+    <translation> 
+    I didn't want to see that face on Suzume, you know.
+    </translation>
+</item_5>
+<item_0>
+    <text> 
+    最初から私の依頼を叶える気なんて
+    </text>
+    <translation> 
+    From the beginning, I never had the intention to fulfill your request.
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    なかったんじゃない
+    </text>
+    <translation> 
+    I didn't have that intention.
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    あなたの本当の依頼なら
+    </text>
+    <translation> 
+    If it's your true request...
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    叶えましたよ
+    </text>
+    <translation> 
+    I fulfilled it.
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    え...?
+    </text>
+    <translation> 
+    What...?
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    枢さんっ
+    </text>
+    <translation> 
+    Master Kagi...
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    ありがとうございました!
+    </text>
+    <translation> 
+    Thank you very much!
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    おかげで
+    </text>
+    <translation> 
+    Thanks to you...
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    後悔なくお姉ちゃんを送れます
+    </text>
+    <translation> 
+    I can send my sister without regret.
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    あの...
+    </text>
+    <translation> 
+    Um...
+    </translation>
+</item_9>
+
+<item_10>
+    <text> 
+    これ
+    </text>
+    <translation> 
+    This
+    </translation>
+</item_10>
+
+<item_11>
+    <text> 
+    お借りした化粧筆
+    </text>
+    <translation> 
+    The makeup brush I borrowed
+    </translation>
+</item_11>
+
+<item_12>
+    <text> 
+    お返しします
+    </text>
+    <translation> 
+    I will return it.
+    </translation>
+</item_12>
+<item_0>
+    <text> 
+    !
+    </text>
+    <translation> 
+    ! 
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    それ..
+    </text>
+    <translation> 
+    That's...
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    これは貴女のものですよすずめさん
+    </text>
+    <translation> 
+    This is for you, Suzume-san.
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ?
+    </text>
+    <translation> 
+    ?
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    ......お姉ちゃん
+    </text>
+    <translation> 
+    ...sister
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    が...?
+    </text>
+    <translation> 
+    ...?
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    貴女に贈ろうとしていた誕生日プレゼントです
+    </text>
+    <translation> 
+    This was a birthday present I was going to give to you.
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    ツバメさんが
+    </text>
+    <translation> 
+    The swallow...
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    きっと夕食を共にするときに渡そうとしていたんですね
+    </text>
+    <translation> 
+    I was going to give it to you when we had dinner together.
+    </translation>
+</item_8>
+<item_0>
+    <text> 
+    車外から見つかって
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    お姉さんの遺品としてこちらで預かっていました
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    事故にあった中でも
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    これだけは奇跡的に無傷だったんです
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    きっと
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    お姉さんが守ってくれていたんですね
+    </text>
+    <translation> 
+    (Translated English text here)
+    </translation>
+</item_5>
+<item_0>
+    <text> 
+    .....私はお礼なんて言わないから
+    </text>
+    <translation> 
+    (I don't say thank you at all)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    貴女も強情ですねぇ
+    </text>
+    <translation> 
+    (You're also very stubborn, aren't you?)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    アンタが大きなお世話なのよッ
+    </text>
+    <translation> 
+    (You're a big help to me, you know?)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    ハイハイ
+    </text>
+    <translation> 
+    (Hello)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    .....なんで
+    </text>
+    <translation> 
+    (Why?)
+    </translation>
+</item_4>
+
+<item_5>
+    <text> 
+    しんどくない?
+    </text>
+    <translation> 
+    (Isn't it painful?)
+    </translation>
+</item_5>
+
+<item_6>
+    <text> 
+    アンタはこんな仕事やってるの
+    </text>
+    <translation> 
+    (You're doing this kind of job, aren't you?)
+    </translation>
+</item_6>
+
+<item_7>
+    <text> 
+    毎日毎日誰かの泣き顔見て
+    </text>
+    <translation> 
+    (I see the crying faces of others every day)
+    </translation>
+</item_7>
+
+<item_8>
+    <text> 
+    よくも知らない人にお悔やみの言葉なんてかけて
+    </text>
+    <translation> 
+    (I say sorry to people I don't know)
+    </translation>
+</item_8>
+
+<item_9>
+    <text> 
+    ...そうでもないですよ
+    </text>
+    <translation> 
+    (It's not like that, you know)
+    </translation>
+</item_9>
+<item_0>
+    <text> 
+    貴女は
+    </text>
+    <translation> 
+    (You are)
+    </translation>
+</item_0>
+
+<item_1>
+    <text> 
+    笑顔になれるでしょう?
+    </text>
+    <translation> 
+    (Will you be able to smile?)
+    </translation>
+</item_1>
+
+<item_2>
+    <text> 
+    ...ホント
+    </text>
+    <translation> 
+    (Really?)
+    </translation>
+</item_2>
+
+<item_3>
+    <text> 
+    おせっかいな葬儀屋さん
+    </text>
+    <translation> 
+    (An overbearing funeral director)
+    </translation>
+</item_3>
+
+<item_4>
+    <text> 
+    ...ありがと
+    </text>
+    <translation> 
+    (Thank you...)
+    </translation>
+</item_4>
+Traceback (most recent call last):
+  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/translation/call_api.py", line 54, in <module>
+    image_inputs, video_inputs = process_vision_info(messages)
+  File "/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/qwen_vl_utils/vision_process.py", line 330, in process_vision_info
+    image_inputs.append(fetch_image(vision_info))
+  File "/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/qwen_vl_utils/vision_process.py", line 100, in fetch_image
+    image_obj = Image.open(image)
+  File "/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/PIL/Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/work/pi_miyyer_umass_edu/ctpham/cs670-manga/translation/images/rasetugari/ja/000.jpg'
