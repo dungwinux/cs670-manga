@@ -1,0 +1,6 @@
+Removing conda
+Loading conda
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+usage: qwen.py [-h] [--model_name MODEL_NAME]
+qwen.py: error: unrecognized arguments: qwen_72

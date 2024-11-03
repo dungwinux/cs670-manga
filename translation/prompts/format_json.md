@@ -1,8 +1,4 @@
 <item_{i}>
-    <text> 
-    {orig}
-    </text>
-    <translation> 
-    (Translated English text here)
-    </translation>
+<text>{orig}</text>
+<translation></translation>
 </item_{i}>
