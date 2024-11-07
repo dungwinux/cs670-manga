@@ -1,28 +1,0 @@
-Removing conda
-Loading conda
-/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
-  warnings.warn(
-`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
-qwen_72
-Loading checkpoint shards:   0%|          | 0/38 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/38 [00:00<00:32,  1.15it/s]Loading checkpoint shards:   5%|▌         | 2/38 [00:01<00:28,  1.26it/s]Loading checkpoint shards:   8%|▊         | 3/38 [00:02<00:27,  1.28it/s]Loading checkpoint shards:  11%|█         | 4/38 [00:03<00:26,  1.29it/s]Loading checkpoint shards:  13%|█▎        | 5/38 [00:03<00:25,  1.30it/s]Loading checkpoint shards:  16%|█▌        | 6/38 [00:04<00:24,  1.32it/s]Loading checkpoint shards:  18%|█▊        | 7/38 [00:05<00:23,  1.31it/s]Loading checkpoint shards:  21%|██        | 8/38 [00:06<00:23,  1.28it/s]Loading checkpoint shards:  24%|██▎       | 9/38 [00:07<00:22,  1.28it/s]Loading checkpoint shards:  26%|██▋       | 10/38 [00:07<00:21,  1.30it/s]Loading checkpoint shards:  29%|██▉       | 11/38 [00:08<00:20,  1.29it/s]Loading checkpoint shards:  32%|███▏      | 12/38 [00:09<00:20,  1.30it/s]Loading checkpoint shards:  34%|███▍      | 13/38 [00:10<00:19,  1.30it/s]Loading checkpoint shards:  37%|███▋      | 14/38 [00:10<00:18,  1.29it/s]Loading checkpoint shards:  39%|███▉      | 15/38 [00:11<00:18,  1.23it/s]Loading checkpoint shards:  42%|████▏     | 16/38 [00:12<00:17,  1.23it/s]Loading checkpoint shards:  45%|████▍     | 17/38 [00:13<00:17,  1.23it/s]Loading checkpoint shards:  47%|████▋     | 18/38 [00:14<00:15,  1.25it/s]Loading checkpoint shards:  50%|█████     | 19/38 [00:14<00:15,  1.27it/s]Loading checkpoint shards:  53%|█████▎    | 20/38 [00:15<00:14,  1.26it/s]Loading checkpoint shards:  55%|█████▌    | 21/38 [00:16<00:13,  1.27it/s]Loading checkpoint shards:  58%|█████▊    | 22/38 [00:17<00:12,  1.28it/s]Loading checkpoint shards:  61%|██████    | 23/38 [00:18<00:11,  1.28it/s]Loading checkpoint shards:  63%|██████▎   | 24/38 [00:18<00:10,  1.28it/s]Loading checkpoint shards:  66%|██████▌   | 25/38 [00:19<00:10,  1.28it/s]Loading checkpoint shards:  68%|██████▊   | 26/38 [00:20<00:09,  1.31it/s]Loading checkpoint shards:  71%|███████   | 27/38 [00:21<00:08,  1.30it/s]Loading checkpoint shards:  74%|███████▎  | 28/38 [00:21<00:07,  1.30it/s]Loading checkpoint shards:  76%|███████▋  | 29/38 [00:22<00:06,  1.30it/s]Loading checkpoint shards:  79%|███████▉  | 30/38 [00:23<00:06,  1.32it/s]Loading checkpoint shards:  82%|████████▏ | 31/38 [00:24<00:05,  1.31it/s]Loading checkpoint shards:  84%|████████▍ | 32/38 [00:24<00:04,  1.31it/s]Loading checkpoint shards:  87%|████████▋ | 33/38 [00:25<00:03,  1.31it/s]Loading checkpoint shards:  89%|████████▉ | 34/38 [00:26<00:03,  1.32it/s]Loading checkpoint shards:  92%|█████████▏| 35/38 [00:27<00:02,  1.32it/s]Loading checkpoint shards:  95%|█████████▍| 36/38 [00:27<00:01,  1.31it/s]Loading checkpoint shards:  97%|█████████▋| 37/38 [00:28<00:00,  1.48it/s]Loading checkpoint shards: 100%|██████████| 38/38 [00:28<00:00,  1.60it/s]Loading checkpoint shards: 100%|██████████| 38/38 [00:28<00:00,  1.31it/s]
-Traceback (most recent call last):
-  File "/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/utils/hub.py", line 403, in cached_file
-    resolved_file = hf_hub_download(
-  File "/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
-    validate_repo_id(arg_value)
-  File "/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 160, in validate_repo_id
-    raise HFValidationError(
-huggingface_hub.errors.HFValidationError: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'Qwen/`Qwen2-VL-72B-Instruct'.
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/translation/qwen.py", line 142, in <module>
-    processor = AutoProcessor.from_pretrained("Qwen/`Qwen2-VL-72B-Instruct")
-  File "/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 254, in from_pretrained
-    processor_config_file = get_file_from_repo(
-  File "/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/utils/hub.py", line 557, in get_file_from_repo
-    return cached_file(
-  File "/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/utils/hub.py", line 469, in cached_file
-    raise EnvironmentError(
-OSError: Incorrect path_or_model_id: 'Qwen/`Qwen2-VL-72B-Instruct'. Please provide either the path to a local folder or the repo_id of a model on the Hub.

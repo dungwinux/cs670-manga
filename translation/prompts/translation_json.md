@@ -5,7 +5,5 @@ Here are the texts to be translated:
 
 Please format your output using the template below: 
 
-<item_n>
 <text>Original Japanese text</text>
 <translation>Translated English text</translation>
-</item_n>

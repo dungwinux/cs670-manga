@@ -1,0 +1,744 @@
+Removing conda
+Loading conda
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+qwen_72
+Loading checkpoint shards:   0%|          | 0/38 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/38 [00:00<00:29,  1.24it/s]Loading checkpoint shards:   5%|▌         | 2/38 [00:01<00:26,  1.36it/s]Loading checkpoint shards:   8%|▊         | 3/38 [00:02<00:25,  1.38it/s]Loading checkpoint shards:  11%|█         | 4/38 [00:02<00:24,  1.38it/s]Loading checkpoint shards:  13%|█▎        | 5/38 [00:03<00:23,  1.39it/s]Loading checkpoint shards:  16%|█▌        | 6/38 [00:04<00:22,  1.42it/s]Loading checkpoint shards:  18%|█▊        | 7/38 [00:05<00:22,  1.41it/s]Loading checkpoint shards:  21%|██        | 8/38 [00:05<00:21,  1.38it/s]Loading checkpoint shards:  24%|██▎       | 9/38 [00:06<00:21,  1.37it/s]Loading checkpoint shards:  26%|██▋       | 10/38 [00:07<00:20,  1.39it/s]Loading checkpoint shards:  29%|██▉       | 11/38 [00:07<00:19,  1.39it/s]Loading checkpoint shards:  32%|███▏      | 12/38 [00:08<00:18,  1.40it/s]Loading checkpoint shards:  34%|███▍      | 13/38 [00:09<00:17,  1.40it/s]Loading checkpoint shards:  37%|███▋      | 14/38 [00:10<00:16,  1.41it/s]Loading checkpoint shards:  39%|███▉      | 15/38 [00:10<00:16,  1.39it/s]Loading checkpoint shards:  42%|████▏     | 16/38 [00:11<00:15,  1.39it/s]Loading checkpoint shards:  45%|████▍     | 17/38 [00:12<00:15,  1.39it/s]Loading checkpoint shards:  47%|████▋     | 18/38 [00:12<00:14,  1.41it/s]Loading checkpoint shards:  50%|█████     | 19/38 [00:13<00:13,  1.41it/s]Loading checkpoint shards:  53%|█████▎    | 20/38 [00:14<00:12,  1.40it/s]Loading checkpoint shards:  55%|█████▌    | 21/38 [00:15<00:12,  1.40it/s]Loading checkpoint shards:  58%|█████▊    | 22/38 [00:15<00:11,  1.40it/s]Loading checkpoint shards:  61%|██████    | 23/38 [00:16<00:10,  1.40it/s]Loading checkpoint shards:  63%|██████▎   | 24/38 [00:17<00:09,  1.40it/s]Loading checkpoint shards:  66%|██████▌   | 25/38 [00:17<00:09,  1.39it/s]Loading checkpoint shards:  68%|██████▊   | 26/38 [00:18<00:08,  1.39it/s]Loading checkpoint shards:  71%|███████   | 27/38 [00:19<00:07,  1.38it/s]Loading checkpoint shards:  74%|███████▎  | 28/38 [00:20<00:07,  1.36it/s]Loading checkpoint shards:  76%|███████▋  | 29/38 [00:20<00:06,  1.34it/s]Loading checkpoint shards:  79%|███████▉  | 30/38 [00:21<00:05,  1.38it/s]Loading checkpoint shards:  82%|████████▏ | 31/38 [00:22<00:05,  1.39it/s]Loading checkpoint shards:  84%|████████▍ | 32/38 [00:23<00:04,  1.39it/s]Loading checkpoint shards:  87%|████████▋ | 33/38 [00:23<00:03,  1.40it/s]Loading checkpoint shards:  89%|████████▉ | 34/38 [00:24<00:02,  1.41it/s]Loading checkpoint shards:  92%|█████████▏| 35/38 [00:25<00:02,  1.41it/s]Loading checkpoint shards:  95%|█████████▍| 36/38 [00:25<00:01,  1.41it/s]Loading checkpoint shards:  97%|█████████▋| 37/38 [00:26<00:00,  1.59it/s]Loading checkpoint shards: 100%|██████████| 38/38 [00:26<00:00,  1.72it/s]Loading checkpoint shards: 100%|██████████| 38/38 [00:26<00:00,  1.42it/s]
+  0%|          | 0/209 [00:00<?, ?it/s]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  0%|          | 1/209 [00:17<1:00:39, 17.50s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  1%|          | 2/209 [00:34<58:28, 16.95s/it]  /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  1%|▏         | 3/209 [00:40<41:32, 12.10s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  2%|▏         | 4/209 [01:18<1:16:01, 22.25s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  2%|▏         | 5/209 [01:57<1:36:05, 28.26s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  3%|▎         | 6/209 [02:23<1:33:35, 27.66s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  3%|▎         | 7/209 [02:42<1:23:55, 24.93s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  4%|▍         | 8/209 [03:26<1:42:54, 30.72s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  4%|▍         | 9/209 [04:11<1:57:39, 35.30s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  5%|▍         | 10/209 [05:04<2:14:47, 40.64s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  5%|▌         | 11/209 [05:25<1:55:01, 34.85s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  6%|▌         | 12/209 [05:57<1:50:54, 33.78s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  6%|▌         | 13/209 [06:20<1:40:12, 30.68s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  7%|▋         | 14/209 [07:09<1:57:39, 36.20s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  7%|▋         | 15/209 [07:41<1:52:37, 34.83s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  8%|▊         | 16/209 [08:11<1:47:11, 33.32s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  8%|▊         | 17/209 [08:45<1:47:38, 33.64s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  9%|▊         | 18/209 [09:02<1:30:48, 28.53s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  9%|▉         | 19/209 [09:10<1:11:34, 22.60s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 10%|▉         | 20/209 [09:40<1:17:40, 24.66s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 10%|█         | 21/209 [10:04<1:16:52, 24.54s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 11%|█         | 22/209 [10:27<1:14:41, 23.97s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 11%|█         | 23/209 [10:55<1:18:42, 25.39s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 11%|█▏        | 24/209 [11:16<1:14:01, 24.01s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 12%|█▏        | 25/209 [11:33<1:07:15, 21.93s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 12%|█▏        | 26/209 [12:00<1:11:31, 23.45s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 13%|█▎        | 27/209 [12:33<1:19:56, 26.35s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 13%|█▎        | 28/209 [13:09<1:28:08, 29.22s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 14%|█▍        | 29/209 [13:37<1:26:28, 28.83s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 14%|█▍        | 30/209 [14:00<1:20:26, 26.96s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 15%|█▍        | 31/209 [14:06<1:01:44, 20.81s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 15%|█▌        | 32/209 [14:11<47:22, 16.06s/it]  /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 16%|█▌        | 33/209 [14:30<49:06, 16.74s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 16%|█▋        | 34/209 [15:04<1:04:12, 22.02s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 17%|█▋        | 35/209 [15:37<1:13:36, 25.38s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 17%|█▋        | 36/209 [16:00<1:11:05, 24.66s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 18%|█▊        | 37/209 [16:04<52:23, 18.28s/it]  /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 18%|█▊        | 38/209 [16:24<53:37, 18.82s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 19%|█▊        | 39/209 [16:52<1:01:06, 21.57s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 19%|█▉        | 40/209 [17:22<1:08:28, 24.31s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 20%|█▉        | 41/209 [17:53<1:13:45, 26.34s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 20%|██        | 42/209 [18:24<1:16:43, 27.57s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 21%|██        | 43/209 [18:47<1:12:46, 26.31s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 21%|██        | 44/209 [19:21<1:18:46, 28.65s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 22%|██▏       | 45/209 [19:40<1:09:57, 25.60s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 22%|██▏       | 46/209 [20:17<1:19:26, 29.24s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 22%|██▏       | 47/209 [20:39<1:12:47, 26.96s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 23%|██▎       | 48/209 [21:38<1:38:06, 36.56s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 23%|██▎       | 49/209 [21:57<1:23:14, 31.21s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 24%|██▍       | 50/209 [22:28<1:22:18, 31.06s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 24%|██▍       | 51/209 [22:41<1:07:53, 25.78s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 25%|██▍       | 52/209 [23:16<1:14:34, 28.50s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 25%|██▌       | 53/209 [23:46<1:15:11, 28.92s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 26%|██▌       | 54/209 [24:31<1:27:21, 33.82s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 26%|██▋       | 55/209 [25:02<1:24:59, 33.11s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 27%|██▋       | 56/209 [25:25<1:16:41, 30.07s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 27%|██▋       | 57/209 [25:45<1:08:30, 27.04s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 28%|██▊       | 58/209 [26:08<1:04:42, 25.71s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 28%|██▊       | 59/209 [26:20<53:51, 21.54s/it]  /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 29%|██▊       | 60/209 [26:27<42:54, 17.28s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 29%|██▉       | 61/209 [26:30<32:03, 13.00s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 30%|██▉       | 62/209 [26:59<43:16, 17.66s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 30%|███       | 63/209 [27:22<47:24, 19.49s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 31%|███       | 64/209 [27:26<35:29, 14.68s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 31%|███       | 65/209 [27:46<39:17, 16.37s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 32%|███▏      | 66/209 [28:19<50:43, 21.28s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 32%|███▏      | 67/209 [28:43<52:11, 22.06s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 33%|███▎      | 68/209 [29:02<49:40, 21.14s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 33%|███▎      | 69/209 [29:34<57:04, 24.46s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 33%|███▎      | 70/209 [29:47<48:41, 21.02s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 34%|███▍      | 71/209 [30:09<48:43, 21.18s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 34%|███▍      | 72/209 [30:28<46:51, 20.52s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 35%|███▍      | 73/209 [30:32<35:17, 15.57s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 35%|███▌      | 74/209 [30:53<39:10, 17.41s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 36%|███▌      | 75/209 [31:21<46:04, 20.63s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 36%|███▋      | 76/209 [31:37<42:06, 18.99s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 37%|███▋      | 77/209 [31:47<36:06, 16.41s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 37%|███▋      | 78/209 [32:04<36:04, 16.52s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 38%|███▊      | 79/209 [32:14<31:46, 14.66s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 38%|███▊      | 80/209 [32:33<34:10, 15.90s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 39%|███▉      | 81/209 [33:05<44:16, 20.75s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 39%|███▉      | 82/209 [33:29<46:08, 21.80s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 40%|███▉      | 83/209 [34:02<52:56, 25.21s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 40%|████      | 84/209 [34:30<53:52, 25.86s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 41%|████      | 85/209 [34:46<47:37, 23.04s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 41%|████      | 86/209 [35:02<42:42, 20.84s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 42%|████▏     | 87/209 [35:33<48:37, 23.92s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 42%|████▏     | 88/209 [35:37<35:56, 17.82s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 43%|████▎     | 89/209 [35:54<35:28, 17.74s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 43%|████▎     | 90/209 [36:16<37:36, 18.96s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 44%|████▎     | 91/209 [36:37<38:41, 19.67s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 44%|████▍     | 92/209 [36:56<37:59, 19.49s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 44%|████▍     | 93/209 [37:13<36:03, 18.65s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 45%|████▍     | 94/209 [37:36<37:59, 19.83s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 45%|████▌     | 95/209 [37:55<37:39, 19.82s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 46%|████▌     | 96/209 [38:13<35:59, 19.11s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 46%|████▋     | 97/209 [38:38<39:14, 21.02s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 47%|████▋     | 98/209 [38:58<37:53, 20.48s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 47%|████▋     | 99/209 [2:03:25<46:53:07, 1534.43s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 48%|████▊     | 100/209 [2:03:57<32:48:58, 1083.84s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 48%|████▊     | 101/209 [3:28:13<68:15:36, 2275.34s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 49%|████▉     | 102/209 [3:28:15<47:21:56, 1593.61s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 49%|████▉     | 103/209 [3:28:29<32:57:53, 1119.56s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 50%|████▉     | 104/209 [3:28:55<23:05:17, 791.59s/it] /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 50%|█████     | 105/209 [3:29:12<16:09:15, 559.19s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 51%|█████     | 106/209 [3:29:20<11:16:09, 393.88s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 51%|█████     | 107/209 [3:29:33<7:55:27, 279.68s/it] /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 52%|█████▏    | 108/209 [3:29:40<5:32:54, 197.76s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 52%|█████▏    | 109/209 [3:30:07<4:04:21, 146.62s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 53%|█████▎    | 110/209 [3:30:41<3:05:54, 112.67s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 53%|█████▎    | 111/209 [3:31:06<2:21:14, 86.47s/it] /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 54%|█████▎    | 112/209 [3:31:29<1:48:44, 67.27s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 54%|█████▍    | 113/209 [3:31:41<1:21:23, 50.87s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 55%|█████▍    | 114/209 [3:31:54<1:02:13, 39.30s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 55%|█████▌    | 115/209 [3:32:28<59:15, 37.82s/it]  /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 56%|█████▌    | 116/209 [3:32:59<55:19, 35.69s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 56%|█████▌    | 117/209 [3:33:21<48:25, 31.58s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 56%|█████▋    | 118/209 [3:33:24<34:56, 23.04s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 57%|█████▋    | 119/209 [3:33:28<26:00, 17.34s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 57%|█████▋    | 120/209 [3:33:34<20:33, 13.86s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 58%|█████▊    | 121/209 [3:34:06<28:25, 19.38s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 58%|█████▊    | 122/209 [3:34:31<30:48, 21.25s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 59%|█████▉    | 123/209 [3:34:51<29:56, 20.89s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 59%|█████▉    | 124/209 [3:35:07<27:10, 19.19s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 60%|█████▉    | 125/209 [3:35:23<25:46, 18.42s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 60%|██████    | 126/209 [3:35:46<27:27, 19.85s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 61%|██████    | 127/209 [3:36:22<33:20, 24.40s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 61%|██████    | 128/209 [3:36:58<37:55, 28.09s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 62%|██████▏   | 129/209 [3:37:19<34:28, 25.85s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 62%|██████▏   | 130/209 [3:37:33<29:21, 22.30s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 63%|██████▎   | 131/209 [3:37:42<23:55, 18.41s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 63%|██████▎   | 132/209 [3:37:58<22:35, 17.61s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 64%|██████▎   | 133/209 [3:38:21<24:33, 19.38s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 64%|██████▍   | 134/209 [3:38:39<23:40, 18.94s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 65%|██████▍   | 135/209 [3:39:01<24:27, 19.83s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 65%|██████▌   | 136/209 [3:39:37<30:05, 24.73s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 66%|██████▌   | 137/209 [3:40:06<31:08, 25.95s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 66%|██████▌   | 138/209 [3:40:15<24:34, 20.77s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 67%|██████▋   | 139/209 [3:40:36<24:19, 20.85s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 67%|██████▋   | 140/209 [3:41:01<25:24, 22.10s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 67%|██████▋   | 141/209 [3:41:04<18:25, 16.26s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 68%|██████▊   | 142/209 [3:41:26<20:05, 17.99s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 68%|██████▊   | 143/209 [3:41:48<21:17, 19.35s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 69%|██████▉   | 144/209 [3:42:12<22:29, 20.75s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 69%|██████▉   | 145/209 [3:42:54<28:52, 27.06s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 70%|██████▉   | 146/209 [3:43:24<29:22, 27.98s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 70%|███████   | 147/209 [3:43:48<27:47, 26.89s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 71%|███████   | 148/209 [3:44:09<25:33, 25.13s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 71%|███████▏  | 149/209 [3:44:41<26:54, 26.92s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 72%|███████▏  | 150/209 [3:44:46<20:03, 20.41s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 72%|███████▏  | 151/209 [3:45:15<22:22, 23.15s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 73%|███████▎  | 152/209 [3:45:41<22:38, 23.83s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 73%|███████▎  | 153/209 [3:46:09<23:30, 25.18s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 74%|███████▎  | 154/209 [3:46:40<24:45, 27.01s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 74%|███████▍  | 155/209 [3:46:57<21:37, 24.02s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 75%|███████▍  | 156/209 [3:47:31<23:40, 26.81s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 75%|███████▌  | 157/209 [3:47:47<20:36, 23.79s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 76%|███████▌  | 158/209 [3:48:01<17:31, 20.61s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 76%|███████▌  | 159/209 [3:48:26<18:20, 22.01s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 77%|███████▋  | 160/209 [3:48:33<14:22, 17.60s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 77%|███████▋  | 161/209 [3:48:45<12:36, 15.76s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 78%|███████▊  | 162/209 [3:49:02<12:46, 16.31s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 78%|███████▊  | 163/209 [3:49:20<12:50, 16.74s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 78%|███████▊  | 164/209 [3:49:54<16:30, 22.01s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 79%|███████▉  | 165/209 [3:50:02<12:53, 17.57s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 79%|███████▉  | 166/209 [3:50:14<11:29, 16.04s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 80%|███████▉  | 167/209 [3:50:49<15:15, 21.81s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 80%|████████  | 168/209 [3:51:28<18:17, 26.77s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 81%|████████  | 169/209 [3:52:16<22:11, 33.28s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 81%|████████▏ | 170/209 [3:52:36<18:57, 29.16s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 82%|████████▏ | 171/209 [3:53:27<22:36, 35.70s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 82%|████████▏ | 172/209 [3:54:19<25:01, 40.58s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 83%|████████▎ | 173/209 [3:54:56<23:46, 39.62s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 83%|████████▎ | 174/209 [3:55:42<24:16, 41.60s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 84%|████████▎ | 175/209 [3:55:50<17:54, 31.61s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 84%|████████▍ | 176/209 [3:56:26<18:04, 32.87s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 85%|████████▍ | 177/209 [3:57:07<18:43, 35.10s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 85%|████████▌ | 178/209 [3:57:20<14:44, 28.53s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 86%|████████▌ | 179/209 [3:57:40<13:03, 26.12s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 86%|████████▌ | 180/209 [3:57:56<11:11, 23.14s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 87%|████████▋ | 181/209 [3:58:20<10:52, 23.30s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 87%|████████▋ | 182/209 [3:58:54<11:58, 26.62s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 88%|████████▊ | 183/209 [3:59:18<11:08, 25.71s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+slurmstepd-gpu016: error: *** JOB 25900145 ON gpu016 CANCELLED AT 2024-11-03T21:03:49 DUE TO TIME LIMIT ***

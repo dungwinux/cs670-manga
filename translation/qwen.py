@@ -149,7 +149,7 @@ if __name__ == "__main__":
             attn_implementation="flash_attention_2",
             device_map="auto",
         )
-        processor = AutoProcessor.from_pretrained("Qwen/`Qwen2-VL-72B-Instruct")
+        processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-72B-Instruct")
         output_file = 'data/output/qwen_72b.csv'
     elif model_name == "qwen_7":
         model = Qwen2VLForConditionalGeneration.from_pretrained(
