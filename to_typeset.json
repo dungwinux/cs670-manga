@@ -1,0 +1,29 @@
+{
+    "pages": [
+        {
+            "image_path": "to_typeset/test_image.png",
+            "text_to_render": [
+                {
+                    "text": "This is a test image",
+                    "color": "black",
+                    "position": {
+                        "x": 220,
+                        "y": 350,
+                        "w": 400,
+                        "h": 200
+                    }
+                },
+                {
+                    "text": "Second Test Text",
+                    "color": "black",
+                    "position": {
+                        "x": 710,
+                        "y": 620,
+                        "w": 300,
+                        "h": 400
+                    }
+                }
+            ]
+        }
+    ]
+}
