@@ -70,9 +70,9 @@ def dup_check(chars, isPoly=False):
                 dup.append(j) 
         assert len(dup) == 1, "There are {} duplicate of {} at index {}: {}".format(len(dup), char, dup, [ccs[i] for i in dup])
 
-def mts_process(image_path):
+def mts_process(image_path, layer_agreement=2):
     model = mts.MTS
-    layer_agreement = 3
+    
     im, pred = model.process(image_path)
     total = sum(p[0].px for p in pred)
     total[total < layer_agreement] = 0.
@@ -90,9 +90,9 @@ def cv2_process(image_path, method):
     # print(total)
     return (convert_polygons_to_pointslist(total), im)
 
-def text_detection(image_path, cv2_model):
+def text_detection(image_path, cv2_model, mts_level):
     # First, we use MTS to find the base mask of text
-    mask, _ = mts_process(image_path)
+    mask, _ = mts_process(image_path, mts_level)
     # We will build bb based on 
     mask_np = np.array(mask[0], dtype=np.uint8) * 255
     # print(mask_np.shape)
@@ -114,7 +114,7 @@ def text_detection(image_path, cv2_model):
     marks = []
     for char in chars:
         # We are dropping anything beyond 10-edges
-        if len(char) > 10:
+        if len(char) > 8:
             continue
         overlaps = 0
         box = convert_points_to_polygon(char)

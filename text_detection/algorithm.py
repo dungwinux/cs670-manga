@@ -81,14 +81,24 @@ class Text_ER:
         # cn = len(channels)-1
         # for c in range(0,cn):
         #     channels.append(255-channels[c])
-        # channels.append(cv2.imread(sample_input,0))
-        # channels.append(cv2.Canny(img5, 100, 200))
-            
+        # Greyscale
+        # channels.append(cv2.imread(img_path,0))
+        # gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+        # high_thresh, thresh_im = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+        # v = np.median(gray)
+        # sigma = 0.33
+        # low = int(max(0, (1.0 - sigma) * v))
+        # high = int(max(255, (1.0 + sigma) * v))
+        # canny = cv2.Canny(gray, low, high)
+        # channels.append(canny)
+
         # Apply the default cascade classifier to each independent channel (could be done in parallel)
         rects = []
         chains = []
         for channel in channels:
             regions = cv2.text.detectRegions(channel, self.er1, self.er2)
+            if len(regions) == 0:
+                continue
             # rects.extend([cv2.boundingRect(p.reshape(-1, 1, 2)) for p in regions])
             # Use minAreaRect for more fine-grained coverage
             # https://docs.opencv.org/4.x/dd/d49/tutorial_py_contour_features.html
