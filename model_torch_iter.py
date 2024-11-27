@@ -6,11 +6,9 @@ from PIL import Image
 import fnmatch
 import cv2
 from test import inpaint
+from tqdm import trange, tqdm
 
 import numpy as np
-
-#torch.set_printoptions(precision=10)
-
 
 class _bn_relu_conv(nn.Module):
     def __init__(self, in_filters, nb_filters, fw, fh, subsample=1):
@@ -23,18 +21,6 @@ class _bn_relu_conv(nn.Module):
 
     def forward(self, x):
         return self.model(x)
-
-        # the following are for debugs
-        print("****", np.max(x.cpu().numpy()), np.min(x.cpu().numpy()), np.mean(x.cpu().numpy()), np.std(x.cpu().numpy()), x.shape)
-        for i,layer in enumerate(self.model):
-            if i != 2:
-                x = layer(x)
-            else:
-                x = layer(x)
-                #x = nn.functional.pad(x, (1, 1, 1, 1), mode='constant', value=0)
-            print("____", np.max(x.cpu().numpy()), np.min(x.cpu().numpy()), np.mean(x.cpu().numpy()), np.std(x.cpu().numpy()), x.shape)
-            print(x[0])
-        return x
 
 
 class _u_bn_relu_conv(nn.Module):
@@ -225,67 +211,61 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.image_paths)
 
-def loadImages(folder):
-    imgs = []
+def load_images_from_folder(folder):
     matches = []
-    for root, dirnames, filenames in os.walk(folder):
-        for filename in fnmatch.filter(filenames, '*'):
-            matches.append(os.path.join(root, filename))
-   
+    for root, _, filenames in os.walk(folder):
+        for filename in filenames:
+            if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
+                matches.append(os.path.join(root, filename))
     return matches
+
+def ensure_folder_exists(folder):
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
+def relative_path_to_output_path(base_input, base_output, input_path):
+    rel_path = os.path.relpath(input_path, base_input)
+    return os.path.join(base_output, rel_path)
 
 if __name__ == "__main__":
     model = res_skip()
     model.load_state_dict(torch.load('erika.pth'))
     is_cuda = torch.cuda.is_available()
-    if is_cuda:
-        model.cuda()
-    else:
-        model.cpu()
+    model = model.cuda() if is_cuda else model.cpu()
     model.eval()
-    
-    input_image_folder = "./examples/" #sys.argv[1]
-    line_image_output_folder = "./examples/test/lines" #sys.argv[2]
-    filelists = loadImages(input_image_folder)
 
-    if not os.path.exists(line_image_output_folder):
-        os.makedirs(line_image_output_folder)
+    # Paths
+    input_folder = "/scratch2/workspace/ctpham_umass_edu-hp/cs670-manga/inputs/"  # Root folder containing input images
+    mask_folder = "/scratch2/workspace/ctpham_umass_edu-hp/cs670-manga/masks/"   # Root folder containing masks
+    line_folder = "/scratch2/workspace/ctpham_umass_edu-hp/cs670-manga/lines/"  # Root folder for output images
+
+    input_images = load_images_from_folder(input_folder)
 
     with torch.no_grad():
-        for imname in filelists:
-            src = cv2.imread(imname,cv2.IMREAD_GRAYSCALE)
-            
-            rows = int(np.ceil(src.shape[0]/16))*16
-            cols = int(np.ceil(src.shape[1]/16))*16
-            
-            # manually construct a batch. You can change it based on your usecases. 
-            patch = np.ones((1,1,rows,cols),dtype="float32")
-            patch[0,0,0:src.shape[0],0:src.shape[1]] = src
-            
-            if is_cuda: 
-                tensor = torch.from_numpy(patch).cuda()
-            else:
-                tensor = torch.from_numpy(patch).cpu()
-            y = model(tensor)
-            print(imname, torch.max(y), torch.min(y))
+        for image_path in tqdm(input_images):
+            # Load image
+            src = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+            rows = int(np.ceil(src.shape[0] / 16)) * 16
+            cols = int(np.ceil(src.shape[1] / 16)) * 16
+            patch = np.ones((1, 1, rows, cols), dtype="float32")
+            patch[0, 0, :src.shape[0], :src.shape[1]] = src
 
-            yc = y.cpu().numpy()[0,0,:,:]
-            yc[yc>255] = 255
-            yc[yc<0] = 0
+            # Process image
+            tensor = torch.from_numpy(patch).cuda() if is_cuda else torch.from_numpy(patch)
+            output = model(tensor)
+            output_np = output.cpu().numpy()[0, 0, :, :]
+            output_np[output_np > 255] = 255
+            output_np[output_np < 0] = 0
+            head, tail = os.path.split(image_path)
+            cv2.imwrite(os.path.join(line_folder, tail.replace('.jpg', '.png')), output_np[:src.shape[0], :src.shape[1]])
+            break
 
-            head, tail = os.path.split(imname)
-            #tail = tail.replace(".jpg", "_line_image.jpg").replace(".png", "_line_image.png")
-            cv2.imwrite(line_image_output_folder+"/"+tail.replace(".jpg",".png"),yc[0:src.shape[0],0:src.shape[1]])
-    
-    print("Done creating line images")
     line_model_info = {
-        'input_folder': input_image_folder,
-        'mask_folder': "./examples/",
-        'line_folder': line_image_output_folder,
-        'output_folder': "./outputs",
+        'input_folder': input_folder,
+        'mask_folder': mask_folder,
+        'line_folder': line_folder,
+        'output_folder': "./final_outputs",
         'model': None,
         'inpaint_model_location': './checkpoints/mangainpaintor'
     }
     inpaint(None, line_model_info)
-
-    

@@ -120,3 +120,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+erika.pth
+line_model.jit
+manga_inpaintor.jit

@@ -97,7 +97,6 @@ def inpaint(mode=None, line_model_info=None):
     model = MangaInpaintor(config)
     model.load()
 
-
     print('\nstart testing...\n')
     with torch.autocast(device_type="cpu"): #used to be cuda
     	with torch.inference_mode():

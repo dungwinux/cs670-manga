@@ -83,6 +83,7 @@ class MangaInpaintor():
         output = self.postprocess(img)[0]
         os.makedirs(os.path.join(self.results_path, fld_name), exist_ok=True)
         path = os.path.join(self.results_path, fld_name, name)
+        print("NOCE", path)
         imsave(output, path)
 
     def log(self, logs):
