@@ -6,6 +6,7 @@ from PIL import Image
 import fnmatch
 import cv2
 from test import inpaint
+import time
 
 import numpy as np
 
@@ -239,14 +240,51 @@ if __name__ == "__main__":
     model.load_state_dict(torch.load('erika.pth'))
     is_cuda = torch.cuda.is_available()
     if is_cuda:
+        print("Using CUDA")
         model.cuda()
     else:
+        print("Using CPU")
         model.cpu()
     model.eval()
-    
+    keep_image_file_structure = True #Use this to keep the same folder structure as the input images in the output folder. Also expects Masks to be in the same folder structure as the input images
+    clear_output_folder = True #Clear the output folder before starting the process
+    clear_lines_folder = True #Clear the lines folder before starting the process
     input_image_folder = "./inputs" #sys.argv[1]
     line_image_output_folder = "./lines" #sys.argv[2]
+    output_folder = "./outputs" #sys.argv[3]
     filelists = loadImages(input_image_folder)
+    print(filelists)
+
+    if clear_lines_folder:
+        #Delete everything in line_image_output_folder and 
+        for root, dirnames, filenames in os.walk(line_image_output_folder):
+            for filename in filenames:
+                os.unlink(os.path.join(root, filename))
+            for dirname in dirnames:
+                os.rmdir(os.path.join(root, dirname))
+        print("Cleared line folder")
+    if clear_output_folder:
+        #Delete everything in output_folder
+        for root, dirnames, filenames in os.walk(output_folder):
+            for filename in filenames:
+                os.unlink(os.path.join(root, filename))
+            for dirname in dirnames:
+                os.rmdir(os.path.join(root, dirname))
+        print("Cleared output folder")
+
+    if keep_image_file_structure:
+        #Create all intermediate folders in line_image_output_folder
+        for root, dirnames, filenames in os.walk(input_image_folder):
+            for dirname in dirnames:
+                relative_path = os.path.relpath(os.path.join(root, dirname), input_image_folder)
+                output_dir = os.path.join(line_image_output_folder, relative_path)
+                if not os.path.exists(output_dir):
+                    os.makedirs(output_dir)
+                    print("Created folder: ", output_dir)
+                else:
+                    print("Folder already exists, Aborting to avoid issues: ", output_dir)
+                    print("Please remove the folder and try again")
+                    exit()
 
     if not os.path.exists(line_image_output_folder):
         os.makedirs(line_image_output_folder)
@@ -254,37 +292,57 @@ if __name__ == "__main__":
     with torch.no_grad():
         for imname in filelists:
             src = cv2.imread(imname,cv2.IMREAD_GRAYSCALE)
+            head, tail = os.path.split(imname)
             
+            # start_time = time.time()
             rows = int(np.ceil(src.shape[0]/16))*16
             cols = int(np.ceil(src.shape[1]/16))*16
-            
-            # manually construct a batch. You can change it based on your usecases. 
+            # print(f"Resizing time: {time.time() - start_time} seconds")
+
+            # start_time = time.time()
             patch = np.ones((1,1,rows,cols),dtype="float32")
             patch[0,0,0:src.shape[0],0:src.shape[1]] = src
-            
+            # print(f"Patch creation time: {time.time() - start_time} seconds")
+
+            # start_time = time.time()
             if is_cuda: 
                 tensor = torch.from_numpy(patch).cuda()
             else:
                 tensor = torch.from_numpy(patch).cpu()
-            y = model(tensor)
-            print(imname, torch.max(y), torch.min(y))
+            # print(f"Data transfer time: {time.time() - start_time} seconds")
 
+            # start_time = time.time()
+            y = model(tensor)
+            # print(f"Model inference time: {time.time() - start_time} seconds")
+
+            # start_time = time.time()
             yc = y.cpu().numpy()[0,0,:,:]
             yc[yc>255] = 255
             yc[yc<0] = 0
+            # print(f"Post-processing time: {time.time() - start_time} seconds")
+
+            # print(imname, torch.max(y), torch.min(y))
 
             head, tail = os.path.split(imname)
             #tail = tail.replace(".jpg", "_line_image.jpg").replace(".png", "_line_image.png")
-            cv2.imwrite(line_image_output_folder+"/"+tail.replace(".jpg",".png"),yc[0:src.shape[0],0:src.shape[1]])
+            if keep_image_file_structure:
+                #right now imname is input_image_folder + relative_path + filename
+                #we need to replace input_image_folder with line_image_output_folder
+                #replace the first occurrence of input_image_folder with line_image_output_folder
+                new_head = head.replace(input_image_folder, line_image_output_folder, 1)
+                cv2.imwrite(new_head+"/"+tail.replace(".jpg",".png"),yc[0:src.shape[0],0:src.shape[1]])
+            else:
+                cv2.imwrite(line_image_output_folder+"/"+tail.replace(".jpg",".png"),yc[0:src.shape[0],0:src.shape[1]])
     
     print("Done creating line images")
+    exit()
     line_model_info = {
         'input_folder': input_image_folder,
         'mask_folder': "./masks",
         'line_folder': line_image_output_folder,
-        'output_folder': "./outputs",
+        'output_folder': output_folder,
         'model': None,
-        'inpaint_model_location': './checkpoints/mangainpaintor'
+        'inpaint_model_location': './checkpoints/mangainpaintor',
     }
     inpaint(None, line_model_info)
 

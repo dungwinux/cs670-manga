@@ -2,6 +2,12 @@
 models/
 Manga109*
 
+inputs/
+lines/
+outputs/
+examples/
+masks/
+.DS_Store
 
 environment.yaml
 package-list.txt
