@@ -1,4 +1,4 @@
-from shapely import Polygon, intersection, normalize
+from shapely import Polygon, intersection, normalize, simplify
 from shapely.errors import GEOSException
 import numpy as np
 import mts
@@ -147,7 +147,7 @@ def text_detection(image_path, *, cv2_model, mts_level=2, mts_bitmask=-1, group_
     # Post-Processing 1: We use TextER in algorithm to find SFX
     polys = convert_pointslist_to_polygons([p for p in polys_cv2 if len(p) > 3])
     # Remove noises
-    polys = [normalize(p) for p in polys if p.area > 20]
+    polys = [simplify(normalize(p), 1) for p in polys if p.area > 20]
     # visualize_al(convert_polygons_to_pointslist(polys), cv2.imread(sample))
 
     # model.er1 = cv2.text.createERFilterNM1(model.erc1, 16, 0.00005, 0.7, 0.25, True, 0.05)
