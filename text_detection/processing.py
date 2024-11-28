@@ -3,6 +3,7 @@ import numpy as np
 import mts
 import cv2
 import algorithm as al
+from dataclasses import astuple, dataclass
 
 def convert_polygon_to_points(p):
     pts = np.array([x for x in p.exterior.coords], dtype=np.int32)
@@ -74,9 +75,15 @@ def mts_process(image_path, layer_agreement=2):
     model = mts.MTS
     
     im, pred = model.process(image_path)
-    total = sum(p[0].px for p in pred)
+    pred_col = np.array([p[0].px for p in pred])
+    total = pred_col.sum(axis=0)
+    # print(f"{im.shape=}, {total.shape=}, {pred_col.shape=}")
     total[total < layer_agreement] = 0.
     total[total >= layer_agreement] = 1.
+    # NOTE: For some unknown reasons, the output of MTS is slightly bigger than input
+    # We can try fixing this by cropping
+    total = total[..., :im.shape[-2], :im.shape[-1]]
+    # print(f"{im.shape=}, {total.shape=}, {pred_col.shape=}")
     return (total, im)
 
 def cv2_process(image_path, method):
@@ -90,11 +97,47 @@ def cv2_process(image_path, method):
     # print(total)
     return (convert_polygons_to_pointslist(total), im)
 
-def text_detection(image_path, cv2_model, mts_level):
+def text_grouping(image: cv2.typing.MatLike, *, _kernel = None) -> cv2.typing.MatLike:
+    gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+    thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
+    # This is very good
+    kernel = _kernel if _kernel is not None else cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (16, 16))
+    # kernel2 = np.zeros((64, 32, 3), dtype=np.uint8)
+    # custom_shape = np.array([(0, 0), (31, 0), (63, 31), (31, 31)], dtype=np.int32)
+    # cv2.drawContours(kernel2, [custom_shape], -1, (255, 255, 255), thickness=cv2.FILLED)
+    # kernel2 = cv2.cvtColor(kernel2, cv2.COLOR_RGB2GRAY) // 255
+    dilation = cv2.dilate(thresh, kernel, iterations=1)
+    # dilation = cv2.dilate(dilation, kernel2, iterations=1)
+    contours, hierarchy = cv2.findContours(dilation, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    output = image.copy()
+    bbs = [cv2.boxPoints(cv2.minAreaRect(cnt)).astype(np.int32) for cnt in contours]
+    return bbs
+
+@dataclass
+class TextDetectionResult:
+    # Mask
+    mask: cv2.typing.MatLike
+    # List of bounding boxes
+    bbs: list
+    # MTS
+    mts_img: cv2.typing.MatLike
+    # Filtered
+    filtered_img: cv2.typing.MatLike
+
+    def __init__(self, *, mask, bbs, mts_img, filtered_img):
+        self.mask = mask
+        self.bbs = bbs
+        self.mts_img = mts_img
+        self.filtered_img = filtered_img
+    def __iter__(self):
+        return iter(astuple(self))
+
+def text_detection(image_path, *, cv2_model, mts_level, group_kernel=None):
     # First, we use MTS to find the base mask of text
     mask, _ = mts_process(image_path, mts_level)
     # We will build bb based on 
-    mask_np = np.array(mask[0], dtype=np.uint8) * 255
+    # i don't remember why i had to cut
+    mask_np = mask[0].astype(np.uint8) * 255
     # print(mask_np.shape)
     polys_cv2 = convert_mask_to_points(mask_np)
     # print(polys_cv2)
@@ -107,7 +150,7 @@ def text_detection(image_path, cv2_model, mts_level):
     # visualize_al(convert_polygons_to_pointslist(polys), cv2.imread(sample))
 
     # model.er1 = cv2.text.createERFilterNM1(model.erc1, 16, 0.00005, 0.7, 0.25, True, 0.05)
-    chars, _ = cv2_process(image_path, cv2_model)
+    chars, img = cv2_process(image_path, cv2_model)
 
     # dup_check(chars)
 
@@ -135,4 +178,6 @@ def text_detection(image_path, cv2_model, mts_level):
     # visualize_cv2(new_draw)
     final_mask = cv2.cvtColor(new_draw, cv2.COLOR_RGB2GRAY)
 
-    return final_mask
+    # print(f"{img.shape=}, {final_mask.shape=}")
+    img[final_mask == 0] = (255, 255, 255)
+    return TextDetectionResult(mask=final_mask, bbs=text_grouping(img, _kernel=group_kernel), mts_img=mask_np, filtered_img=img)

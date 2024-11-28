@@ -12,11 +12,19 @@ def visualize_al(poly, background: cv2.typing.MatLike):
 def visualize_cv2(img: cv2.typing.MatLike):
     # print(chains.shape)
     # print(np.array(poly).shape)
-    plt.clf()
+    # plt.clf()
     plt.figure(figsize=(22, 22))
     plt.imshow(img)
-    return plt
+    return img
 
 def visualize_mts(pred, background):
     mts.torch.zeros(4, pred.shape[0], pred.shape[1]).int()
-    background.show(y = mts.ImageSegment(pred), figsize=(22, 22), alpha=0.8)
+    segment = mts.ImageSegment(pred)
+    background.show(y = segment, figsize=(22, 22), alpha=0.8)
+    return segment
+
+def visualize_contours(contours, img: cv2.typing.MatLike):
+    out = img.copy()
+    for cnt in contours:
+        cv2.drawContours(out, [cnt], 0, (0, 255, 0), 2)
+    return visualize_cv2(out)

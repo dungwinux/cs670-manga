@@ -107,6 +107,12 @@ class Text_ER:
             # rects = cv2.text.erGrouping(line,channel,[x.tolist() for x in regions], cv2.text.ERGROUPING_ORIENTATION_ANY,model_path + 'trained_classifier_erGrouping.xml',0.5)
         return (rects, rects_to_polys(chains), True)
 
+class Stub:
+    def __init__(self):
+        pass
+    def process(self, img):
+        return ([], [], False)
+
 def enable_CUDA_if_available(method):
     try:
         method.model.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
