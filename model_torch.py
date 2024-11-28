@@ -248,7 +248,8 @@ if __name__ == "__main__":
     model.eval()
     keep_image_file_structure = True #Use this to keep the same folder structure as the input images in the output folder. Also expects Masks to be in the same folder structure as the input images
     clear_output_folder = True #Clear the output folder before starting the process
-    clear_lines_folder = True #Clear the lines folder before starting the process
+    clear_lines_folder = False #Clear the lines folder before starting the process
+    run_line_model = True #Run the line model before running the inpainting model
     input_image_folder = "./inputs" #sys.argv[1]
     line_image_output_folder = "./lines" #sys.argv[2]
     output_folder = "./outputs" #sys.argv[3]
@@ -282,15 +283,16 @@ if __name__ == "__main__":
                     os.makedirs(output_dir)
                     print("Created folder: ", output_dir)
                 else:
-                    print("Folder already exists, Aborting to avoid issues: ", output_dir)
-                    print("Please remove the folder and try again")
-                    exit()
+                    print("WARNING: Folder already exists: ", output_dir)
+                    print("Images in this folder will be overwritten if they have the same name")
 
     if not os.path.exists(line_image_output_folder):
         os.makedirs(line_image_output_folder)
 
     with torch.no_grad():
         for imname in filelists:
+            if not run_line_model:
+                break
             src = cv2.imread(imname,cv2.IMREAD_GRAYSCALE)
             head, tail = os.path.split(imname)
             
@@ -335,7 +337,6 @@ if __name__ == "__main__":
                 cv2.imwrite(line_image_output_folder+"/"+tail.replace(".jpg",".png"),yc[0:src.shape[0],0:src.shape[1]])
     
     print("Done creating line images")
-    exit()
     line_model_info = {
         'input_folder': input_image_folder,
         'mask_folder': "./masks",

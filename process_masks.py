@@ -12,6 +12,49 @@ import os
 import cv2
 import numpy as np
 
+#Edit Manga109 Dataset to match the masks dataset
+
+manga_109_dir = 'Manga109_Dataset/images'
+
+new_dir_name = 'Manga109_Truncated'
+
+#create a new directory for the truncated dataset that is a copy of the original dataset
+if not os.path.exists(new_dir_name):
+    os.makedirs(new_dir_name)
+
+names = ['000.jpg', '001.jpg', '002.jpg', '003.jpg', '004.jpg', '005.jpg', '006.jpg', '007.jpg', '008.jpg', '009.jpg']
+
+#iterate through each manga directory in the Manga109_Dataset directory
+for manga_name in os.listdir(manga_109_dir):
+    #create a new directory for the manga in the Manga109_Truncated directory
+    new_manga_dir = os.path.join(new_dir_name, manga_name)
+    if not os.path.exists(new_manga_dir):
+        os.makedirs(new_manga_dir)
+    
+    #check if the file is a directory
+    if not os.path.isdir(os.path.join(manga_109_dir, manga_name)):
+        print("Skipping", manga_name, "as it is not a directory.")
+        continue
+
+    print("Processing images for", manga_name)
+
+    #iterate through each image in the manga directory
+    for image_file in os.listdir(os.path.join(manga_109_dir, manga_name)):
+        print("Processing image", image_file)
+        # if the image is not in the list of names, skip it
+        if image_file not in names:
+            print("Skipping", image_file, "as it is not in the list of names.")
+            continue
+
+        #copy the image to the new directory
+        image_path = os.path.join(manga_109_dir, manga_name, image_file)
+        new_image_path = os.path.join(new_manga_dir, image_file)
+        img = cv2.imread(image_path)
+        cv2.imwrite(new_image_path, img)
+
+
+exit()
+
 # Path to the Manga109_Masks directory
 mask_dir = 'Manga109_Masks'
 

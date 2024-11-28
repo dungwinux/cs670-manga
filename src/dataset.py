@@ -80,6 +80,7 @@ class Dataset(torch.utils.data.Dataset):
         self.data = self.load_flist(flist)
         self.line_data = self.load_flist(line_flist)
         self.mask_data = self.load_flist(mask_flist)
+        #print('data:', self.data, '\nline:', self.line_data, '\nmask:', self.mask_data)
 
         self.input_size = config.INPUT_SIZE
         self.line = config.LINE
@@ -211,7 +212,8 @@ class Dataset(torch.utils.data.Dataset):
         # flist: image file path, image directory path, text file flist path
         if isinstance(flist, str):
             if os.path.isdir(flist):
-                flist = list(glob.glob(flist + '/*.jpg')) + list(glob.glob(flist + '/*.png'))
+                flist = list(glob.glob(os.path.join(flist, '**', '*.jpg'), recursive=True)) + \
+                        list(glob.glob(os.path.join(flist, '**', '*.png'), recursive=True))
                 flist.sort()
                 return flist
             
