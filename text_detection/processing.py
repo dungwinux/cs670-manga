@@ -1,4 +1,5 @@
 from shapely import Polygon, intersection, normalize
+from shapely.errors import GEOSException
 import numpy as np
 import mts
 import cv2
@@ -71,10 +72,10 @@ def dup_check(chars, isPoly=False):
                 dup.append(j) 
         assert len(dup) == 1, "There are {} duplicate of {} at index {}: {}".format(len(dup), char, dup, [ccs[i] for i in dup])
 
-def mts_process(image_path, layer_agreement=2):
+def mts_process(image_path, *, layer_agreement=2, bitmask=-1):
     model = mts.MTS
     
-    im, pred = model.process(image_path)
+    im, pred = model.process(image_path, bitmask=bitmask)
     pred_col = np.array([p[0].px for p in pred])
     total = pred_col.sum(axis=0)
     # print(f"{im.shape=}, {total.shape=}, {pred_col.shape=}")
@@ -132,9 +133,9 @@ class TextDetectionResult:
     def __iter__(self):
         return iter(astuple(self))
 
-def text_detection(image_path, *, cv2_model, mts_level, group_kernel=None):
+def text_detection(image_path, *, cv2_model, mts_level=2, mts_bitmask=-1, group_kernel=None):
     # First, we use MTS to find the base mask of text
-    mask, _ = mts_process(image_path, mts_level)
+    mask, _ = mts_process(image_path, layer_agreement=mts_level, bitmask=mts_bitmask)
     # We will build bb based on 
     # i don't remember why i had to cut
     mask_np = mask[0].astype(np.uint8) * 255
@@ -146,7 +147,7 @@ def text_detection(image_path, *, cv2_model, mts_level, group_kernel=None):
     # Post-Processing 1: We use TextER in algorithm to find SFX
     polys = convert_pointslist_to_polygons([p for p in polys_cv2 if len(p) > 3])
     # Remove noises
-    polys = [p for p in polys if p.area > 20]
+    polys = [normalize(p) for p in polys if p.area > 20]
     # visualize_al(convert_polygons_to_pointslist(polys), cv2.imread(sample))
 
     # model.er1 = cv2.text.createERFilterNM1(model.erc1, 16, 0.00005, 0.7, 0.25, True, 0.05)
@@ -164,7 +165,13 @@ def text_detection(image_path, *, cv2_model, mts_level, group_kernel=None):
         for i in range(len(polys)):
             p = polys[i]
             if p.overlaps(box) or p.intersects(box):
-                inter = normalize(p.intersection(box))
+                try:
+                    inter = normalize(p.intersection(box))
+                except GEOSException as e:
+                    # print(f"{p=}, {box=}")
+                    print(p)
+                    print(box)
+                    raise e
                 if inter.area / p.area > 0.4:
                     overlaps += 1
         if overlaps > 0:

@@ -23,8 +23,8 @@ def visualize_mts(pred, background):
     background.show(y = segment, figsize=(22, 22), alpha=0.8)
     return segment
 
-def visualize_contours(contours, img: cv2.typing.MatLike):
+def visualize_contours(contours, img: cv2.typing.MatLike, *, noshow=False):
     out = img.copy()
     for cnt in contours:
         cv2.drawContours(out, [cnt], 0, (0, 255, 0), 2)
-    return visualize_cv2(out)
+    return out if noshow else visualize_cv2(out)

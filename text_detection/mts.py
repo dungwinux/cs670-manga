@@ -17,9 +17,9 @@ class _MTS:
     def __init__(self, model_path: str = 'models'):
         self.m_learner = [load_learner(model_path, f'fold.{_}.-.final.refined.model.2.pkl') for _ in range(5)]
     
-    def process(self, path_to_image_input: Union[Path, str]):
+    def process(self, path_to_image_input: Union[Path, str], *, bitmask=-1):
         im = open_image(path_to_image_input)
-        pred = [self.m_learner[_].predict(im) for _ in range(5)]
+        pred = [self.m_learner[_].predict(im) for _ in range(5) if (1 << _) & bitmask]
         return (im, pred)
 
 MTS = _MTS()
