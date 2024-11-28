@@ -249,7 +249,7 @@ if __name__ == "__main__":
     keep_image_file_structure = True #Use this to keep the same folder structure as the input images in the output folder. Also expects Masks to be in the same folder structure as the input images
     clear_output_folder = True #Clear the output folder before starting the process
     clear_lines_folder = False #Clear the lines folder before starting the process
-    run_line_model = True #Run the line model before running the inpainting model
+    run_line_model = False #Run the line model before running the inpainting model
     input_image_folder = "./inputs" #sys.argv[1]
     line_image_output_folder = "./lines" #sys.argv[2]
     output_folder = "./outputs" #sys.argv[3]
