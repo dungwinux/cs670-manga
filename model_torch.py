@@ -254,7 +254,7 @@ if __name__ == "__main__":
     line_image_output_folder = "./lines" #sys.argv[2]
     output_folder = "./outputs" #sys.argv[3]
     filelists = loadImages(input_image_folder)
-    print(filelists)
+    #print(filelists)
 
     if clear_lines_folder:
         #Delete everything in line_image_output_folder and 

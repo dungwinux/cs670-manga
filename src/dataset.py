@@ -100,7 +100,10 @@ class Dataset(torch.utils.data.Dataset):
 
     def load_name(self, index):
         name = self.data[index]
-        return os.path.basename(name)
+        # Split the path into components
+        path_components = name.split(os.sep)
+        # Join the components except the first one
+        return os.path.join(*path_components[1:])
 
     def load_item(self, index):
         size = self.input_size
