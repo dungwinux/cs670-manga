@@ -100,10 +100,8 @@ class Dataset(torch.utils.data.Dataset):
 
     def load_name(self, index):
         name = self.data[index]
-        # Split the path into components
         path_components = name.split(os.sep)
-        # Join the components except the first one
-        return os.path.join(*path_components[1:])
+        return os.path.join(*path_components[-2:])
 
     def load_item(self, index):
         size = self.input_size
@@ -184,7 +182,7 @@ class Dataset(torch.utils.data.Dataset):
 
         mask = imread(self.mask_data[index])
         # #Resize mask, using 0 as padding
-        # mask = cv2.resize(mask, (imgX, imgY), interpolation=cv2.INTER_NEAREST)
+        mask = cv2.resize(mask, (imgX, imgY), interpolation=cv2.INTER_NEAREST)
 
 
         # import matplotlib.pyplot as plt

@@ -1,3 +1,14 @@
+Removing conda
+Loading conda
+Using CUDA
+Cleared output folder
+  0%|          | 0/240 [00:00<?, ?it/s]100%|██████████| 240/240 [00:00<00:00, 1843650.11it/s]
+Done creating line images
+Starting inpainting
+{'input_folder': '/scratch2/workspace/ctpham_umass_edu-hp/cs670-manga/inputs_truncated', 'mask_folder': '/scratch2/workspace/ctpham_umass_edu-hp/cs670-manga/masks', 'line_folder': '/scratch2/workspace/ctpham_umass_edu-hp/cs670-manga/lines', 'output_folder': '/scratch2/workspace/ctpham_umass_edu-hp/cs670-manga/outputs/', 'model': None, 'inpaint_model_location': './checkpoints/mangainpaintor'}
+./checkpoints/mangainpaintor/config.yml
+Model configurations:
+---------------------------------
 MODE: 3             # 1: train, 2: test, 3: eval
 MODEL: 4            # 1: edge model, 2: inpaint model, 3: edge-inpaint model, 4: manga inpaint model, 5: joint model
 MASK: 3             # 1: random block, 2: half, 3: external, 4: (external, random block), 5: (external, random block, half)
@@ -48,3 +59,19 @@ SAMPLE_INTERVAL: 1000         # how many iterations to wait before sampling (0: 
 SAMPLE_SIZE: 6               # number of images to sample
 EVAL_INTERVAL: 0              # how many iterations to wait before model evaluation (0: never)
 LOG_INTERVAL: 10              # how many iterations to wait before logging training status (0: never)
+
+
+---------------------------------
+
+initialize network with normal
+initialize network with xavier
+loading the model from checkpoints/ScreenVAE/latest_net_enc.pth
+loading the model from checkpoints/ScreenVAE/latest_net_dec.pth
+Loading models...
+Loading SemanticInpaintingModel generator...
+Loading MangaInpaintingModel generator...
+
+start testing...
+
+
+End test....

@@ -1,3 +1,4 @@
+# 1: input, 2: line, 3: output, 4: mask
 import os
 import torch
 import torch.nn as nn
@@ -7,6 +8,7 @@ import fnmatch
 import cv2
 from test import inpaint
 import time
+import sys
 
 import numpy as np
 
@@ -250,9 +252,9 @@ if __name__ == "__main__":
     clear_output_folder = True #Clear the output folder before starting the process
     clear_lines_folder = False #Clear the lines folder before starting the process
     run_line_model = False #Run the line model before running the inpainting model
-    input_image_folder = "./inputs" #sys.argv[1]
-    line_image_output_folder = "./lines" #sys.argv[2]
-    output_folder = "./outputs" #sys.argv[3]
+    input_image_folder = sys.argv[1]
+    line_image_output_folder = sys.argv[2]
+    output_folder = sys.argv[3]
     filelists = loadImages(input_image_folder)
     #print(filelists)
 
@@ -279,12 +281,22 @@ if __name__ == "__main__":
             for dirname in dirnames:
                 relative_path = os.path.relpath(os.path.join(root, dirname), input_image_folder)
                 output_dir = os.path.join(line_image_output_folder, relative_path)
+                out_dir = os.path.join(output_folder, relative_path)
                 if not os.path.exists(output_dir):
-                    os.makedirs(output_dir)
+                    os.makedirs(output_dir, exist_ok=True)
                     print("Created folder: ", output_dir)
                 else:
                     print("WARNING: Folder already exists: ", output_dir)
                     print("Images in this folder will be overwritten if they have the same name")
+
+                # Also preserve the structure of the output folder
+                if not os.path.exists(out_dir):
+                    os.makedirs(out_dir, exist_ok=True)
+                    print("Created folder: ", out_dir)
+                else:
+                    print("WARNING: Folder already exists: ", out_dir)
+                    print("Images in this folder will be overwritten if they have the same name")
+
 
     if not os.path.exists(line_image_output_folder):
         os.makedirs(line_image_output_folder)
@@ -339,7 +351,7 @@ if __name__ == "__main__":
     print("Done creating line images")
     line_model_info = {
         'input_folder': input_image_folder,
-        'mask_folder': "./masks",
+        'mask_folder': sys.argv[4],
         'line_folder': line_image_output_folder,
         'output_folder': output_folder,
         'model': None,

@@ -1,0 +1,6 @@
+Removing conda
+Loading conda
+  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/model_torch.py", line 342
+    'line_folder': line_image_output_folder,
+                 ^
+SyntaxError: invalid syntax
