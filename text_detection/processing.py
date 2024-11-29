@@ -147,7 +147,9 @@ def text_detection(image_path, *, cv2_model, mts_level=2, mts_bitmask=-1, group_
     # Post-Processing 1: We use TextER in algorithm to find SFX
     polys = convert_pointslist_to_polygons([p for p in polys_cv2 if len(p) > 3])
     # Remove noises
-    polys = [simplify(normalize(p), 1) for p in polys if p.area > 20]
+    im_area = mask_np.shape[0] * mask_np.shape[0]
+    polys = [normalize(p) for p in polys if p.area / im_area > 0.05]
+    polys = [p if p.is_valid else simplify(p, 3) for p in polys]
     # visualize_al(convert_polygons_to_pointslist(polys), cv2.imread(sample))
 
     # model.er1 = cv2.text.createERFilterNM1(model.erc1, 16, 0.00005, 0.7, 0.25, True, 0.05)
