@@ -1,0 +1,3 @@
+[submodule "text_detection/Manga-Text-Segmentation"]
+	path = text_detection/Manga-Text-Segmentation
+	url = git@github.com:dungwinux/Manga-Text-Segmentation.git
