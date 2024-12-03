@@ -74,9 +74,9 @@ class Text_ER:
         
         self.erc2 = cv2.text.loadClassifierNM2(model_path + 'trained_classifierNM2.xml')
         self.er2 = cv2.text.createERFilterNM2(self.erc2, 0.8)
-
+    
     def process(self, img):
-        channels = list(cv2.text.computeNMChannels(img))
+        channels = cv2.text.computeNMChannels(img)
         # Append negative channels to detect ER- (bright regions over dark background)
         # cn = len(channels)-1
         # for c in range(0,cn):
@@ -102,7 +102,13 @@ class Text_ER:
             # rects.extend([cv2.boundingRect(p.reshape(-1, 1, 2)) for p in regions])
             # Use minAreaRect for more fine-grained coverage
             # https://docs.opencv.org/4.x/dd/d49/tutorial_py_contour_features.html
-            rects.extend([cv2.boxPoints(cv2.minAreaRect(p.reshape(-1, 1, 2))).astype(np.int32) for p in regions])
+            # rects.extend([cv2.boxPoints(cv2.minAreaRect(p.reshape(-1, 1, 2))).astype(np.int32) for p in regions])
+            # Now, what if we just return the approx. contours?
+            approx = [np.squeeze(cv2.approxPolyDP(r.reshape(-1, 1, 2), 0.01 * cv2.arcLength(r.reshape(-1, 1, 2), True), True), 1) for r in regions]
+            # print(f"{approx=}")
+            # for a in approx:
+            #     print(f"{a=} {cv2.isContourConvex(a)=}")
+            rects.extend([a for a in approx if a.shape[0] >= 3])
             chains.extend(cv2.text.erGrouping(img, channel, [r.tolist() for r in regions]))
             # rects = cv2.text.erGrouping(line,channel,[x.tolist() for x in regions], cv2.text.ERGROUPING_ORIENTATION_ANY,model_path + 'trained_classifier_erGrouping.xml',0.5)
         return (rects, rects_to_polys(chains), True)

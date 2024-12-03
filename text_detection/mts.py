@@ -13,13 +13,14 @@ sys.path.insert(0, str(root / 'Manga-Text-Segmentation/code'))
 import dataset as dataset
 
 class _MTS:
-    m_learner: List[Learner] = [None] * 5
-    def __init__(self, model_path: str = 'models'):
-        self.m_learner = [load_learner(model_path, f'fold.{_}.-.final.refined.model.2.pkl') for _ in range(5)]
-    
-    def process(self, path_to_image_input: Union[Path, str], *, bitmask=-1):
+    m_learner: List[Learner] = [None]
+    def __init__(self, model_path: str = 'models', model_count: int = 5, model_load_bitmask: int = 0b10101):
+        
+        self.m_learner = [load_learner(model_path, f'fold.{_}.-.final.refined.model.2.pkl') for _ in range(model_count) if (1 << _) & model_load_bitmask]
+
+    def process(self, path_to_image_input: Union[Path, str]):
         im = open_image(path_to_image_input)
-        pred = [self.m_learner[_].predict(im) for _ in range(5) if (1 << _) & bitmask]
+        pred = [learner.predict(im) for learner in self.m_learner]
         return (im, pred)
 
 MTS = _MTS()
@@ -41,4 +42,3 @@ def colorizePrediction(prediction, truth):
     a[tp | fn | fp] = 255
 
     return colorized
-
