@@ -11,6 +11,7 @@ def visualize_al(poly, background: cv2.typing.MatLike):
     cv2.polylines(bg, poly, True, (0, 255, 0), 2)
     return visualize_cv2(bg)
 
+
 def visualize_cv2(img: cv2.typing.MatLike):
     # print(chains.shape)
     # print(np.array(poly).shape)
@@ -29,4 +30,11 @@ def visualize_contours(contours, img: cv2.typing.MatLike, *, noshow=False):
     out = img.copy()
     for cnt in contours:
         cv2.drawContours(out, [cnt], 0, (0, 255, 0), 2)
+    return out if noshow else visualize_cv2(out)
+
+
+def visualize_rects(rects, img: cv2.typing.MatLike, *, noshow=False):
+    out = img.copy()
+    for (x, y, w, h) in rects:
+        cv2.rectangle(out, (x, y), (x + w, y + h), (0, 255, 0), 2)
     return out if noshow else visualize_cv2(out)

@@ -5,6 +5,8 @@ import mts
 import cv2
 import algorithm as al
 from dataclasses import astuple, dataclass
+from typing import Tuple
+import tempfile
 
 # points: (n, 1, 2)
 # Polygon: (n + 1, 2)
@@ -99,6 +101,20 @@ def dup_check(chars, isPoly=False):
 def mts_process(image_path, *, layer_agreement=2):
     model = mts.MTS
     
+    # NOTE: The model requires fastai requires that the image size has to be even
+    # We can try fixing this by adding extra space?
+    # test = cv2.imread(image_path)
+    # is_odd_shape = lambda xs: (xs[0] % 2 == 1 or xs[1] % 2 == 1)
+    # if is_odd_shape(test.shape):
+    #     print(f"WARN: MTS cannot handle odd shape like {test.shape=}. Patching image with (255, 255, 255) in temporary file...")
+    #     new_shape = ((test.shape[0] | 1) + 1, (test.shape[1] | 1) + 1, test.shape[2])
+    #     test.resize(new_shape)
+    #     with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as fd:
+    #         fd.close()
+    #         cv2.imwrite(fd.name, test)
+    #         im, pred = model.process(fd.name)
+    # else:
+    #     im, pred = model.process(image_path)
     im, pred = model.process(image_path)
     pred_col = np.array([p[0].px for p in pred])
     total = pred_col.sum(axis=0)
@@ -138,8 +154,9 @@ def text_grouping(image: cv2.typing.MatLike, *, _kernel = None) -> cv2.typing.Ma
     # dilation = cv2.dilate(dilation, kernel2, iterations=1)
     contours, hierarchy = cv2.findContours(dilation, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     output = image.copy()
-    bbs = [cv2.boxPoints(cv2.minAreaRect(cnt)).astype(np.int32) for cnt in contours]
-    return bbs
+    minBbs = [cv2.boxPoints(cv2.minAreaRect(cnt)).astype(np.int32) for cnt in contours]
+    bbs = [cv2.boundingRect(cnt) for cnt in contours]
+    return (bbs,minBbs)
 
 def fix_invalid_polygon(p1):
     # print(f"{p1.is_valid}")
@@ -168,7 +185,8 @@ class TextDetectionResult:
     # Mask
     mask: cv2.typing.MatLike
     # List of bounding boxes
-    bbs: list
+    bbs: list[Tuple[int, int, int, int]]
+    minBbs: list
     # MTS
     mts_img: cv2.typing.MatLike
     # Filtered
@@ -177,7 +195,8 @@ class TextDetectionResult:
 
     def __init__(self, *, mask, bbs, mts_img, filtered_img, cv2_det):
         self.mask = mask
-        self.bbs = bbs
+        self.bbs = bbs[0]
+        self.minBbs = bbs[1]
         self.mts_img = mts_img
         self.filtered_img = filtered_img
         self.cv2_det = cv2_det
@@ -189,7 +208,8 @@ def text_detection(image_path, *, cv2_model, mts_level=2, group_kernel=None):
     mask, _ = mts_process(image_path, layer_agreement=mts_level)
     # We will build bb based on 
     # i don't remember why i had to cut
-    mask_np = mask[0].astype(np.uint8) * 255
+    mask_np = mask[0].astype(np.uint8)
+    mask_np[mask_np != 0] = 255
     # print(mask_np.shape)
     polys_cv2 = convert_mask_to_points(mask_np)
     # print(polys_cv2)
