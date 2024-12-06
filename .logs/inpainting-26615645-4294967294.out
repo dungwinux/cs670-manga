@@ -1,0 +1,94 @@
+Removing cuda version 12.6
+Removing conda
+Loading conda
+/work/pi_miyyer_umass_edu/ctpham/cs670-manga/model_torch.py:247: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load('erika.pth'))
+/work/pi_miyyer_umass_edu/ctpham/cs670-manga/src/svae.py:43: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(
+/work/pi_miyyer_umass_edu/ctpham/cs670-manga/src/models.py:28: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  data = torch.load(self.gen_weights_path)
+Using CUDA
+Cleared output folder
+Created folder:  data/input/lines/TsubasaNoKioku
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/output/inpaint/TsubasaNoKioku
+Created folder:  data/input/lines/balloon_dream
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/output/inpaint/balloon_dream
+Created folder:  data/input/lines/boureisougi
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/output/inpaint/boureisougi
+Created folder:  data/input/lines/rasetugari
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/output/inpaint/rasetugari
+Created folder:  data/input/lines/tencho_isoro
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/output/inpaint/tencho_isoro
+Created folder:  data/input/lines/test
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/output/inpaint/test
+Created folder:  data/input/lines/tojime_no_siora
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/output/inpaint/tojime_no_siora
+Done creating line images
+./checkpoints/mangainpaintor/config.yml
+Model configurations:
+---------------------------------
+MODE: 3             # 1: train, 2: test, 3: eval
+MODEL: 4            # 1: edge model, 2: inpaint model, 3: edge-inpaint model, 4: manga inpaint model, 5: joint model
+MASK: 3             # 1: random block, 2: half, 3: external, 4: (external, random block), 5: (external, random block, half)
+EDGE: 2             # 1: canny, 2: external
+NMS: 0              # 0: no non-max-suppression, 1: applies non-max-suppression on the external edges by multiplying by Canny
+SEED: 2021            # random seed
+GPU: [0]            # list of gpu ids
+DEBUG: 0            # turns on debugging mode
+VERBOSE: 0          # turns on verbose mode in the output console
+NCOLORS: 1  
+
+TRAIN_FLIST: ./datasets/manga_train.flist
+VAL_FLIST: ./datasets/manga_val.flist
+TEST_FLIST: ./datasets/manga_test.flist
+
+TRAIN_LINE_FLIST: ./datasets/manga_lines_train.flist
+VAL_LINE_FLIST: ./datasets/manga_lines_val.flist
+TEST_LINE_FLIST: ./datasets/manga_lines_test.flist
+
+TRAIN_MASK_FLIST: ./datasets/masks_train.flist
+VAL_MASK_FLIST: ./datasets/masks_val.flist
+TEST_MASK_FLIST: ./datasets/masks_test.flist
+
+LR: 0.0001                    # learning rate
+D2G_LR: 0.2                   # discriminator/generator learning rate ratio
+BETA1: 0.9                    # adam optimizer beta1
+BETA2: 0.999                    # adam optimizer beta2
+BATCH_SIZE: 4                 # input batch size for training
+INPUT_SIZE: 512               # input image size for training 0 for original size
+SIGMA: 2                      # standard deviation of the Gaussian filter used in Canny edge detector (0: random, -1: no edge)
+MAX_ITERS: 2e6                # maximum number of iterations to train the model
+
+SHRIK_ITERS: 5
+EDGE_THRESHOLD: 0.5           # edge detection threshold
+WEIGHTED_L1_LOSS_WEIGHT: 20   # structural line reconstruction weight
+L1_LOSS_WEIGHT: 20            # ScreenVAE map loss weight
+CONTENT_LOSS_WEIGHT: 200      # screentone reconstruction weight
+BINARY_LOSS_WEIGHT: 1         # binarization loss weight
+EDGE_LOSS_WEIGHT: 0           # edge loss weight
+INPAINT_ADV_LOSS_WEIGHT: 1    # adversarial loss weight
+FM_LOSS_WEIGHT: 5             # feature-matching loss weight
+
+GAN_LOSS: nsgan               # nsgan | lsgan | hinge
+GAN_POOL_SIZE: 0              # fake images pool size
+
+SAVE_INTERVAL: 1000           # how many iterations to wait before saving model (0: never)
+SAMPLE_INTERVAL: 1000         # how many iterations to wait before sampling (0: never)
+SAMPLE_SIZE: 6               # number of images to sample
+EVAL_INTERVAL: 0              # how many iterations to wait before model evaluation (0: never)
+LOG_INTERVAL: 10              # how many iterations to wait before logging training status (0: never)
+
+---------------------------------
+
+initialize network with normal
+initialize network with xavier
+loading the model from checkpoints/ScreenVAE/latest_net_enc.pth
+loading the model from checkpoints/ScreenVAE/latest_net_dec.pth
+Loading models...
+Loading SemanticInpaintingModel generator...
+Loading MangaInpaintingModel generator...
+
+start testing...
+
+
+End test....

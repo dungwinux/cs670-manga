@@ -1,7 +1,7 @@
 [
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/000.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/000.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/000.png",
         "coordinates": [
             [
                 297,
@@ -67,7 +67,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/001.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/001.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/001.png",
         "coordinates": [
             [
                 1471,
@@ -145,7 +145,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/002.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/002.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/002.png",
         "coordinates": [
             [
                 647,
@@ -211,7 +211,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/003.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/003.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/003.png",
         "coordinates": [
             [
                 430,
@@ -349,7 +349,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/004.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/004.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/004.png",
         "coordinates": [
             [
                 418,
@@ -481,7 +481,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/005.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/005.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/005.png",
         "coordinates": [
             [
                 1211,
@@ -643,7 +643,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/006.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/006.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/006.png",
         "coordinates": [
             [
                 1207,
@@ -775,7 +775,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/007.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/007.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/007.png",
         "coordinates": [
             [
                 407,
@@ -907,7 +907,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/008.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/008.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/008.png",
         "coordinates": [
             [
                 425,
@@ -1015,7 +1015,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/009.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/009.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/009.png",
         "coordinates": [
             [
                 1185,
@@ -1105,7 +1105,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/010.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/010.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/010.png",
         "coordinates": [
             [
                 417,
@@ -1237,7 +1237,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/011.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/011.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/011.png",
         "coordinates": [
             [
                 1203,
@@ -1375,7 +1375,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/012.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/012.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/012.png",
         "coordinates": [
             [
                 407,
@@ -1483,7 +1483,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/013.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/013.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/013.png",
         "coordinates": [
             [
                 339,
@@ -1633,7 +1633,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/014.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/014.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/014.png",
         "coordinates": [
             [
                 1200,
@@ -1705,7 +1705,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/015.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/015.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/015.png",
         "coordinates": [
             [
                 1195,
@@ -1801,7 +1801,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/016.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/016.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/016.png",
         "coordinates": [
             [
                 415,
@@ -1879,7 +1879,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/017.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/017.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/017.png",
         "coordinates": [
             [
                 415,
@@ -2047,7 +2047,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/018.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/018.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/018.png",
         "coordinates": [
             [
                 1127,
@@ -2173,7 +2173,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/019.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/019.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/019.png",
         "coordinates": [
             [
                 1204,
@@ -2329,7 +2329,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/020.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/020.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/020.png",
         "coordinates": [
             [
                 418,
@@ -2467,7 +2467,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/021.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/021.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/021.png",
         "coordinates": [
             [
                 432,
@@ -2623,7 +2623,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/022.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/022.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/022.png",
         "coordinates": [
             [
                 1198,
@@ -2761,7 +2761,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/023.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/023.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/023.png",
         "coordinates": [
             [
                 414,
@@ -2929,7 +2929,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/024.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/024.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/024.png",
         "coordinates": [
             [
                 1198,
@@ -3049,7 +3049,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/025.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/025.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/025.png",
         "coordinates": [
             [
                 1198,
@@ -3115,7 +3115,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/026.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/026.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/026.png",
         "coordinates": [
             [
                 403,
@@ -3265,7 +3265,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/027.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/027.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/027.png",
         "coordinates": [
             [
                 419,
@@ -3409,7 +3409,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/028.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/028.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/028.png",
         "coordinates": [
             [
                 417,
@@ -3541,7 +3541,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/029.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/029.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/029.png",
         "coordinates": [
             [
                 1204,
@@ -3667,7 +3667,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/030.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/030.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/030.png",
         "coordinates": [
             [
                 451,
@@ -3727,7 +3727,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/031.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/031.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/031.png",
         "coordinates": [
             [
                 412,
@@ -3871,7 +3871,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/032.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/032.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/032.png",
         "coordinates": [
             [
                 1197,
@@ -3931,7 +3931,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/033.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/033.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/033.png",
         "coordinates": [
             [
                 419,
@@ -3985,7 +3985,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/034.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/034.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/034.png",
         "coordinates": [
             [
                 1195,
@@ -4111,7 +4111,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/035.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/035.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/035.png",
         "coordinates": [
             [
                 418,
@@ -4219,7 +4219,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/036.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/036.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/036.png",
         "coordinates": [
             [
                 1200,
@@ -4309,7 +4309,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/037.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/037.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/037.png",
         "coordinates": [
             [
                 276,
@@ -4453,7 +4453,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/038.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/038.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/038.png",
         "coordinates": [
             [
                 415,
@@ -4591,7 +4591,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/039.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/039.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/039.png",
         "coordinates": [
             [
                 926,
@@ -4693,7 +4693,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/040.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/040.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/040.png",
         "coordinates": [
             [
                 1199,
@@ -4843,7 +4843,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/041.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/041.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/041.png",
         "coordinates": [
             [
                 1161,
@@ -5017,7 +5017,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/042.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/042.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/042.png",
         "coordinates": [
             [
                 1172,
@@ -5131,7 +5131,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/043.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/043.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/043.png",
         "coordinates": [
             [
                 420,
@@ -5245,7 +5245,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/044.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/044.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/044.png",
         "coordinates": [
             [
                 1201,
@@ -5365,7 +5365,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/045.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/045.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/045.png",
         "coordinates": [
             [
                 1202,
@@ -5503,7 +5503,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/046.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/046.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/046.png",
         "coordinates": [
             [
                 1196,
@@ -5629,7 +5629,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/047.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/047.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/047.png",
         "coordinates": [
             [
                 1196,
@@ -5743,7 +5743,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/048.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/048.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/048.png",
         "coordinates": [
             [
                 893,
@@ -5839,7 +5839,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/049.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/049.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/049.png",
         "coordinates": [
             [
                 1199,
@@ -5965,7 +5965,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/050.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/050.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/050.png",
         "coordinates": [
             [
                 1194,
@@ -6121,7 +6121,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/051.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/051.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/051.png",
         "coordinates": [
             [
                 1071,
@@ -6265,7 +6265,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/052.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/052.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/052.png",
         "coordinates": [
             [
                 1200,
@@ -6421,7 +6421,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/053.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/053.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/053.png",
         "coordinates": [
             [
                 1200,
@@ -6565,7 +6565,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/054.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/054.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/054.png",
         "coordinates": [
             [
                 1198,
@@ -6733,7 +6733,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/055.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/055.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/055.png",
         "coordinates": [
             [
                 1188,
@@ -6877,7 +6877,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/056.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/056.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/056.png",
         "coordinates": [
             [
                 1193,
@@ -7009,7 +7009,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/057.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/057.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/057.png",
         "coordinates": [
             [
                 1190,
@@ -7165,7 +7165,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/058.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/058.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/058.png",
         "coordinates": [
             [
                 1194,
@@ -7291,7 +7291,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/059.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/059.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/059.png",
         "coordinates": [
             [
                 416,
@@ -7381,7 +7381,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/060.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/060.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/060.png",
         "coordinates": [
             [
                 1138,
@@ -7525,7 +7525,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/061.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/061.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/061.png",
         "coordinates": [
             [
                 1197,
@@ -7621,7 +7621,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/062.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/062.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/062.png",
         "coordinates": [
             [
                 1194,
@@ -7771,7 +7771,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/063.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/063.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/063.png",
         "coordinates": [
             [
                 404,
@@ -7927,7 +7927,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/064.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/064.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/064.png",
         "coordinates": [
             [
                 917,
@@ -7970,7 +7970,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/065.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.png",
         "coordinates": [
             [
                 412,
@@ -8090,7 +8090,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/066.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.png",
         "coordinates": [
             [
                 1188,
@@ -8245,7 +8245,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/067.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.png",
         "coordinates": [
             [
                 1192,
@@ -8512,7 +8512,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/068.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.png",
         "coordinates": [
             [
                 1193,
@@ -8639,7 +8639,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/069.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.png",
         "coordinates": [
             [
                 1199,
@@ -8794,7 +8794,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/070.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.png",
         "coordinates": [
             [
                 1199,
@@ -8970,7 +8970,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/071.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/071.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/071.png",
         "coordinates": [
             [
                 77,
@@ -9076,7 +9076,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/072.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/072.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/072.png",
         "coordinates": [
             [
                 1310,
@@ -9217,7 +9217,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/073.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/073.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/073.png",
         "coordinates": [
             [
                 420,
@@ -9361,7 +9361,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/074.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/074.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/074.png",
         "coordinates": [
             [
                 427,
@@ -9475,7 +9475,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/075.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/075.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/075.png",
         "coordinates": [
             [
                 415,
@@ -9601,7 +9601,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/076.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/076.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/076.png",
         "coordinates": [
             [
                 407,
@@ -9691,7 +9691,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/077.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/077.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/077.png",
         "coordinates": [
             [
                 403,
@@ -9823,7 +9823,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/078.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/078.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/078.png",
         "coordinates": [
             [
                 1208,
@@ -9937,7 +9937,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/079.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/079.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/079.png",
         "coordinates": [
             [
                 1198,
@@ -10093,7 +10093,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/080.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/080.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/080.png",
         "coordinates": [
             [
                 1198,
@@ -10201,7 +10201,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/081.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/081.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/081.png",
         "coordinates": [
             [
                 1193,
@@ -10381,7 +10381,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/082.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/082.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/082.png",
         "coordinates": [
             [
                 430,
@@ -10519,7 +10519,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/083.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/083.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/083.png",
         "coordinates": [
             [
                 1179,
@@ -10669,7 +10669,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/084.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/084.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/084.png",
         "coordinates": [
             [
                 1200,
@@ -10867,7 +10867,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/085.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/085.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/085.png",
         "coordinates": [
             [
                 352,
@@ -11023,7 +11023,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/086.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/086.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/086.png",
         "coordinates": [
             [
                 1210,
@@ -11197,7 +11197,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/087.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/087.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/087.png",
         "coordinates": [
             [
                 1204,
@@ -11329,7 +11329,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/088.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/088.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/088.png",
         "coordinates": [
             [
                 412,
@@ -11443,7 +11443,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/089.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/089.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/089.png",
         "coordinates": [
             [
                 1193,
@@ -11593,7 +11593,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/090.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/090.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/090.png",
         "coordinates": [
             [
                 423,
@@ -11719,7 +11719,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/091.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/091.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/091.png",
         "coordinates": [
             [
                 916,
@@ -11839,7 +11839,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/092.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/092.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/092.png",
         "coordinates": [
             [
                 93,
@@ -11905,7 +11905,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/093.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/093.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/093.png",
         "coordinates": [
             [
                 723,
@@ -12091,7 +12091,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/094.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/094.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/094.png",
         "coordinates": [
             [
                 394,
@@ -12187,7 +12187,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/095.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/095.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/095.png",
         "coordinates": [
             [
                 1206,
@@ -12271,7 +12271,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/TsubasaNoKioku/096.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/096.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/096.png",
         "coordinates": [
             [
                 1420,
@@ -12343,7 +12343,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/000.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.png",
         "coordinates": [
             [
                 381,
@@ -12421,7 +12421,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/001.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.png",
         "coordinates": [
             [
                 520,
@@ -12492,7 +12492,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/002.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/002.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/002.png",
         "coordinates": [
             [
                 665,
@@ -12556,7 +12556,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/003.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/003.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/003.png",
         "coordinates": [
             [
                 182,
@@ -12655,7 +12655,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/004.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/004.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/004.png",
         "coordinates": [
             [
                 619,
@@ -12768,7 +12768,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/005.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/005.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/005.png",
         "coordinates": [
             [
                 725,
@@ -12895,7 +12895,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/006.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/006.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/006.png",
         "coordinates": [
             [
                 45,
@@ -12945,7 +12945,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/007.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/007.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/007.png",
         "coordinates": [
             [
                 712,
@@ -13093,7 +13093,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/008.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/008.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/008.png",
         "coordinates": [
             [
                 178,
@@ -13269,7 +13269,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/009.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.png",
         "coordinates": [
             [
                 611,
@@ -13417,7 +13417,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/010.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/010.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/010.png",
         "coordinates": [
             [
                 422,
@@ -13467,7 +13467,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/011.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.png",
         "coordinates": [
             [
                 610,
@@ -13552,7 +13552,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/012.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.png",
         "coordinates": [
             [
                 478,
@@ -13658,7 +13658,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/013.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/013.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/013.png",
         "coordinates": [
             [
                 474,
@@ -13757,7 +13757,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/014.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/014.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/014.png",
         "coordinates": [
             [
                 92,
@@ -13870,7 +13870,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/015.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/015.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/015.png",
         "coordinates": [
             [
                 90,
@@ -13955,7 +13955,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/016.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.png",
         "coordinates": [
             [
                 271,
@@ -14068,7 +14068,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/017.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/017.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/017.png",
         "coordinates": [
             [
                 379,
@@ -14167,7 +14167,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/018.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/018.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/018.png",
         "coordinates": [
             [
                 561,
@@ -14210,7 +14210,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/019.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/019.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/019.png",
         "coordinates": [
             [
                 591,
@@ -14295,7 +14295,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/020.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/020.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/020.png",
         "coordinates": [
             [
                 115,
@@ -14359,7 +14359,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/021.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/021.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/021.png",
         "coordinates": [
             [
                 265,
@@ -14493,7 +14493,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/022.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/022.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/022.png",
         "coordinates": [
             [
                 55,
@@ -14606,7 +14606,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/023.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/023.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/023.png",
         "coordinates": [
             [
                 529,
@@ -14712,7 +14712,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/024.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/024.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/024.png",
         "coordinates": [
             [
                 280,
@@ -14755,7 +14755,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/025.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/025.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/025.png",
         "coordinates": [
             [
                 234,
@@ -14882,7 +14882,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/026.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.png",
         "coordinates": [
             [
                 252,
@@ -15023,7 +15023,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/027.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/027.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/027.png",
         "coordinates": [
             [
                 604,
@@ -15129,7 +15129,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/028.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.png",
         "coordinates": [
             [
                 322,
@@ -15186,7 +15186,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/029.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.png",
         "coordinates": [
             [
                 313,
@@ -15264,7 +15264,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/030.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/030.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/030.png",
         "coordinates": [
             [
                 94,
@@ -15286,7 +15286,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/031.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/031.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/031.png",
         "coordinates": [
             [
                 305,
@@ -15336,7 +15336,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/032.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/032.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/032.png",
         "coordinates": [
             [
                 538,
@@ -15449,7 +15449,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/033.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/033.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/033.png",
         "coordinates": [
             [
                 349,
@@ -15464,12 +15464,12 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/034.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/034.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/034.png",
         "coordinates": []
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/035.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/035.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/035.png",
         "coordinates": [
             [
                 79,
@@ -15589,7 +15589,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/036.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/036.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/036.png",
         "coordinates": [
             [
                 712,
@@ -15702,7 +15702,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/balloon_dream/037.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/037.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/037.png",
         "coordinates": [
             [
                 608,
@@ -15773,7 +15773,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/000.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/000.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/000.png",
         "coordinates": [
             [
                 449,
@@ -15802,7 +15802,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/001.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/001.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/001.png",
         "coordinates": [
             [
                 72,
@@ -15866,7 +15866,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/002.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/002.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/002.png",
         "coordinates": [
             [
                 198,
@@ -15958,7 +15958,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/003.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/003.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/003.png",
         "coordinates": [
             [
                 211,
@@ -16057,7 +16057,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/004.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/004.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/004.png",
         "coordinates": [
             [
                 116,
@@ -16135,7 +16135,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/005.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/005.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/005.png",
         "coordinates": [
             [
                 37,
@@ -16220,7 +16220,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/006.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/006.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/006.png",
         "coordinates": [
             [
                 155,
@@ -16326,7 +16326,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/007.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/007.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/007.png",
         "coordinates": [
             [
                 299,
@@ -16411,7 +16411,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/008.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/008.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/008.png",
         "coordinates": [
             [
                 292,
@@ -16531,7 +16531,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/009.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/009.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/009.png",
         "coordinates": [
             [
                 298,
@@ -16616,7 +16616,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/010.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/010.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/010.png",
         "coordinates": [
             [
                 70,
@@ -16715,7 +16715,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/011.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/011.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/011.png",
         "coordinates": [
             [
                 157,
@@ -16905,7 +16905,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/012.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/012.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/012.png",
         "coordinates": [
             [
                 446,
@@ -16976,7 +16976,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/013.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/013.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/013.png",
         "coordinates": [
             [
                 207,
@@ -17082,7 +17082,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/014.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/014.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/014.png",
         "coordinates": [
             [
                 70,
@@ -17181,7 +17181,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/015.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/015.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/015.png",
         "coordinates": [
             [
                 521,
@@ -17273,7 +17273,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/016.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/016.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/016.png",
         "coordinates": [
             [
                 75,
@@ -17365,7 +17365,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/017.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/017.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/017.png",
         "coordinates": [
             [
                 493,
@@ -17499,7 +17499,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/018.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/018.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/018.png",
         "coordinates": [
             [
                 228,
@@ -17598,7 +17598,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/019.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/019.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/019.png",
         "coordinates": [
             [
                 636,
@@ -17655,7 +17655,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/020.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/020.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/020.png",
         "coordinates": [
             [
                 68,
@@ -17768,7 +17768,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/021.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/021.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/021.png",
         "coordinates": [
             [
                 632,
@@ -17860,7 +17860,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/022.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/022.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/022.png",
         "coordinates": [
             [
                 68,
@@ -17875,7 +17875,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/023.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/023.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/023.png",
         "coordinates": [
             [
                 732,
@@ -17918,7 +17918,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/024.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/024.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/024.png",
         "coordinates": [
             [
                 79,
@@ -17947,7 +17947,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/025.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/025.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/025.png",
         "coordinates": [
             [
                 732,
@@ -17976,7 +17976,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/026.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/026.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/026.png",
         "coordinates": [
             [
                 276,
@@ -18117,7 +18117,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/027.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/027.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/027.png",
         "coordinates": [
             [
                 732,
@@ -18188,7 +18188,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/028.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/028.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/028.png",
         "coordinates": [
             [
                 200,
@@ -18203,7 +18203,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/029.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/029.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/029.png",
         "coordinates": [
             [
                 732,
@@ -18302,7 +18302,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/030.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/030.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/030.png",
         "coordinates": [
             [
                 68,
@@ -18422,7 +18422,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/031.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/031.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/031.png",
         "coordinates": [
             [
                 321,
@@ -18479,7 +18479,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/032.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/032.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/032.png",
         "coordinates": [
             [
                 106,
@@ -18529,12 +18529,12 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/033.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/033.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/033.png",
         "coordinates": []
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/034.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/034.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/034.png",
         "coordinates": [
             [
                 69,
@@ -18626,7 +18626,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/boureisougi/035.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/035.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/boureisougi/035.png",
         "coordinates": [
             [
                 16,
@@ -18690,7 +18690,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/000.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/000.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/000.png",
         "coordinates": [
             [
                 602,
@@ -18803,7 +18803,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/001.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/001.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/001.png",
         "coordinates": [
             [
                 262,
@@ -18993,7 +18993,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/002.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/002.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/002.png",
         "coordinates": [
             [
                 660,
@@ -19036,7 +19036,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/003.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/003.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/003.png",
         "coordinates": [
             [
                 675,
@@ -19107,7 +19107,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/004.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/004.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/004.png",
         "coordinates": [
             [
                 592,
@@ -19178,7 +19178,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/005.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/005.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/005.png",
         "coordinates": [
             [
                 333,
@@ -19284,7 +19284,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/006.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/006.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/006.png",
         "coordinates": [
             [
                 370,
@@ -19404,7 +19404,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/007.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/007.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/007.png",
         "coordinates": [
             [
                 638,
@@ -19482,7 +19482,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/008.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/008.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/008.png",
         "coordinates": [
             [
                 0,
@@ -19595,7 +19595,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/009.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/009.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/009.png",
         "coordinates": [
             [
                 506,
@@ -19715,7 +19715,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/010.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/010.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/010.png",
         "coordinates": [
             [
                 288,
@@ -19786,7 +19786,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/011.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/011.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/011.png",
         "coordinates": [
             [
                 658,
@@ -19850,7 +19850,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/012.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/012.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/012.png",
         "coordinates": [
             [
                 582,
@@ -20005,7 +20005,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/013.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/013.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/013.png",
         "coordinates": [
             [
                 208,
@@ -20118,7 +20118,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/014.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/014.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/014.png",
         "coordinates": [
             [
                 299,
@@ -20245,7 +20245,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/015.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/015.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/015.png",
         "coordinates": [
             [
                 100,
@@ -20379,7 +20379,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/016.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/016.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/016.png",
         "coordinates": [
             [
                 149,
@@ -20541,7 +20541,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/017.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/017.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/017.png",
         "coordinates": [
             [
                 448,
@@ -20640,7 +20640,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/018.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/018.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/018.png",
         "coordinates": [
             [
                 87,
@@ -20753,7 +20753,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/019.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/019.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/019.png",
         "coordinates": [
             [
                 591,
@@ -20894,7 +20894,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/020.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/020.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/020.png",
         "coordinates": [
             [
                 121,
@@ -21021,7 +21021,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/021.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/021.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/021.png",
         "coordinates": [
             [
                 300,
@@ -21120,7 +21120,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/022.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/022.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/022.png",
         "coordinates": [
             [
                 641,
@@ -21254,7 +21254,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/023.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/023.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/023.png",
         "coordinates": [
             [
                 510,
@@ -21388,7 +21388,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/024.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/024.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/024.png",
         "coordinates": [
             [
                 499,
@@ -21564,7 +21564,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/025.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/025.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/025.png",
         "coordinates": [
             [
                 606,
@@ -21705,7 +21705,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/026.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/026.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/026.png",
         "coordinates": [
             [
                 223,
@@ -21839,7 +21839,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/027.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/027.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/027.png",
         "coordinates": [
             [
                 108,
@@ -21910,7 +21910,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/028.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/028.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/028.png",
         "coordinates": [
             [
                 107,
@@ -22121,7 +22121,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/029.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/029.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/029.png",
         "coordinates": [
             [
                 228,
@@ -22206,7 +22206,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/030.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/030.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/030.png",
         "coordinates": [
             [
                 665,
@@ -22382,7 +22382,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/031.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/031.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/031.png",
         "coordinates": [
             [
                 316,
@@ -22425,7 +22425,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/032.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/032.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/032.png",
         "coordinates": [
             [
                 609,
@@ -22531,7 +22531,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/033.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/033.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/033.png",
         "coordinates": [
             [
                 92,
@@ -22623,7 +22623,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/034.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/034.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/034.png",
         "coordinates": [
             [
                 221,
@@ -22715,7 +22715,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/035.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/035.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/035.png",
         "coordinates": [
             [
                 217,
@@ -22800,7 +22800,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/036.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/036.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/036.png",
         "coordinates": [
             [
                 517,
@@ -22899,7 +22899,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/037.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/037.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/037.png",
         "coordinates": [
             [
                 332,
@@ -22935,7 +22935,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/038.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/038.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/038.png",
         "coordinates": [
             [
                 90,
@@ -23090,7 +23090,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/039.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/039.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/039.png",
         "coordinates": [
             [
                 430,
@@ -23252,7 +23252,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/040.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/040.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/040.png",
         "coordinates": [
             [
                 674,
@@ -23323,7 +23323,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/041.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/041.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/041.png",
         "coordinates": [
             [
                 655,
@@ -23394,7 +23394,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/042.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/042.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/042.png",
         "coordinates": [
             [
                 664,
@@ -23493,7 +23493,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/043.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/043.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/043.png",
         "coordinates": [
             [
                 219,
@@ -23648,7 +23648,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/044.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/044.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/044.png",
         "coordinates": [
             [
                 549,
@@ -23796,7 +23796,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/045.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/045.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/045.png",
         "coordinates": [
             [
                 220,
@@ -23958,7 +23958,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/046.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/046.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/046.png",
         "coordinates": [
             [
                 290,
@@ -24099,7 +24099,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/047.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/047.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/047.png",
         "coordinates": [
             [
                 240,
@@ -24156,7 +24156,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/048.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/048.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/048.png",
         "coordinates": [
             [
                 143,
@@ -24206,7 +24206,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/049.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/049.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/049.png",
         "coordinates": [
             [
                 241,
@@ -24298,7 +24298,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/050.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/050.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/050.png",
         "coordinates": [
             [
                 110,
@@ -24432,7 +24432,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/051.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/051.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/051.png",
         "coordinates": [
             [
                 127,
@@ -24524,7 +24524,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/052.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/052.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/052.png",
         "coordinates": [
             [
                 572,
@@ -24616,7 +24616,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/rasetugari/053.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/053.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/rasetugari/053.png",
         "coordinates": [
             [
                 513,
@@ -24722,7 +24722,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/000.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/000.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/000.png",
         "coordinates": [
             [
                 631,
@@ -24821,7 +24821,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/001.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/001.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/001.png",
         "coordinates": [
             [
                 136,
@@ -24927,7 +24927,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/002.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/002.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/002.png",
         "coordinates": [
             [
                 614,
@@ -25103,7 +25103,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/003.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/003.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/003.png",
         "coordinates": [
             [
                 463,
@@ -25272,7 +25272,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/004.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/004.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/004.png",
         "coordinates": [
             [
                 735,
@@ -25406,7 +25406,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/005.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/005.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/005.png",
         "coordinates": [
             [
                 640,
@@ -25491,7 +25491,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/006.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/006.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/006.png",
         "coordinates": [
             [
                 655,
@@ -25625,7 +25625,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/007.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/007.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/007.png",
         "coordinates": [
             [
                 385,
@@ -25724,7 +25724,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/008.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/008.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/008.png",
         "coordinates": [
             [
                 632,
@@ -25921,7 +25921,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/009.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/009.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/009.png",
         "coordinates": [
             [
                 69,
@@ -26041,7 +26041,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/010.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/010.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/010.png",
         "coordinates": [
             [
                 130,
@@ -26119,7 +26119,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/011.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/011.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/011.png",
         "coordinates": [
             [
                 375,
@@ -26281,7 +26281,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/012.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/012.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/012.png",
         "coordinates": [
             [
                 243,
@@ -26394,7 +26394,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/013.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/013.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/013.png",
         "coordinates": [
             [
                 119,
@@ -26500,7 +26500,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/014.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/014.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/014.png",
         "coordinates": [
             [
                 68,
@@ -26613,7 +26613,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/015.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/015.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/015.png",
         "coordinates": [
             [
                 539,
@@ -26712,7 +26712,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/016.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/016.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/016.png",
         "coordinates": [
             [
                 76,
@@ -26727,7 +26727,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/017.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/017.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/017.png",
         "coordinates": [
             [
                 622,
@@ -26819,7 +26819,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/018.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/018.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/018.png",
         "coordinates": [
             [
                 106,
@@ -26883,7 +26883,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/019.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/019.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/019.png",
         "coordinates": [
             [
                 675,
@@ -27031,7 +27031,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/020.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/020.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/020.png",
         "coordinates": [
             [
                 40,
@@ -27151,7 +27151,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/021.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/021.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/021.png",
         "coordinates": [
             [
                 85,
@@ -27299,7 +27299,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/022.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/022.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/022.png",
         "coordinates": [
             [
                 254,
@@ -27447,7 +27447,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/023.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/023.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/023.png",
         "coordinates": [
             [
                 325,
@@ -27511,7 +27511,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/024.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/024.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/024.png",
         "coordinates": [
             [
                 353,
@@ -27596,7 +27596,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/025.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/025.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/025.png",
         "coordinates": [
             [
                 102,
@@ -27653,7 +27653,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/026.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/026.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/026.png",
         "coordinates": [
             [
                 79,
@@ -27752,7 +27752,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/027.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/027.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/027.png",
         "coordinates": [
             [
                 78,
@@ -27823,7 +27823,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/028.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/028.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/028.png",
         "coordinates": [
             [
                 46,
@@ -27978,7 +27978,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/029.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/029.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/029.png",
         "coordinates": [
             [
                 379,
@@ -28098,7 +28098,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/030.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/030.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/030.png",
         "coordinates": [
             [
                 206,
@@ -28218,7 +28218,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/031.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/031.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/031.png",
         "coordinates": [
             [
                 116,
@@ -28380,7 +28380,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/032.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/032.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/032.png",
         "coordinates": [
             [
                 722,
@@ -28500,7 +28500,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/033.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/033.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/033.png",
         "coordinates": [
             [
                 69,
@@ -28550,7 +28550,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/034.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/034.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/034.png",
         "coordinates": [
             [
                 371,
@@ -28614,7 +28614,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/035.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/035.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/035.png",
         "coordinates": [
             [
                 182,
@@ -28692,7 +28692,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/036.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/036.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/036.png",
         "coordinates": [
             [
                 212,
@@ -28728,7 +28728,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/037.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/037.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/037.png",
         "coordinates": [
             [
                 167,
@@ -28806,7 +28806,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/038.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/038.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/038.png",
         "coordinates": [
             [
                 292,
@@ -28877,7 +28877,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tencho_isoro/039.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/039.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tencho_isoro/039.png",
         "coordinates": [
             [
                 206,
@@ -28983,7 +28983,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/000.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/000.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/000.png",
         "coordinates": [
             [
                 480,
@@ -29033,7 +29033,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/001.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/001.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/001.png",
         "coordinates": [
             [
                 376,
@@ -29118,7 +29118,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/002.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/002.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/002.png",
         "coordinates": [
             [
                 576,
@@ -29329,7 +29329,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/003.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/003.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/003.png",
         "coordinates": [
             [
                 325,
@@ -29421,7 +29421,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/004.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/004.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/004.png",
         "coordinates": [
             [
                 305,
@@ -29625,7 +29625,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/005.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/005.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/005.png",
         "coordinates": [
             [
                 102,
@@ -29710,7 +29710,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/006.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/006.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/006.png",
         "coordinates": [
             [
                 272,
@@ -29823,7 +29823,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/007.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/007.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/007.png",
         "coordinates": [
             [
                 688,
@@ -29992,7 +29992,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/008.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/008.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/008.png",
         "coordinates": [
             [
                 391,
@@ -30126,7 +30126,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/009.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/009.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/009.png",
         "coordinates": [
             [
                 146,
@@ -30295,7 +30295,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/010.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/010.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/010.png",
         "coordinates": [
             [
                 483,
@@ -30373,7 +30373,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/011.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/011.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/011.png",
         "coordinates": [
             [
                 83,
@@ -30479,7 +30479,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/012.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/012.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/012.png",
         "coordinates": [
             [
                 22,
@@ -30620,7 +30620,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/013.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/013.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/013.png",
         "coordinates": [
             [
                 108,
@@ -30691,7 +30691,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/014.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/014.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/014.png",
         "coordinates": [
             [
                 592,
@@ -30762,7 +30762,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/015.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/015.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/015.png",
         "coordinates": [
             [
                 92,
@@ -30917,7 +30917,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/016.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/016.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/016.png",
         "coordinates": [
             [
                 621,
@@ -31016,7 +31016,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/017.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/017.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/017.png",
         "coordinates": [
             [
                 320,
@@ -31115,7 +31115,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/018.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/018.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/018.png",
         "coordinates": [
             [
                 202,
@@ -31228,7 +31228,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/019.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/019.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/019.png",
         "coordinates": [
             [
                 698,
@@ -31320,7 +31320,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/020.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/020.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/020.png",
         "coordinates": [
             [
                 74,
@@ -31419,7 +31419,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/021.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/021.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/021.png",
         "coordinates": [
             [
                 708,
@@ -31532,7 +31532,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/022.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/022.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/022.png",
         "coordinates": [
             [
                 496,
@@ -31631,7 +31631,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/023.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/023.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/023.png",
         "coordinates": [
             [
                 592,
@@ -31758,7 +31758,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/024.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/024.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/024.png",
         "coordinates": [
             [
                 120,
@@ -31808,7 +31808,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/025.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/025.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/025.png",
         "coordinates": [
             [
                 752,
@@ -31921,7 +31921,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/026.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/026.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/026.png",
         "coordinates": [
             [
                 71,
@@ -32104,7 +32104,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/027.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/027.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/027.png",
         "coordinates": [
             [
                 758,
@@ -32182,7 +32182,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/028.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/028.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/028.png",
         "coordinates": [
             [
                 166,
@@ -32239,7 +32239,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/029.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/029.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/029.png",
         "coordinates": [
             [
                 348,
@@ -32345,7 +32345,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/030.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/030.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/030.png",
         "coordinates": [
             [
                 663,
@@ -32486,7 +32486,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/031.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/031.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/031.png",
         "coordinates": [
             [
                 523,
@@ -32543,7 +32543,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/032.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/032.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/032.png",
         "coordinates": [
             [
                 568,
@@ -32586,7 +32586,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/033.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/033.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/033.png",
         "coordinates": [
             [
                 131,
@@ -32657,7 +32657,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/034.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/034.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/034.png",
         "coordinates": [
             [
                 190,
@@ -32707,7 +32707,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/035.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/035.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/035.png",
         "coordinates": [
             [
                 323,
@@ -32841,7 +32841,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/036.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/036.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/036.png",
         "coordinates": [
             [
                 471,
@@ -32954,7 +32954,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/037.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/037.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/037.png",
         "coordinates": [
             [
                 563,
@@ -33018,7 +33018,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/038.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/038.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/038.png",
         "coordinates": [
             [
                 19,
@@ -33075,7 +33075,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/039.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/039.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/039.png",
         "coordinates": [
             [
                 323,
@@ -33174,7 +33174,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/040.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/040.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/040.png",
         "coordinates": [
             [
                 139,
@@ -33294,7 +33294,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/041.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/041.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/041.png",
         "coordinates": [
             [
                 168,
@@ -33344,7 +33344,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/042.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/042.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/042.png",
         "coordinates": [
             [
                 83,
@@ -33429,7 +33429,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/043.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/043.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/043.png",
         "coordinates": [
             [
                 420,
@@ -33521,7 +33521,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/044.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/044.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/044.png",
         "coordinates": [
             [
                 214,
@@ -33634,7 +33634,7 @@
     },
     {
         "absolute_path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/detection/tojime_no_siora/045.json",
-        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/045.jpg",
+        "path": "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/tojime_no_siora/045.png",
         "coordinates": [
             [
                 626,

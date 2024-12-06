@@ -9,14 +9,11 @@ import cv2
 from test import inpaint
 import time
 import sys
-
+import shutil
 import numpy as np
+from tqdm import tqdm
 
 #torch.set_printoptions(precision=10)
-input_image_folder = "data/input/raw"
-line_image_output_folder = "data/input/lines"
-output_folder = "data/output/inpaint"
-mask_path = "data/input/mask"
 
 
 class _bn_relu_conv(nn.Module):
@@ -254,8 +251,11 @@ if __name__ == "__main__":
     model.eval()
     keep_image_file_structure = True #Use this to keep the same folder structure as the input images in the output folder. Also expects Masks to be in the same folder structure as the input images
     clear_output_folder = True #Clear the output folder before starting the process
-    clear_lines_folder = False #Clear the lines folder before starting the process
-    run_line_model = False #Run the line model before running the inpainting model
+    clear_lines_folder = True #Clear the lines folder before starting the process
+    run_line_model = True #Run the line model before running the inpainting model
+    input_image_folder = "/scratch3/workspace/ctpham_umass_edu-ft/input/raw/"
+    line_image_output_folder = "/scratch3/workspace/ctpham_umass_edu-ft/input/lines/"
+    output_folder = "/scratch3/workspace/ctpham_umass_edu-ft/input/output/"
     filelists = loadImages(input_image_folder)
     #print(filelists)
 
@@ -265,7 +265,7 @@ if __name__ == "__main__":
             for filename in filenames:
                 os.unlink(os.path.join(root, filename))
             for dirname in dirnames:
-                os.rmdir(os.path.join(root, dirname))
+                shutil.rmtree(os.path.join(root, dirname))
         print("Cleared line folder")
     if clear_output_folder:
         #Delete everything in output_folder
@@ -273,7 +273,7 @@ if __name__ == "__main__":
             for filename in filenames:
                 os.unlink(os.path.join(root, filename))
             for dirname in dirnames:
-                os.rmdir(os.path.join(root, dirname))
+                shutil.rmtree(os.path.join(root, dirname))
         print("Cleared output folder")
 
     if keep_image_file_structure:
@@ -303,7 +303,7 @@ if __name__ == "__main__":
         os.makedirs(line_image_output_folder)
 
     with torch.no_grad():
-        for imname in filelists:
+        for imname in tqdm(filelists):
             if not run_line_model:
                 break
             src = cv2.imread(imname,cv2.IMREAD_GRAYSCALE)
@@ -352,7 +352,7 @@ if __name__ == "__main__":
     print("Done creating line images")
     line_model_info = {
         'input_folder': input_image_folder,
-        'mask_folder': mask_path,
+        'mask_folder': "/scratch3/workspace/ctpham_umass_edu-ft/input/mask/",
         'line_folder': line_image_output_folder,
         'output_folder': output_folder,
         'model': None,

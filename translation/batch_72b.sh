@@ -4,7 +4,7 @@
 #SBATCH --gres=gpu:4              # Request 1 GPU per task (distributed across nodes)
 #SBATCH --mem=400GB
 #SBATCH --constraint=a100-80g
-#SBATCH --time=4:00:00
+#SBATCH --time=24:00:00
 #SBATCH --output=/work/pi_miyyer_umass_edu/ctpham/cs670-manga/.logs/%x_%j.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ctpham@cs.umass.edu

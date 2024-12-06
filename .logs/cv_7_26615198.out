@@ -25,3 +25,679 @@ Inferencing with: qwen_7
   warnings.warn(
 /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
   warnings.warn(
+  1%|▏         | 3/221 [03:30<4:53:53, 80.89s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  2%|▏         | 4/221 [07:31<8:40:49, 144.00s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  2%|▏         | 5/221 [10:11<8:59:00, 149.72s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  3%|▎         | 6/221 [13:03<9:24:40, 157.58s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  3%|▎         | 7/221 [15:55<9:38:36, 162.23s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  4%|▎         | 8/221 [16:08<6:46:48, 114.60s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  4%|▍         | 9/221 [16:24<4:56:42, 83.97s/it] /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  5%|▍         | 10/221 [17:26<4:31:15, 77.14s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  5%|▍         | 11/221 [18:25<4:09:47, 71.37s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  5%|▌         | 12/221 [18:31<2:59:24, 51.50s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  6%|▌         | 13/221 [18:45<2:19:07, 40.13s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  6%|▋         | 14/221 [19:01<1:53:40, 32.95s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  7%|▋         | 15/221 [19:17<1:35:12, 27.73s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  7%|▋         | 16/221 [19:23<1:13:17, 21.45s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  8%|▊         | 17/221 [19:42<1:10:10, 20.64s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  8%|▊         | 18/221 [20:07<1:13:47, 21.81s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  9%|▊         | 19/221 [22:44<3:30:22, 62.49s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  9%|▉         | 20/221 [22:51<2:33:51, 45.93s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 10%|▉         | 21/221 [24:11<3:06:28, 55.94s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 10%|▉         | 22/221 [25:32<3:31:11, 63.67s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 10%|█         | 23/221 [26:05<2:59:50, 54.50s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 11%|█         | 24/221 [26:19<2:18:47, 42.27s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 11%|█▏        | 25/221 [26:31<1:47:52, 33.02s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 12%|█▏        | 26/221 [28:18<2:59:38, 55.28s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 12%|█▏        | 27/221 [28:29<2:15:30, 41.91s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 13%|█▎        | 28/221 [28:34<1:39:13, 30.85s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 13%|█▎        | 29/221 [28:45<1:19:38, 24.89s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 14%|█▎        | 30/221 [28:54<1:04:08, 20.15s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 14%|█▍        | 31/221 [29:09<58:47, 18.56s/it]  /scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 14%|█▍        | 32/221 [29:23<54:10, 17.20s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 15%|█▍        | 33/221 [29:35<49:23, 15.76s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 15%|█▌        | 34/221 [29:41<39:43, 12.75s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 16%|█▌        | 35/221 [29:57<42:43, 13.78s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 16%|█▋        | 36/221 [32:32<2:53:05, 56.14s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 17%|█▋        | 37/221 [32:46<2:13:59, 43.70s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 17%|█▋        | 38/221 [33:49<2:30:23, 49.31s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 18%|█▊        | 39/221 [34:56<2:45:30, 54.57s/it]/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:598: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:603: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:620: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+ 18%|█▊        | 39/221 [34:57<2:43:09, 53.79s/it]
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/064.jpg
+Original text not matching
+Output: 131
+Ground Truth: １３１
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.jpg
+Original text not matching
+Output: 131
+Ground Truth: １３１
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.jpg
+Original text not matching
+Output: 131
+Ground Truth: １３１
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.jpg
+Original text not matching
+Output: 131
+Ground Truth: １３１
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.jpg
+Original text not matching
+Output: 131
+Ground Truth: １３１
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.jpg
+Original text not matching
+Output: 131
+Ground Truth: １３１
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.jpg
+<item_0><text>131</text><translation>131</translation></item_0><item_1><text>ピイッ</text><translation>Piit</translation></item_1><item_2><text>！！</text><translation>!!</translation></item_2><item_3><text>！</text><translation>!</translation></item_3><item_4><text>．．．</text><translation>...</translation></item_4><item_5><text>ピクッ</text><translation>Pikku</translation></item_5><item_6><text>ん</text><translation>nn</translation></item_6><item_7><text>！！！</text><translation>!!!</translation></item_7><item_8><text>．．．</text><translation>...</translation></item_8><item_9><text>．．．？？？</text><translation>...</translation></item_9><item_10><text>、</text><translation>,</translation></item_10><item_11><text>じゃん</text><translation>Jan</translation></item_11><item_12><text>いやーーッ</text><translation>Yaa...</translation></item_12><item_13><text>．．．</text><translation>...</translation></item_13><item_14><text>くっ</text><translation>Ku...</translation></item_14><item_15><text>．．．</text><translation>...</translation></item_15>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.jpg
+Original text not matching
+Output: 131
+Ground Truth: １３１
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/065.jpg
+Original text not matching
+Output: 132
+Ground Truth: １３２
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.jpg
+Mismatched number of pairs
+<item_0><text>132</text></item_0><item_1><text>133</text></item_1><item_2><text>．．．</text></item_2><item_3><text>ビィ</text></item_3><item_4><text>ほい</text></item_4><item_5><text>！！</text></item_5><item_6><text>ククッ</text></item_6><item_7><text>フ．．．おてんぱじゃなあ</text></item_7><item_8><text>ん！</text></item_8><item_9><text>？</text></item_9><item_10><text>これユキ！聞いているのか</text></item_10><item_11><text>？</text></item_11><item_12><text>・</text></item_12><item_13><text>親と別れてからいったいなにを食っていたんだ</text></item_13><item_14><text>ピイッ</text></item_14><item_15><text>ほーいユキよお</text></item_15><item_16><text>ユキよおまえそれでよく半年近く野で生きてこれたもんじゃ</text></item_16><item_17><text>はり</text></item_17><item_18><text>はいっはいはい</text></item_18><item_19><text>！？</text></item_19><item_20><text>ユキ</text></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.jpg
+Mismatched number of pairs
+<item_0><text>132</text></item_0><item_1><text>133</text></item_1><item_2><text>．．．</text></item_2><item_3><text>ビィ</text></item_3><item_4><text>ほい</text></item_4><item_5><text>！！</text></item_5><item_6><text>ククッ</text></item_6><item_7><text>フ．．．おてんぱじゃなあ</text></item_7><item_8><text>ん！</text></item_8><item_9><text>？</text></item_9><item_10><text>これユキ！聞いているのか</text></item_10><item_11><text>？</text></item_11><item_12><text>・</text></item_12><item_13><text>親と別れてからいったいなにを食っていたんだ</text></item_13><item_14><text>ピイッ</text></item_14><item_15><text>ほーいユキよお</text></item_15><item_16><text>ユキよおまえそれでよく半年近く野で生きてこれたもんじゃ</text></item_16><item_17><text>はり</text></item_17><item_18><text>はいっはいはい</text></item_18><item_19><text>！？</text></item_19><item_20><text>ユキ</text></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.jpg
+Mismatched number of pairs
+<item_0><text>132</text></item_0><item_1><text>133</text></item_1><item_2><text>．．．</text></item_2><item_3><text>ビィ</text></item_3><item_4><text>ほい</text></item_4><item_5><text>！！</text></item_5><item_6><text>ククッ</text></item_6><item_7><text>フ．．．おてんぱじゃなあ</text></item_7><item_8><text>ん！</text></item_8><item_9><text>？</text></item_9><item_10><text>これユキ！聞いているのか</text></item_10><item_11><text>？</text></item_11><item_12><text>・</text></item_12><item_13><text>親と別れてからいったいなにを食っていたんだ</text></item_13><item_14><text>ピイッ</text></item_14><item_15><text>ほーいユキよお</text></item_15><item_16><text>ユキよおまえそれでよく半年近く野で生きてこれたもんじゃ</text></item_16><item_17><text>はり</text></item_17><item_18><text>はいっはいはい</text></item_18><item_19><text>！？</text></item_19><item_20><text>ユキ</text></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.jpg
+Mismatched number of pairs
+<item_0><text>132</text></item_0><item_1><text>133</text></item_1><item_2><text>．．．</text></item_2><item_3><text>ビィ</text></item_3><item_4><text>ほい</text></item_4><item_5><text>！！</text></item_5><item_6><text>ククッ</text></item_6><item_7><text>フ．．．おてんぱじゃなあ</text></item_7><item_8><text>ん！</text></item_8><item_9><text>？</text></item_9><item_10><text>これユキ！聞いているのか</text></item_10><item_11><text>？</text></item_11><item_12><text>・</text></item_12><item_13><text>親と別れてからいったいなにを食っていたんだ</text></item_13><item_14><text>ピイッ</text></item_14><item_15><text>ほーいユキよお</text></item_15><item_16><text>ユキよおまえそれでよく半年近く野で生きてこれたもんじゃ</text></item_16><item_17><text>はり</text></item_17><item_18><text>はいっはいはい</text></item_18><item_19><text>！？</text></item_19><item_20><text>ユキ</text></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.jpg
+Mismatched number of pairs
+<item_0><text>132</text></item_0><item_1><text>133</text></item_1><item_2><text>．．．</text></item_2><item_3><text>ビィ</text></item_3><item_4><text>ほい</text></item_4><item_5><text>！！</text></item_5><item_6><text>ククッ</text></item_6><item_7><text>フ．．．おてんぱじゃなあ</text></item_7><item_8><text>ん！</text></item_8><item_9><text>？</text></item_9><item_10><text>これユキ！聞いているのか</text></item_10><item_11><text>？</text></item_11><item_12><text>・</text></item_12><item_13><text>親と別れてからいったいなにを食っていたんだ</text></item_13><item_14><text>ピイッ</text></item_14><item_15><text>ほーいユキよお</text></item_15><item_16><text>ユキよおまえそれでよく半年近く野で生きてこれたもんじゃ</text></item_16><item_17><text>はり</text></item_17><item_18><text>はいっはいはい</text></item_18><item_19><text>！？</text></item_19><item_20><text>ユキ</text></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.jpg
+<item_0><text>132</text></item_0><item_1><text>133</text></item_1><item_2><text>．．．</text></item_2><item_3><text>ビィ</text></item_3><item_4><text>ほい</text></item_4><item_5><text>！！</text></item_5><item_6><text>ククッ</text></item_6><item_7><text>フ．．．おてんぱじゃなあ</text></item_7><item_8><text>ん！</text></item_8><item_9><text>？</text></item_9><item_10><text>これユキ！聞いているのか</text></item_10><item_11><text>？</text></item_11><item_12><text>・</text></item_12><item_13><text>親と別れてからいったいなにを食っていたんだ</text></item_13><item_14><text>ピイッ</text></item_14><item_15><text>ほーいユキよお</text></item_15><item_16><text>ユキよおまえそれでよく半年近く野で生きてこれたもんじゃ</text></item_16><item_17><text>はり</text></item_17><item_18><text>はいっはいはい</text></item_18><item_19><text>！？</text></item_19><item_20><text>ユキ</text></item_20>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.jpg
+Mismatched number of pairs
+<item_0><text>132</text></item_0><item_1><text>133</text></item_1><item_2><text>．．．</text></item_2><item_3><text>ビィ</text></item_3><item_4><text>ほい</text></item_4><item_5><text>！！</text></item_5><item_6><text>ククッ</text></item_6><item_7><text>フ．．．おてんぱじゃなあ</text></item_7><item_8><text>ん！</text></item_8><item_9><text>？</text></item_9><item_10><text>これユキ！聞いているのか</text></item_10><item_11><text>？</text></item_11><item_12><text>・</text></item_12><item_13><text>親と別れてからいったいなにを食っていたんだ</text></item_13><item_14><text>ピイッ</text></item_14><item_15><text>ほーいユキよお</text></item_15><item_16><text>ユキよおまえそれでよく半年近く野で生きてこれたもんじゃ</text></item_16><item_17><text>はり</text></item_17><item_18><text>はいっはいはい</text></item_18><item_19><text>！？</text></item_19><item_20><text>ユキ</text></item_20>
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/066.jpg
+Original text not matching
+Output: どうどういう意味ですか！
+Ground Truth: どどういう意味ですか！
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.jpg
+Original text not matching
+Output: どうどういう意味ですか！
+Ground Truth: どどういう意味ですか！
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.jpg
+Original text not matching
+Output: どうどういう意味ですか！
+Ground Truth: どどういう意味ですか！
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.jpg
+Original text not matching
+Output: どうどういう意味ですか！
+Ground Truth: どどういう意味ですか！
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.jpg
+Original text not matching
+Output: どうどういう意味ですか！
+Ground Truth: どどういう意味ですか！
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.jpg
+Original text not matching
+Output: どうどういう意味ですか！
+Ground Truth: どどういう意味ですか！
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.jpg
+<item_0><text>１３４</text><translation>134</translation></item_0><item_1><text>１３５</text><translation>135</translation></item_1><item_2><text>～</text><translation>～</translation></item_2><item_3><text>！</text><translation>!</translation></item_3><item_4><text>ええ</text><translation>Yes</translation></item_4><item_5><text>．．．</text><translation>...</translation></item_5><item_6><text>ひさしぶりじゃな</text><translation>It's been a long time</translation></item_6><item_7><text>どうどういう意味ですか！</text><translation>What does it mean!</translation></item_7><item_8><text>ダイ</text><translation>Dai</translation></item_8><item_9><text>〜</text><translation>〜</translation></item_9><item_10><text>（</text><translation>(</translation></item_10><item_11><text>ギャークエーックェーッ</text><translation>Yaa Quuu Quuu</translation></item_11><item_12><text>よう村山さん</text><translation>Yasuo Murayama-san</translation></item_12><item_13><text>クィ</text><translation>Qui</translation></item_13><item_14><text>これユキ！いい子にせんか</text><translation>This is Yukiko! Are you a good girl?</translation></item_14><item_15><text>やあ敏造さん</text><translation>Hi, Minoru-san</translation></item_15><item_16><text>ははーん大将じゃな？よしよしわかったよ</text><translation>Oh, you're the captain? Yes, I understand.</translation></item_16><item_17><text>１</text><translation>1</translation></item_17><item_18><text>これ！</text><translation>Look!</translation></item_18><item_19><text>あんた以外の人には何もせんのじゃが．．．</text><translation>Don't let anyone else know...</translation></item_19><item_20><text>オリに入れんとキケンですよ</text><translation>Don't put it in the eagle's nest</translation></item_20><item_21><text>．．．</text><translation>...</translation></item_21><item_22><text>！</text><translation>!</translation></item_22><item_23><text>．．．</text><translation>...</translation></item_23><item_24><text>いや、</text><translation>No, </translation></item_24><item_25><text>キャッ</text><translation>Ca</translation></item_25><item_26><text>よっ</text><translation>Yoo</translation></item_26><item_27><text>わっ</text><translation>Waa</translation></item_27><item_28><text>！</text><translation>!</translation></item_28><item_29><text>げー</text><translation>Ge</translation></item_29><item_30><text>ん</text><translation>?</translation></item_30><item_31><text>ピィ．．．</text><translation>Pii...</translation></item_31><item_32><text>そうじゃなどれ家のほうへ来なされ</text><translation>That's right, come to our house</translation></item_32><item_33><text>ほい甘えん坊めが</text><translation>Yes, my dear</translation></item_33><item_34><text>暑くなりましたねえ．．．</text><translation>It's getting hot...</translation></item_34><item_35><text>ユキ</text><translation>Yukiko</translation></item_35><item_36><text>！！</text><translation>!!</translation></item_36>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.jpg
+Original text not matching
+Output: どうどういう意味ですか！
+Ground Truth: どどういう意味ですか！
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/067.jpg
+Original text not matching
+Output: 136
+Ground Truth: １３６
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.jpg
+Original text not matching
+Output: 136
+Ground Truth: １３６
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.jpg
+Original text not matching
+Output: 136
+Ground Truth: １３６
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.jpg
+Original text not matching
+Output: 136
+Ground Truth: １３６
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.jpg
+Original text not matching
+Output: 136
+Ground Truth: １３６
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.jpg
+Original text not matching
+Output: 136
+Ground Truth: １３６
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.jpg
+<item_0><text>136</text><translation>136</translation></item_0><item_1><text>ところでなんじゃ大将猟期外に鉄砲なぞ持って</text><translation>What the hell is Major doing with a gun outside of hunting season?</translation></item_1><item_2><text>それにワシの視覚と酵覚はちっとやそっとじゃだますことはできんぞ</text><translation>And my vision and hearing are not something to be fooled with.</translation></item_2><item_3><text>喜獣駆除です</text><translation>It's a job to eliminate dangerous animals.</translation></item_3><item_4><text>本気で襲われてたまるか</text><translation>Are you serious about attacking?</translation></item_4><item_5><text>ククッ</text><translation>Kukku</translation></item_5><item_6><text>ばかにしなさんな特にワシはどんなに時がたとうが忘れはせんよ</text><translation>Don't be silly, especially since I won't forget even if time passes.</translation></item_6><item_7><text>そりゃ天然記念物のイヌワシを撃ったのだからたいへんなのはわかってるけど</text><translation>I know it's a big deal since I shot a natural monument.</translation></item_7><item_8><text>何十年たとうとな</text><translation>How many years have passed?</translation></item_8><item_9><text>！</text><translation>!</translation></item_9><item_10><text>ハハハ本気で襲ったりせんよ安心しなされ</text><translation>Hahaha, don't worry about being attacked seriously.</translation></item_10><item_11><text>じょうだんじゃない</text><translation>It's not that serious.</translation></item_11><item_12><text>馬なんかが覚えているはずないでしょ</text><translation>A horse wouldn't remember something like that.</translation></item_12><item_13><text>視野外でも声だけで十分それがだれだか確認できるぞ</text><translation>Even if it's outside my field of vision, I can tell who it is by its voice alone.</translation></item_13><item_14><text>たくさんの人の中であろうが扮装しようが判別できる</text><translation>Even if there are many people dressed up, I can tell who they are.</translation></item_14><item_15><text>なぁにあんたに鉄砲で撃たれたのを覚えとるんじゃ</text><translation>Are you saying you remember being shot with a gun?</translation></item_15><item_16><text>わぁまた！４か月も前のことを</text><translation>Wow! Four months ago!</translation></item_16>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.jpg
+Original text not matching
+Output: 136
+Ground Truth: １３６
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/068.jpg
+Original text not matching
+Output: 138
+Ground Truth: １３８
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.jpg
+Mismatched number of pairs
+<item_0><text>138</text></item_0><item_1><text>139</text></item_1><item_2><text>．．．どめっ！</text><translation>...Dome!</translation></item_2><item_3><text>鉄砲は捨てた</text><translation>Put the musket away</translation></item_3><item_4><text>おーい大将まちがって犬を撃ちなさんなよーーぉ</text><translation>Hey, Major, you're mistaken. I'm not going to shoot the dog.</translation></item_4><item_5><text>ズ．．</text><translation>Zu...</translation></item_5><item_6><text>行って来ます！</text><translation>I'll come!</translation></item_6><item_7><text>まったく口が悪いんだから</text><translation>He's really mouthy.</translation></item_7><item_8><text>！</text><translation>!</translation></item_8><item_9><text>どうですいっしょに</text><translation>How about we do it together?</translation></item_9><item_10><text>わしはもう猟師じゃないよ</text><translation>I'm not a hunter anymore.</translation></item_10><item_11><text>うん</text><translation>Yeah</translation></item_11><item_12><text>あの古ギツネめ</text><translation>That old fox...</translation></item_12><item_13><text>射殺許可が出たからにはもう好き勝手はさせませんよ</text><translation>Since permission has been granted, I won't let you do as you please.</translation></item_13><item_14><text>ん傷はすっかりいいのじゃが．．．でも当分だめじゃ</text><translation>The wound is fine, but I can't do it for a while.</translation></item_14><item_15><text>ユキも山へ帰るんじゃよ</text><translation>Yuki will also return to the mountain.</translation></item_15><item_16><text>もう十分離せるでしょ</text><translation>You can leave me alone now.</translation></item_16><item_17><text>あんたが山へ入るとなるとまた撃たれちゃたまらん</text><translation>If you enter the mountain, I'll shoot you again.</translation></item_17><item_18><text>もう殺生をやったわしがいうのは虫がいいようじゃが</text><translation>Since I've already killed, it's better to eat insects.</translation></item_18><item_19><text>もう殺生はせんみんな山神様の使いじゃからのう</text><translation>We won't kill anymore, we're all servants of the mountain god.</translation></item_19><item_20><text>保護の立場へまわろうと思うとる</text><translation>I want to turn to a protective stance.</translation></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.jpg
+Mismatched number of pairs
+<item_0><text>138</text></item_0><item_1><text>139</text></item_1><item_2><text>．．．どめっ！</text><translation>...Dome!</translation></item_2><item_3><text>鉄砲は捨てた</text><translation>Put the musket away</translation></item_3><item_4><text>おーい大将まちがって犬を撃ちなさんなよーーぉ</text><translation>Hey, Major, you're mistaken. I'm not going to shoot the dog.</translation></item_4><item_5><text>ズ．．</text><translation>Zu...</translation></item_5><item_6><text>行って来ます！</text><translation>I'll come!</translation></item_6><item_7><text>まったく口が悪いんだから</text><translation>He's really mouthy.</translation></item_7><item_8><text>！</text><translation>!</translation></item_8><item_9><text>どうですいっしょに</text><translation>How about we do it together?</translation></item_9><item_10><text>わしはもう猟師じゃないよ</text><translation>I'm not a hunter anymore.</translation></item_10><item_11><text>うん</text><translation>Yeah</translation></item_11><item_12><text>あの古ギツネめ</text><translation>That old fox...</translation></item_12><item_13><text>射殺許可が出たからにはもう好き勝手はさせませんよ</text><translation>Since permission has been granted, I won't let you do as you please.</translation></item_13><item_14><text>ん傷はすっかりいいのじゃが．．．でも当分だめじゃ</text><translation>The wound is fine, but I can't do it for a while.</translation></item_14><item_15><text>ユキも山へ帰るんじゃよ</text><translation>Yuki will also return to the mountain.</translation></item_15><item_16><text>もう十分離せるでしょ</text><translation>You can leave me alone now.</translation></item_16><item_17><text>あんたが山へ入るとなるとまた撃たれちゃたまらん</text><translation>If you enter the mountain, I'll shoot you again.</translation></item_17><item_18><text>もう殺生をやったわしがいうのは虫がいいようじゃが</text><translation>Since I've already killed, it's better to eat insects.</translation></item_18><item_19><text>もう殺生はせんみんな山神様の使いじゃからのう</text><translation>We won't kill anymore, we're all servants of the mountain god.</translation></item_19><item_20><text>保護の立場へまわろうと思うとる</text><translation>I want to turn to a protective stance.</translation></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.jpg
+Mismatched number of pairs
+<item_0><text>138</text></item_0><item_1><text>139</text></item_1><item_2><text>．．．どめっ！</text><translation>...Dome!</translation></item_2><item_3><text>鉄砲は捨てた</text><translation>Put the musket away</translation></item_3><item_4><text>おーい大将まちがって犬を撃ちなさんなよーーぉ</text><translation>Hey, Major, you're mistaken. I'm not going to shoot the dog.</translation></item_4><item_5><text>ズ．．</text><translation>Zu...</translation></item_5><item_6><text>行って来ます！</text><translation>I'll come!</translation></item_6><item_7><text>まったく口が悪いんだから</text><translation>He's really mouthy.</translation></item_7><item_8><text>！</text><translation>!</translation></item_8><item_9><text>どうですいっしょに</text><translation>How about we do it together?</translation></item_9><item_10><text>わしはもう猟師じゃないよ</text><translation>I'm not a hunter anymore.</translation></item_10><item_11><text>うん</text><translation>Yeah</translation></item_11><item_12><text>あの古ギツネめ</text><translation>That old fox...</translation></item_12><item_13><text>射殺許可が出たからにはもう好き勝手はさせませんよ</text><translation>Since permission has been granted, I won't let you do as you please.</translation></item_13><item_14><text>ん傷はすっかりいいのじゃが．．．でも当分だめじゃ</text><translation>The wound is fine, but I can't do it for a while.</translation></item_14><item_15><text>ユキも山へ帰るんじゃよ</text><translation>Yuki will also return to the mountain.</translation></item_15><item_16><text>もう十分離せるでしょ</text><translation>You can leave me alone now.</translation></item_16><item_17><text>あんたが山へ入るとなるとまた撃たれちゃたまらん</text><translation>If you enter the mountain, I'll shoot you again.</translation></item_17><item_18><text>もう殺生をやったわしがいうのは虫がいいようじゃが</text><translation>Since I've already killed, it's better to eat insects.</translation></item_18><item_19><text>もう殺生はせんみんな山神様の使いじゃからのう</text><translation>We won't kill anymore, we're all servants of the mountain god.</translation></item_19><item_20><text>保護の立場へまわろうと思うとる</text><translation>I want to turn to a protective stance.</translation></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.jpg
+Mismatched number of pairs
+<item_0><text>138</text></item_0><item_1><text>139</text></item_1><item_2><text>．．．どめっ！</text><translation>...Dome!</translation></item_2><item_3><text>鉄砲は捨てた</text><translation>Put the musket away</translation></item_3><item_4><text>おーい大将まちがって犬を撃ちなさんなよーーぉ</text><translation>Hey, Major, you're mistaken. I'm not going to shoot the dog.</translation></item_4><item_5><text>ズ．．</text><translation>Zu...</translation></item_5><item_6><text>行って来ます！</text><translation>I'll come!</translation></item_6><item_7><text>まったく口が悪いんだから</text><translation>He's really mouthy.</translation></item_7><item_8><text>！</text><translation>!</translation></item_8><item_9><text>どうですいっしょに</text><translation>How about we do it together?</translation></item_9><item_10><text>わしはもう猟師じゃないよ</text><translation>I'm not a hunter anymore.</translation></item_10><item_11><text>うん</text><translation>Yeah</translation></item_11><item_12><text>あの古ギツネめ</text><translation>That old fox...</translation></item_12><item_13><text>射殺許可が出たからにはもう好き勝手はさせませんよ</text><translation>Since permission has been granted, I won't let you do as you please.</translation></item_13><item_14><text>ん傷はすっかりいいのじゃが．．．でも当分だめじゃ</text><translation>The wound is fine, but I can't do it for a while.</translation></item_14><item_15><text>ユキも山へ帰るんじゃよ</text><translation>Yuki will also return to the mountain.</translation></item_15><item_16><text>もう十分離せるでしょ</text><translation>You can leave me alone now.</translation></item_16><item_17><text>あんたが山へ入るとなるとまた撃たれちゃたまらん</text><translation>If you enter the mountain, I'll shoot you again.</translation></item_17><item_18><text>もう殺生をやったわしがいうのは虫がいいようじゃが</text><translation>Since I've already killed, it's better to eat insects.</translation></item_18><item_19><text>もう殺生はせんみんな山神様の使いじゃからのう</text><translation>We won't kill anymore, we're all servants of the mountain god.</translation></item_19><item_20><text>保護の立場へまわろうと思うとる</text><translation>I want to turn to a protective stance.</translation></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.jpg
+Mismatched number of pairs
+<item_0><text>138</text></item_0><item_1><text>139</text></item_1><item_2><text>．．．どめっ！</text><translation>...Dome!</translation></item_2><item_3><text>鉄砲は捨てた</text><translation>Put the musket away</translation></item_3><item_4><text>おーい大将まちがって犬を撃ちなさんなよーーぉ</text><translation>Hey, Major, you're mistaken. I'm not going to shoot the dog.</translation></item_4><item_5><text>ズ．．</text><translation>Zu...</translation></item_5><item_6><text>行って来ます！</text><translation>I'll come!</translation></item_6><item_7><text>まったく口が悪いんだから</text><translation>He's really mouthy.</translation></item_7><item_8><text>！</text><translation>!</translation></item_8><item_9><text>どうですいっしょに</text><translation>How about we do it together?</translation></item_9><item_10><text>わしはもう猟師じゃないよ</text><translation>I'm not a hunter anymore.</translation></item_10><item_11><text>うん</text><translation>Yeah</translation></item_11><item_12><text>あの古ギツネめ</text><translation>That old fox...</translation></item_12><item_13><text>射殺許可が出たからにはもう好き勝手はさせませんよ</text><translation>Since permission has been granted, I won't let you do as you please.</translation></item_13><item_14><text>ん傷はすっかりいいのじゃが．．．でも当分だめじゃ</text><translation>The wound is fine, but I can't do it for a while.</translation></item_14><item_15><text>ユキも山へ帰るんじゃよ</text><translation>Yuki will also return to the mountain.</translation></item_15><item_16><text>もう十分離せるでしょ</text><translation>You can leave me alone now.</translation></item_16><item_17><text>あんたが山へ入るとなるとまた撃たれちゃたまらん</text><translation>If you enter the mountain, I'll shoot you again.</translation></item_17><item_18><text>もう殺生をやったわしがいうのは虫がいいようじゃが</text><translation>Since I've already killed, it's better to eat insects.</translation></item_18><item_19><text>もう殺生はせんみんな山神様の使いじゃからのう</text><translation>We won't kill anymore, we're all servants of the mountain god.</translation></item_19><item_20><text>保護の立場へまわろうと思うとる</text><translation>I want to turn to a protective stance.</translation></item_20>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.jpg
+<item_0><text>138</text></item_0><item_1><text>139</text></item_1><item_2><text>．．．どめっ！</text><translation>...Dome!</translation></item_2><item_3><text>鉄砲は捨てた</text><translation>Put the musket away</translation></item_3><item_4><text>おーい大将まちがって犬を撃ちなさんなよーーぉ</text><translation>Hey, Major, you're mistaken. I'm not going to shoot the dog.</translation></item_4><item_5><text>ズ．．</text><translation>Zu...</translation></item_5><item_6><text>行って来ます！</text><translation>I'll come!</translation></item_6><item_7><text>まったく口が悪いんだから</text><translation>He's really mouthy.</translation></item_7><item_8><text>！</text><translation>!</translation></item_8><item_9><text>どうですいっしょに</text><translation>How about we do it together?</translation></item_9><item_10><text>わしはもう猟師じゃないよ</text><translation>I'm not a hunter anymore.</translation></item_10><item_11><text>うん</text><translation>Yeah</translation></item_11><item_12><text>あの古ギツネめ</text><translation>That old fox...</translation></item_12><item_13><text>射殺許可が出たからにはもう好き勝手はさせませんよ</text><translation>Since permission has been granted, I won't let you do as you please.</translation></item_13><item_14><text>ん傷はすっかりいいのじゃが．．．でも当分だめじゃ</text><translation>The wound is fine, but I can't do it for a while.</translation></item_14><item_15><text>ユキも山へ帰るんじゃよ</text><translation>Yuki will also return to the mountain.</translation></item_15><item_16><text>もう十分離せるでしょ</text><translation>You can leave me alone now.</translation></item_16><item_17><text>あんたが山へ入るとなるとまた撃たれちゃたまらん</text><translation>If you enter the mountain, I'll shoot you again.</translation></item_17><item_18><text>もう殺生をやったわしがいうのは虫がいいようじゃが</text><translation>Since I've already killed, it's better to eat insects.</translation></item_18><item_19><text>もう殺生はせんみんな山神様の使いじゃからのう</text><translation>We won't kill anymore, we're all servants of the mountain god.</translation></item_19><item_20><text>保護の立場へまわろうと思うとる</text><translation>I want to turn to a protective stance.</translation></item_20>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.jpg
+Mismatched number of pairs
+<item_0><text>138</text></item_0><item_1><text>139</text></item_1><item_2><text>．．．どめっ！</text><translation>...Dome!</translation></item_2><item_3><text>鉄砲は捨てた</text><translation>Put the musket away</translation></item_3><item_4><text>おーい大将まちがって犬を撃ちなさんなよーーぉ</text><translation>Hey, Major, you're mistaken. I'm not going to shoot the dog.</translation></item_4><item_5><text>ズ．．</text><translation>Zu...</translation></item_5><item_6><text>行って来ます！</text><translation>I'll come!</translation></item_6><item_7><text>まったく口が悪いんだから</text><translation>He's really mouthy.</translation></item_7><item_8><text>！</text><translation>!</translation></item_8><item_9><text>どうですいっしょに</text><translation>How about we do it together?</translation></item_9><item_10><text>わしはもう猟師じゃないよ</text><translation>I'm not a hunter anymore.</translation></item_10><item_11><text>うん</text><translation>Yeah</translation></item_11><item_12><text>あの古ギツネめ</text><translation>That old fox...</translation></item_12><item_13><text>射殺許可が出たからにはもう好き勝手はさせませんよ</text><translation>Since permission has been granted, I won't let you do as you please.</translation></item_13><item_14><text>ん傷はすっかりいいのじゃが．．．でも当分だめじゃ</text><translation>The wound is fine, but I can't do it for a while.</translation></item_14><item_15><text>ユキも山へ帰るんじゃよ</text><translation>Yuki will also return to the mountain.</translation></item_15><item_16><text>もう十分離せるでしょ</text><translation>You can leave me alone now.</translation></item_16><item_17><text>あんたが山へ入るとなるとまた撃たれちゃたまらん</text><translation>If you enter the mountain, I'll shoot you again.</translation></item_17><item_18><text>もう殺生をやったわしがいうのは虫がいいようじゃが</text><translation>Since I've already killed, it's better to eat insects.</translation></item_18><item_19><text>もう殺生はせんみんな山神様の使いじゃからのう</text><translation>We won't kill anymore, we're all servants of the mountain god.</translation></item_19><item_20><text>保護の立場へまわろうと思うとる</text><translation>I want to turn to a protective stance.</translation></item_20>
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/069.jpg
+Mismatched number of pairs
+<item_0><text>140</text></item_0><item_1><text>141</text></item_1><item_2><text>あれは食べるんじゃ食うために狩るんどやぞ</text><translation>That's for eating, not just hunting.</translation></item_3><item_4><text>！！</text><translation>!!</translation></item_5><item_6><text>ンッ！！！</text><translation>NNN!!!</translation></item_7><item_8><text>クィ</text><translation>Qui</translation></item_9><item_10><text>そのすばらしい姿を大空から消さぬようにな</text><translation>Don't let that beautiful sight disappear from the sky.</translation></item_11><item_12><text>これユキ！獲物をほっぽり出して</text><translation>This is Yukie! Let go of the prey!</translation></item_13><item_14><text>そしてたくさん子供を育てろ</text><translation>And raise many children.</translation></item_15><item_16><text>ワシとしてそれがあたりまえの姿なのだから</text><translation>As a hawk, that is the natural way.</translation></item_17><item_18><text>♡ッ</text><translation>♡</translation></item_19><item_20><text>．．．</text><translation>...</translation></item_21><item_22><text>山へ．．．空へ帰るんじゃぞ</text><translation>Back to the mountain... back to the sky.</translation></item_23><item_24><text>ククッ</text><translation>Kukk</translation></item_25><item_26><text>ピタ</text><translation>Pita</translation></item_27><item_28><text>フムキツネか．．．彼らに個体の区別がつくのかのう</text><translation>Is it a fox? Can they distinguish individuals?</translation></item_29><item_30><text>ん？どうした</text><translation>What's wrong?</translation></item_31><item_32><text>いつまでも甘えていちゃだめだぞ</text><translation>Don't be too sweet.</translation></item_33><item_34><text>クッ</text><translation>Ku</translation></item_35><item_36><text>！</text><translation>!</translation></item_37><item_38><text>ピァー</text><translation>Pia</translation></item_39><item_40><text>＞</text><translation>&gt;</translation></item_41><item_42><text>見境いなく撃たれちゃたまったものじゃないわい</text><translation>It's not something to be shot without a reason.</translation></item_43><item_44><text>．．．</text><translation>...</translation></item_45>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.jpg
+Mismatched number of pairs
+<item_0><text>140</text></item_0><item_1><text>141</text></item_1><item_2><text>あれは食べるんじゃ食うために狩るんどやぞ</text><translation>That's for eating, not just hunting</translation></item_3><item_4><text>！！</text><translation>!!</translation></item_5><item_6><text>ンッ！！！</text><translation>NNN!!!</translation></item_7><item_8><text>クィ</text><translation>Qui</translation></item_9><item_10><text>そのすばらしい姿を大空から消さぬようにな</text><translation>Don't let that beautiful sight disappear from the sky</translation></item_11><item_12><text>これユキ！獲物をほっぽり出して</text><translation>This is Yukiko! Let go of the prey!</translation></item_13><item_14><text>そしてたくさん子供を育てろ</text><translation>And raise many children</translation></item_15><item_16><text>ワシとしてそれがあたりまえの姿なのだから</text><translation>As a hawk, that is the natural way</translation></item_17><item_18><text>♡ッ</text><translation>♡</translation></item_19><item_20><text>．．．</text><translation>...</translation></item_21><item_22><text>山へ．．．空へ帰るんじゃぞ</text><translation>Back to the mountain... back to the sky</translation></item_23><item_24><text>ククッ</text><translation>Kukk</translation></item_25><item_26><text>ピタ</text><translation>Pita</translation></item_27><item_28><text>フムキツネか．．．彼らに個体の区別がつくのかのう</text><translation>Is it a fox? Can they distinguish individuals?</translation></item_29><item_30><text>ん？どうした</text><translation>What's wrong?</translation></item_31><item_32><text>いつまでも甘えていちゃだめだぞ</text><translation>Don't be too sweet</translation></item_33><item_34><text>クッ</text><translation>Ku</translation></item_35><item_36><text>！</text><translation>!</translation></item_37><item_38><text>ピァー</text><translation>Pia</translation></item_39><item_40><text>＞</text><translation>&gt;</translation></item_41><item_42><text>見境いなく撃たれちゃたまったものじゃないわい</text><translation>It's not something to be shot without a reason</translation></item_43><item_44><text>．．．</text><translation>...</translation></item_45>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.jpg
+Mismatched number of pairs
+<item_0><text>140</text></item_0><item_1><text>141</text></item_1><item_2><text>あれは食べるんじゃ食うために狩るんどやぞ</text><translation>That's for eating, not just hunting</translation></item_3><item_4><text>！！</text><translation>!!</translation></item_5><item_6><text>ンッ！！！</text><translation>NNN!!!</translation></item_7><item_8><text>クィ</text><translation>Qui</translation></item_9><item_10><text>そのすばらしい姿を大空から消さぬようにな</text><translation>Don't let that beautiful sight disappear from the sky</translation></item_11><item_12><text>これユキ！獲物をほっぽり出して</text><translation>This is Yukiko! Let go of the prey!</translation></item_13><item_14><text>そしてたくさん子供を育てろ</text><translation>And raise many children</translation></item_15><item_16><text>ワシとしてそれがあたりまえの姿なのだから</text><translation>As a hawk, that is the natural way</translation></item_17><item_18><text>♡ッ</text><translation>♡</translation></item_19><item_20><text>．．．</text><translation>...</translation></item_21><item_22><text>山へ．．．空へ帰るんじゃぞ</text><translation>Back to the mountain... back to the sky</translation></item_23><item_24><text>ククッ</text><translation>Kukk</translation></item_25><item_26><text>ピタ</text><translation>Pita</translation></item_27><item_28><text>フムキツネか．．．彼らに個体の区別がつくのかのう</text><translation>Is it a fox? Can they distinguish individuals?</translation></item_29><item_30><text>ん？どうした</text><translation>What's wrong?</translation></item_31><item_32><text>いつまでも甘えていちゃだめだぞ</text><translation>Don't be too sweet</translation></item_33><item_34><text>クッ</text><translation>Ku</translation></item_35><item_36><text>！</text><translation>!</translation></item_37><item_38><text>ピァー</text><translation>Pia</translation></item_39><item_40><text>＞</text><translation>&gt;</translation></item_41><item_42><text>見境いなく撃たれちゃたまったものじゃないわい</text><translation>It's not something to be shot without a reason</translation></item_43><item_44><text>．．．</text><translation>...</translation></item_45>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.jpg
+Mismatched number of pairs
+<item_0><text>140</text></item_0><item_1><text>141</text></item_1><item_2><text>あれは食べるんじゃ食うために狩るんどやぞ</text><translation>That's for eating, not just hunting</translation></item_3><item_4><text>！！</text><translation>!!</translation></item_5><item_6><text>ンッ！！！</text><translation>NNN!!!</translation></item_7><item_8><text>クィ</text><translation>Qui</translation></item_9><item_10><text>そのすばらしい姿を大空から消さぬようにな</text><translation>Don't let that beautiful sight disappear from the sky</translation></item_11><item_12><text>これユキ！獲物をほっぽり出して</text><translation>This is Yukiko! Let go of the prey!</translation></item_13><item_14><text>そしてたくさん子供を育てろ</text><translation>And raise many children</translation></item_15><item_16><text>ワシとしてそれがあたりまえの姿なのだから</text><translation>As a hawk, that is the natural way</translation></item_17><item_18><text>♡ッ</text><translation>♡</translation></item_19><item_20><text>．．．</text><translation>...</translation></item_21><item_22><text>山へ．．．空へ帰るんじゃぞ</text><translation>Back to the mountain... back to the sky</translation></item_23><item_24><text>ククッ</text><translation>Kukk</translation></item_25><item_26><text>ピタ</text><translation>Pita</translation></item_27><item_28><text>フムキツネか．．．彼らに個体の区別がつくのかのう</text><translation>Is it a fox? Can they distinguish individuals?</translation></item_29><item_30><text>ん？どうした</text><translation>What's wrong?</translation></item_31><item_32><text>いつまでも甘えていちゃだめだぞ</text><translation>Don't be too sweet</translation></item_33><item_34><text>クッ</text><translation>Ku</translation></item_35><item_36><text>！</text><translation>!</translation></item_37><item_38><text>ピァー</text><translation>Pia</translation></item_39><item_40><text>＞</text><translation>&gt;</translation></item_41><item_42><text>見境いなく撃たれちゃたまったものじゃないわい</text><translation>It's not something to be shot without a reason</translation></item_43><item_44><text>．．．</text><translation>...</translation></item_45>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.jpg
+Mismatched number of pairs
+<item_0><text>140</text></item_0><item_1><text>141</text></item_1><item_2><text>あれは食べるんじゃ食うために狩るんどやぞ</text><translation>That's for eating, not just hunting</translation></item_3><item_4><text>！！</text><translation>!!</translation></item_5><item_6><text>ンッ！！！</text><translation>NNN!!!</translation></item_7><item_8><text>クィ</text><translation>Qui</translation></item_9><item_10><text>そのすばらしい姿を大空から消さぬようにな</text><translation>Don't let that beautiful sight disappear from the sky</translation></item_11><item_12><text>これユキ！獲物をほっぽり出して</text><translation>This is Yukiko! Let go of the prey!</translation></item_13><item_14><text>そしてたくさん子供を育てろ</text><translation>And raise many children</translation></item_15><item_16><text>ワシとしてそれがあたりまえの姿なのだから</text><translation>As a hawk, that is the natural way</translation></item_17><item_18><text>♡ッ</text><translation>♡</translation></item_19><item_20><text>．．．</text><translation>...</translation></item_21><item_22><text>山へ．．．空へ帰るんじゃぞ</text><translation>Back to the mountain... back to the sky</translation></item_23><item_24><text>ククッ</text><translation>Kukk</translation></item_25><item_26><text>ピタ</text><translation>Pita</translation></item_27><item_28><text>フムキツネか．．．彼らに個体の区別がつくのかのう</text><translation>Is it a fox? Can they distinguish individuals?</translation></item_29><item_30><text>ん？どうした</text><translation>What's wrong?</translation></item_31><item_32><text>いつまでも甘えていちゃだめだぞ</text><translation>Don't be too sweet</translation></item_33><item_34><text>クッ</text><translation>Ku</translation></item_35><item_36><text>！</text><translation>!</translation></item_37><item_38><text>ピァー</text><translation>Pia</translation></item_39><item_40><text>＞</text><translation>&gt;</translation></item_41><item_42><text>見境いなく撃たれちゃたまったものじゃないわい</text><translation>It's not something to be shot without a reason</translation></item_43><item_44><text>．．．</text><translation>...</translation></item_45>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.jpg
+Mismatched number of pairs
+<item_0><text>140</text></item_0><item_1><text>141</text></item_1><item_2><text>あれは食べるんじゃ食うために狩るんどやぞ</text><translation>That's for eating, not just hunting</translation></item_3><item_4><text>！！</text><translation>!!</translation></item_5><item_6><text>ンッ！！！</text><translation>NNN!!!</translation></item_7><item_8><text>クィ</text><translation>Qui</translation></item_9><item_10><text>そのすばらしい姿を大空から消さぬようにな</text><translation>Don't let that beautiful sight disappear from the sky</translation></item_11><item_12><text>これユキ！獲物をほっぽり出して</text><translation>This is Yukiko! Let go of the prey!</translation></item_13><item_14><text>そしてたくさん子供を育てろ</text><translation>And raise many children</translation></item_15><item_16><text>ワシとしてそれがあたりまえの姿なのだから</text><translation>As a hawk, that is the natural way</translation></item_17><item_18><text>♡ッ</text><translation>♡</translation></item_19><item_20><text>．．．</text><translation>...</translation></item_21><item_22><text>山へ．．．空へ帰るんじゃぞ</text><translation>Back to the mountain... back to the sky</translation></item_23><item_24><text>ククッ</text><translation>Kukk</translation></item_25><item_26><text>ピタ</text><translation>Pita</translation></item_27><item_28><text>フムキツネか．．．彼らに個体の区別がつくのかのう</text><translation>Is it a fox? Can they distinguish individuals?</translation></item_29><item_30><text>ん？どうした</text><translation>What's wrong?</translation></item_31><item_32><text>いつまでも甘えていちゃだめだぞ</text><translation>Don't be too sweet</translation></item_33><item_34><text>クッ</text><translation>Ku</translation></item_35><item_36><text>！</text><translation>!</translation></item_37><item_38><text>ピァー</text><translation>Pia</translation></item_39><item_40><text>＞</text><translation>&gt;</translation></item_41><item_42><text>見境いなく撃たれちゃたまったものじゃないわい</text><translation>It's not something to be shot without a reason</translation></item_43><item_44><text>．．．</text><translation>...</translation></item_45>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.jpg
+<item_0><text>140</text></item_0><item_1><text>141</text></item_1><item_2><text>あれは食べるんじゃ食うために狩るんどやぞ</text><translation>That's for eating, not just hunting</translation></item_3><item_4><text>！！</text><translation>!!</translation></item_5><item_6><text>ンッ！！！</text><translation>NNN!!!</translation></item_7><item_8><text>クィ</text><translation>Qui</translation></item_9><item_10><text>そのすばらしい姿を大空から消さぬようにな</text><translation>Don't let that beautiful sight disappear from the sky</translation></item_11><item_12><text>これユキ！獲物をほっぽり出して</text><translation>This is Yukiko! Let go of the prey!</translation></item_13><item_14><text>そしてたくさん子供を育てろ</text><translation>And raise many children</translation></item_15><item_16><text>ワシとしてそれがあたりまえの姿なのだから</text><translation>As a hawk, that is the natural way</translation></item_17><item_18><text>♡ッ</text><translation>♡</translation></item_19><item_20><text>．．．</text><translation>...</translation></item_21><item_22><text>山へ．．．空へ帰るんじゃぞ</text><translation>Back to the mountain... back to the sky</translation></item_23><item_24><text>ククッ</text><translation>Kukk</translation></item_25><item_26><text>ピタ</text><translation>Pita</translation></item_27><item_28><text>フムキツネか．．．彼らに個体の区別がつくのかのう</text><translation>Is it a fox? Can they distinguish individuals?</translation></item_29><item_30><text>ん？どうした</text><translation>What's wrong?</translation></item_31><item_32><text>いつまでも甘えていちゃだめだぞ</text><translation>Don't be too sweet</translation></item_33><item_34><text>クッ</text><translation>Ku</translation></item_35><item_36><text>！</text><translation>!</translation></item_37><item_38><text>ピァー</text><translation>Pia</translation></item_39><item_40><text>＞</text><translation>&gt;</translation></item_41><item_42><text>見境いなく撃たれちゃたまったものじゃないわい</text><translation>It's not something to be shot without a reason</translation></item_43><item_44><text>．．．</text><translation>...</translation></item_45>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.jpg
+Mismatched number of pairs
+<item_0><text>140</text></item_0><item_1><text>141</text></item_1><item_2><text>あれは食べるんじゃ食うために狩るんどやぞ</text><translation>That's for eating, not just hunting</translation></item_3><item_4><text>！！</text><translation>!!</translation></item_5><item_6><text>ンッ！！！</text><translation>NNN!!!</translation></item_7><item_8><text>クィ</text><translation>Qui</translation></item_9><item_10><text>そのすばらしい姿を大空から消さぬようにな</text><translation>Don't let that beautiful sight disappear from the sky</translation></item_11><item_12><text>これユキ！獲物をほっぽり出して</text><translation>This is Yukiko! Let go of the prey!</translation></item_13><item_14><text>そしてたくさん子供を育てろ</text><translation>And raise many children</translation></item_15><item_16><text>ワシとしてそれがあたりまえの姿なのだから</text><translation>As a hawk, that is the natural way</translation></item_17><item_18><text>♡ッ</text><translation>♡</translation></item_19><item_20><text>．．．</text><translation>...</translation></item_21><item_22><text>山へ．．．空へ帰るんじゃぞ</text><translation>Back to the mountain... back to the sky</translation></item_23><item_24><text>ククッ</text><translation>Kukk</translation></item_25><item_26><text>ピタ</text><translation>Pita</translation></item_27><item_28><text>フムキツネか．．．彼らに個体の区別がつくのかのう</text><translation>Is it a fox? Can they distinguish individuals?</translation></item_29><item_30><text>ん？どうした</text><translation>What's wrong?</translation></item_31><item_32><text>いつまでも甘えていちゃだめだぞ</text><translation>Don't be too sweet</translation></item_33><item_34><text>クッ</text><translation>Ku</translation></item_35><item_36><text>！</text><translation>!</translation></item_37><item_38><text>ピァー</text><translation>Pia</translation></item_39><item_40><text>＞</text><translation>&gt;</translation></item_41><item_42><text>見境いなく撃たれちゃたまったものじゃないわい</text><translation>It's not something to be shot without a reason</translation></item_43><item_44><text>．．．</text><translation>...</translation></item_45>
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/070.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/071.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/TsubasaNoKioku/072.jpg
+Original text not matching
+Output: ボッ
+Ground Truth: ブォ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.jpg
+Original text not matching
+Output: ボッ
+Ground Truth: ブォ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.jpg
+Original text not matching
+Output: ボッ
+Ground Truth: ブォ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.jpg
+Original text not matching
+Output: ボッ
+Ground Truth: ブォ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.jpg
+Original text not matching
+Output: ボッ
+Ground Truth: ブォ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.jpg
+Original text not matching
+Output: ボッ
+Ground Truth: ブォ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.jpg
+<item_0><text>オッ</text><translation>Oh</translation></item_0><item_1><text>ボッ</text><translation>Plop</translation></item_1><item_2><text>だったら</text><translation>Then</translation></item_2><item_3><text>最初から翔ばない方がいい</text><translation>It's better not to fly from the beginning</translation></item_3><item_4><text>高く翔ぶほど</text><translation>The higher you fly</translation></item_4><item_5><text>太陽に溶かされてしまう</text><translation>It will be melted by the sun</translation></item_5><item_6><text>て</text><translation>And</translation></item_6><item_7><text>夢の翼は</text><translation>The dream's wings are</translation></item_7><item_8><text>ある</text><translation>Exist</translation></item_8><item_9><text>蝗で固め</text><translation>Hardened with locusts</translation></item_9>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.jpg
+Original text not matching
+Output: ボッ
+Ground Truth: ブォ
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/000.jpg
+Original text not matching
+Output: っ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.jpg
+Original text not matching
+Output: っ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.jpg
+Original text not matching
+Output: っ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.jpg
+Original text not matching
+Output: っ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.jpg
+Original text not matching
+Output: っ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.jpg
+Original text not matching
+Output: っ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.jpg
+<item_0><text>有人ロケット「あさがお」が爆発！</text><translation>The Asagao rocket exploded!</translation></item_0><item_1><text>失敗です！！</text><translation>This is a failure!!</translation></item_1><item_2><text>日本初の有人宇宙飛行は失敗しました！！</text><translation>The first manned space flight in Japan failed!!</translation></item_2><item_3><text>つか必ず</text><translation>It will definitely</translation></item_3><item_4><text>い</text><translation>will</translation></item_4><item_5><text>だから</text><translation>so</translation></item_5><item_6><text>地に落ちるの</text><translation>fall to the ground</translation></item_6><item_7><text>っ</text><translation>fall</translation></item_7><item_8><text>そういった</text><translation>such as</translation></item_8>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.jpg
+Original text not matching
+Output: っ
+Ground Truth: ッ
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/001.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/002.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/003.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/004.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/005.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/006.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/007.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/008.jpg
+Original text not matching
+Output: 50
+Ground Truth: ５０
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.jpg
+Original text not matching
+Output: 50
+Ground Truth: ５０
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.jpg
+Original text not matching
+Output: 50
+Ground Truth: ５０
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.jpg
+Original text not matching
+Output: 50
+Ground Truth: ５０
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.jpg
+Original text not matching
+Output: 50
+Ground Truth: ５０
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.jpg
+Original text not matching
+Output: 50
+Ground Truth: ５０
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.jpg
+<item_0><text>確かに原理的には可能かもしれないけどな．．．</text><translation>Well, it might be possible theoretically, but...</translation></item_0><item_1><text>それはですね．．．</text><translation>Well, that's true, isn't it...</translation></item_1><item_2><text>わざわざ自分で撮らなくたって．．．</text><translation>Why bother taking pictures yourself...</translation></item_2><item_3><text>ったく</text><translation>Really!</translation></item_3><item_4><text>ああ</text><translation>Ah</translation></item_4><item_5><text>地球の写真なんてネット上にいくらでも落ちてるだろ</text><translation>There are plenty of photos of Earth on the internet, aren't there?</translation></item_5><item_6><text>く</text><translation>U</translation></item_6><item_7><text>50</text><translation>50</translation></item_7><item_8><text>あっ安かったので．．．</text><translation>Well, it was cheap...</translation></item_8><item_9><text>よく写る。ス</text><translation>It's easy to take pictures. S</translation></item_9><item_10><text>宇宙でフィルム巻いてシャッターきる気か！？</text><translation>Are you going to wind the film in space and take a picture!</translation></item_10><item_11><text>大体なんで使い捨てカメラなんだよ！</text><translation>It's a disposable camera, for heaven's sake!</translation></item_11><item_12><text>．．．</text><translation>...</translation></item_12><item_13><text>イ</text><translation>I</translation></item_13><item_14><text>ヘリウム入れないと風船は浮かねーよ！！</text><translation>Don't you dare put helium in the balloon, it won't float!!</translation></item_14><item_15><text>むぐっ</text><translation>Mmm</translation></item_15><item_16><text>．．．？</text><translation>...</translation></item_16><item_17><text>なにあ然としてんの！？</text><translation>What are you so surprised about!?</translation></item_17><item_18><text>こいつ絶対バカだし</text><translation>This guy is definitely a fool.</translation></item_18><item_19><text>ただ空気いれた風船をいくら集めても浮くわけねーだろ！！</text><translation>Even if you collect as many air-filled balloons as you want, they won't float!!</translation></item_19>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.jpg
+Original text not matching
+Output: 50
+Ground Truth: ５０
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/009.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/010.jpg
+Mismatched number of pairs
+<item_0><text>キャ</text><translation>キャ</translation></item_0><item_1><text>い</text><translation>い</translation></item_1><item_2><text>有人宇宙飛行なんて</text><translation>Someone's doing something</translation></item_2><item_3><text>後先考えないバカのすることだ</text><translation>It's a stupid thing to do without considering the consequences</translation></item_3><item_4><text>リスクもコストも跳ね上がる</text><translation>The risks and costs will skyrocket</translation></item_4><item_5><text>失敗して色んな人が苦しんだんだ</text><translation>Many people suffered because of the failure</translation></item_5><item_6><text>大した見返りもないのにロケットに人を載せただけで</text><translation>Even though there was no significant return, just by putting people on the rocket</translation></item_6><item_7><text>日本初の有人ロケット「あさがお」の打ち上げ失敗</text><translation>Failure of the first manned rocket 'Asagao'</translation></item_7><item_8><text>十年前―</text><translation>Ten years ago—</translation></item_8><item_9><text>宇宙飛行士目指してるなら知ってんだろ</text><translation>If you're aiming for an astronaut, you should know this</translation></item_9>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.jpg
+Mismatched number of pairs
+<item_0><text>キャ</text><translation>Cap</translation></item_0><item_1><text>い</text><translation>Yes</translation></item_1><item_2><text>有人宇宙飛行なんて</text><translation>Such a manned space flight</translation></item_2><item_3><text>後先考えないバカのすることだ</text><translation>It's the foolish thing to do without considering the consequences</translation></item_3><item_4><text>リスクもコストも跳ね上がる</text><translation>The risks and costs will skyrocket</translation></item_4><item_5><text>失敗して色んな人が苦しんだんだ</text><translation>Many people suffered because of the failure</translation></item_5><item_6><text>大した見返りもないのにロケットに人を載せただけで</text><translation>There was no significant return, but just by putting people on the rocket</translation></item_6><item_7><text>日本初の有人ロケット「あさがお」の打ち上げ失敗</text><translation>The failure of the first manned rocket "Asagao"</translation></item_7><item_8><text>十年前―</text><translation>Ten years ago—</translation></item_8><item_9><text>宇宙飛行士目指してるなら知ってんだろ</text><translation>If you're aiming for an astronaut, you should know this</translation></item_9>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.jpg
+Mismatched number of pairs
+<item_0><text>キャ</text><translation>Cap</translation></item_0><item_1><text>い</text><translation>Yes</translation></item_1><item_2><text>有人宇宙飛行なんて</text><translation>Such a manned space flight</translation></item_2><item_3><text>後先考えないバカのすることだ</text><translation>It's the foolish thing to do without considering the consequences</translation></item_3><item_4><text>リスクもコストも跳ね上がる</text><translation>The risks and costs will skyrocket</translation></item_4><item_5><text>失敗して色んな人が苦しんだんだ</text><translation>Many people suffered because of the failure</translation></item_5><item_6><text>大した見返りもないのにロケットに人を載せただけで</text><translation>There was no significant return, but just by putting people on the rocket</translation></item_6><item_7><text>日本初の有人ロケット「あさがお」の打ち上げ失敗</text><translation>The failure of the first manned rocket "Asagao"</translation></item_7><item_8><text>十年前―</text><translation>Ten years ago—</translation></item_8><item_9><text>宇宙飛行士目指してるなら知ってんだろ</text><translation>If you're aiming for an astronaut, you should know this</translation></item_9>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.jpg
+Mismatched number of pairs
+<item_0><text>キャ</text><translation>Cap</translation></item_0><item_1><text>い</text><translation>Yes</translation></item_1><item_2><text>有人宇宙飛行なんて</text><translation>Such a manned space flight</translation></item_2><item_3><text>後先考えないバカのすることだ</text><translation>It's the foolish thing to do without considering the consequences</translation></item_3><item_4><text>リスクもコストも跳ね上がる</text><translation>The risks and costs will skyrocket</translation></item_4><item_5><text>失敗して色んな人が苦しんだんだ</text><translation>Many people suffered because of the failure</translation></item_5><item_6><text>大した見返りもないのにロケットに人を載せただけで</text><translation>There was no significant return, but just by putting people on the rocket</translation></item_6><item_7><text>日本初の有人ロケット「あさがお」の打ち上げ失敗</text><translation>The failure of the first manned rocket "Asagao"</translation></item_7><item_8><text>十年前―</text><translation>Ten years ago—</translation></item_8><item_9><text>宇宙飛行士目指してるなら知ってんだろ</text><translation>If you're aiming for an astronaut, you should know this</translation></item_9>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.jpg
+Mismatched number of pairs
+<item_0><text>キャ</text><translation>Cap</translation></item_0><item_1><text>い</text><translation>Yes</translation></item_1><item_2><text>有人宇宙飛行なんて</text><translation>Such a manned space flight</translation></item_2><item_3><text>後先考えないバカのすることだ</text><translation>It's the foolish thing to do without considering the consequences</translation></item_3><item_4><text>リスクもコストも跳ね上がる</text><translation>The risks and costs will skyrocket</translation></item_4><item_5><text>失敗して色んな人が苦しんだんだ</text><translation>Many people suffered because of the failure</translation></item_5><item_6><text>大した見返りもないのにロケットに人を載せただけで</text><translation>There was no significant return, but just by putting people on the rocket</translation></item_6><item_7><text>日本初の有人ロケット「あさがお」の打ち上げ失敗</text><translation>The failure of the first manned rocket "Asagao"</translation></item_7><item_8><text>十年前―</text><translation>Ten years ago—</translation></item_8><item_9><text>宇宙飛行士目指してるなら知ってんだろ</text><translation>If you're aiming for an astronaut, you should know this</translation></item_9>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.jpg
+Mismatched number of pairs
+<item_0><text>キャ</text><translation>Cap</translation></item_0><item_1><text>い</text><translation>Yes</translation></item_1><item_2><text>有人宇宙飛行なんて</text><translation>Such a manned space flight</translation></item_2><item_3><text>後先考えないバカのすることだ</text><translation>It's the foolish thing to do without considering the consequences</translation></item_3><item_4><text>リスクもコストも跳ね上がる</text><translation>The risks and costs will skyrocket</translation></item_4><item_5><text>失敗して色んな人が苦しんだんだ</text><translation>Many people suffered because of the failure</translation></item_5><item_6><text>大した見返りもないのにロケットに人を載せただけで</text><translation>There was no significant return, but just by putting people on the rocket</translation></item_6><item_7><text>日本初の有人ロケット「あさがお」の打ち上げ失敗</text><translation>The failure of the first manned rocket "Asagao"</translation></item_7><item_8><text>十年前―</text><translation>Ten years ago—</translation></item_8><item_9><text>宇宙飛行士目指してるなら知ってんだろ</text><translation>If you're aiming for an astronaut, you should know this</translation></item_9>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.jpg
+<item_0><text>キャ</text><translation>Cap</translation></item_0><item_1><text>い</text><translation>Yes</translation></item_1><item_2><text>有人宇宙飛行なんて</text><translation>Such a manned space flight</translation></item_2><item_3><text>後先考えないバカのすることだ</text><translation>It's the foolish thing to do without considering the consequences</translation></item_3><item_4><text>リスクもコストも跳ね上がる</text><translation>The risks and costs will skyrocket</translation></item_4><item_5><text>失敗して色んな人が苦しんだんだ</text><translation>Many people suffered because of the failure</translation></item_5><item_6><text>大した見返りもないのにロケットに人を載せただけで</text><translation>There was no significant return, but just by putting people on the rocket</translation></item_6><item_7><text>日本初の有人ロケット「あさがお」の打ち上げ失敗</text><translation>The failure of the first manned rocket "Asagao"</translation></item_7><item_8><text>十年前―</text><translation>Ten years ago—</translation></item_8><item_9><text>宇宙飛行士目指してるなら知ってんだろ</text><translation>If you're aiming for an astronaut, you should know this</translation></item_9>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.jpg
+Mismatched number of pairs
+<item_0><text>キャ</text><translation>Cap</translation></item_0><item_1><text>い</text><translation>Yes</translation></item_1><item_2><text>有人宇宙飛行なんて</text><translation>Such a manned space flight</translation></item_2><item_3><text>後先考えないバカのすることだ</text><translation>It's the foolish thing to do without considering the consequences</translation></item_3><item_4><text>リスクもコストも跳ね上がる</text><translation>The risks and costs will skyrocket</translation></item_4><item_5><text>失敗して色んな人が苦しんだんだ</text><translation>Many people suffered because of the failure</translation></item_5><item_6><text>大した見返りもないのにロケットに人を載せただけで</text><translation>There was no significant return, but just by putting people on the rocket</translation></item_6><item_7><text>日本初の有人ロケット「あさがお」の打ち上げ失敗</text><translation>The failure of the first manned rocket "Asagao"</translation></item_7><item_8><text>十年前―</text><translation>Ten years ago—</translation></item_8><item_9><text>宇宙飛行士目指してるなら知ってんだろ</text><translation>If you're aiming for an astronaut, you should know this</translation></item_9>
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/011.jpg
+Mismatched number of pairs
+<item_0><text>取らなきゃいけないからな</text><translation>I have to take it.</translation></item_0><item_1><text>手伝いはちゃんとするよ</text><translation>I'll help you out, okay?</translation></item_1><item_2><text>推薦：</text><translation>Recommendation:</translation></item_2><item_3><text>、</text><translation>Comma</translation></item_3><item_4><text>ん</text><translation>Um</translation></item_4><item_5><text>てっ手伝いは．．．</text><translation>Help...!</translation></item_5><item_6><text>いいんです</text><translation>It's fine.</translation></item_6><item_7><text>．．．</text><translation>...</translation></item_7><item_8><text>大切な夢ですから</text><translation>It's a precious dream.</translation></item_8><item_9><text>それでも私にとっては</text><translation>But it's still...</translation></item_9><item_10><text>〜</text><translation>...</translation></item_10><item_11><text>こんなこと言うつもりじゃ．．</text><translation>I didn't mean to say this...</translation></item_11><item_12><text>すっすまん</text><translation>It's okay.</translation></item_12>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.jpg
+Mismatched number of pairs
+<item_0><text>取らなきゃいけないからな</text><translation>I have to take it.</translation></item_0><item_1><text>手伝いはちゃんとするよ</text><translation>I'll help you out, okay?</translation></item_1><item_2><text>推薦：</text><translation>Recommendation:</translation></item_2><item_3><text>、</text><translation>, </translation></item_3><item_4><text>ん</text><translation>hmm</translation></item_4><item_5><text>てっ手伝いは．．．</text><translation>Help...!</translation></item_5><item_6><text>いいんです</text><translation>It's fine.</translation></item_6><item_7><text>．．．</text><translation>...</translation></item_7><item_8><text>大切な夢ですから</text><translation>It's a precious dream.</translation></item_8><item_9><text>それでも私にとっては</text><translation>But it's still...</translation></item_9><item_10><text>〜</text><translation>...</translation></item_10><item_11><text>こんなこと言うつもりじゃ．．</text><translation>I didn't mean to say this...</translation></item_11><item_12><text>すっすまん</text><translation>It's okay.</translation></item_12>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.jpg
+Mismatched number of pairs
+<item_0><text>取らなきゃいけないからな</text><translation>I have to take it.</translation></item_0><item_1><text>手伝いはちゃんとするよ</text><translation>I'll help you out, okay?</translation></item_1><item_2><text>推薦：</text><translation>Recommendation:</translation></item_2><item_3><text>、</text><translation>, </translation></item_3><item_4><text>ん</text><translation>hmm</translation></item_4><item_5><text>てっ手伝いは．．．</text><translation>Help...!</translation></item_5><item_6><text>いいんです</text><translation>It's fine.</translation></item_6><item_7><text>．．．</text><translation>...</translation></item_7><item_8><text>大切な夢ですから</text><translation>It's a precious dream.</translation></item_8><item_9><text>それでも私にとっては</text><translation>But it's still...</translation></item_9><item_10><text>〜</text><translation>...</translation></item_10><item_11><text>こんなこと言うつもりじゃ．．</text><translation>I didn't mean to say this...</translation></item_11><item_12><text>すっすまん</text><translation>It's okay.</translation></item_12>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.jpg
+Mismatched number of pairs
+<item_0><text>取らなきゃいけないからな</text><translation>I have to take it.</translation></item_0><item_1><text>手伝いはちゃんとするよ</text><translation>I'll help you out, okay?</translation></item_1><item_2><text>推薦：</text><translation>Recommendation:</translation></item_2><item_3><text>、</text><translation>, </translation></item_3><item_4><text>ん</text><translation>hmm</translation></item_4><item_5><text>てっ手伝いは．．．</text><translation>Help...!</translation></item_5><item_6><text>いいんです</text><translation>It's fine.</translation></item_6><item_7><text>．．．</text><translation>...</translation></item_7><item_8><text>大切な夢ですから</text><translation>It's a precious dream.</translation></item_8><item_9><text>それでも私にとっては</text><translation>But it's still...</translation></item_9><item_10><text>〜</text><translation>...</translation></item_10><item_11><text>こんなこと言うつもりじゃ．．</text><translation>I didn't mean to say this...</translation></item_11><item_12><text>すっすまん</text><translation>It's okay.</translation></item_12>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.jpg
+Mismatched number of pairs
+<item_0><text>取らなきゃいけないからな</text><translation>I have to take it.</translation></item_0><item_1><text>手伝いはちゃんとするよ</text><translation>I'll help you out, okay?</translation></item_1><item_2><text>推薦：</text><translation>Recommendation:</translation></item_2><item_3><text>、</text><translation>, </translation></item_3><item_4><text>ん</text><translation>hmm</translation></item_4><item_5><text>てっ手伝いは．．．</text><translation>Help...!</translation></item_5><item_6><text>いいんです</text><translation>It's fine.</translation></item_6><item_7><text>．．．</text><translation>...</translation></item_7><item_8><text>大切な夢ですから</text><translation>It's a precious dream.</translation></item_8><item_9><text>それでも私にとっては</text><translation>But it's still...</translation></item_9><item_10><text>〜</text><translation>...</translation></item_10><item_11><text>こんなこと言うつもりじゃ．．</text><translation>I didn't mean to say this...</translation></item_11><item_12><text>すっすまん</text><translation>It's okay.</translation></item_12>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.jpg
+Mismatched number of pairs
+<item_0><text>取らなきゃいけないからな</text><translation>I have to take it.</translation></item_0><item_1><text>手伝いはちゃんとするよ</text><translation>I'll help you out, okay?</translation></item_1><item_2><text>推薦：</text><translation>Recommendation:</translation></item_2><item_3><text>、</text><translation>, </translation></item_3><item_4><text>ん</text><translation>hmm</translation></item_4><item_5><text>てっ手伝いは．．．</text><translation>Help...!</translation></item_5><item_6><text>いいんです</text><translation>It's fine.</translation></item_6><item_7><text>．．．</text><translation>...</translation></item_7><item_8><text>大切な夢ですから</text><translation>It's a precious dream.</translation></item_8><item_9><text>それでも私にとっては</text><translation>But it's still...</translation></item_9><item_10><text>〜</text><translation>...</translation></item_10><item_11><text>こんなこと言うつもりじゃ．．</text><translation>I didn't mean to say this...</translation></item_11><item_12><text>すっすまん</text><translation>It's okay.</translation></item_12>
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.jpg
+<item_0><text>取らなきゃいけないからな</text><translation>I have to take it.</translation></item_0><item_1><text>手伝いはちゃんとするよ</text><translation>I'll help you out, okay?</translation></item_1><item_2><text>推薦：</text><translation>Recommendation:</translation></item_2><item_3><text>、</text><translation>, </translation></item_3><item_4><text>ん</text><translation>hmm</translation></item_4><item_5><text>てっ手伝いは．．．</text><translation>Help...!</translation></item_5><item_6><text>いいんです</text><translation>It's fine.</translation></item_6><item_7><text>．．．</text><translation>...</translation></item_7><item_8><text>大切な夢ですから</text><translation>It's a precious dream.</translation></item_8><item_9><text>それでも私にとっては</text><translation>But it's still...</translation></item_9><item_10><text>〜</text><translation>...</translation></item_10><item_11><text>こんなこと言うつもりじゃ．．</text><translation>I didn't mean to say this...</translation></item_11><item_12><text>すっすまん</text><translation>It's okay.</translation></item_12>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.jpg
+Mismatched number of pairs
+<item_0><text>取らなきゃいけないからな</text><translation>I have to take it.</translation></item_0><item_1><text>手伝いはちゃんとするよ</text><translation>I'll help you out, okay?</translation></item_1><item_2><text>推薦：</text><translation>Recommendation:</translation></item_2><item_3><text>、</text><translation>, </translation></item_3><item_4><text>ん</text><translation>hmm</translation></item_4><item_5><text>てっ手伝いは．．．</text><translation>Help...!</translation></item_5><item_6><text>いいんです</text><translation>It's fine.</translation></item_6><item_7><text>．．．</text><translation>...</translation></item_7><item_8><text>大切な夢ですから</text><translation>It's a precious dream.</translation></item_8><item_9><text>それでも私にとっては</text><translation>But it's still...</translation></item_9><item_10><text>〜</text><translation>...</translation></item_10><item_11><text>こんなこと言うつもりじゃ．．</text><translation>I didn't mean to say this...</translation></item_11><item_12><text>すっすまん</text><translation>It's okay.</translation></item_12>
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/012.jpg
+Original text not matching
+Output: GPSのっけて落下地点まで探しに行く
+Ground Truth: ＧＰＳのっけて落下地点まで探しに行く
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/013.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/013.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/014.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/015.jpg
+Original text not matching
+Output: 私の大切なもの
+Ground Truth: 私の大切なものが．．
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.jpg
+Original text not matching
+Output: 私の大切なもの
+Ground Truth: 私の大切なものが．．
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.jpg
+Original text not matching
+Output: 私の大切なもの
+Ground Truth: 私の大切なものが．．
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.jpg
+Original text not matching
+Output: 私の大切なもの
+Ground Truth: 私の大切なものが．．
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.jpg
+Original text not matching
+Output: 私の大切なもの
+Ground Truth: 私の大切なものが．．
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.jpg
+Original text not matching
+Output: 私の大切なもの
+Ground Truth: 私の大切なものが．．
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.jpg
+<item_0><text>それをお前は勝手に．．．！</text><translation>You can do whatever you want with that, you know!..!</translation></item_0><item_1><text>相川さん．．</text><translation>Mr. Oikawa...</translation></item_1><item_2><text>でもきっと反対されるからっ</text><translation>But I'm sure you'll oppose it...</translation></item_2><item_3><text>こっちはちゃんと重量計算してんだ！</text><translation>We've calculated the weight properly!</translation></item_3><item_4><text>とても軽いもので．．．</text><translation>It's very light...</translation></item_4><item_5><text>ごめんなさい！どうしても宇宙へ上げたいものなんですっ</text><translation>I'm sorry! I really want to launch it into space!</translation></item_5><item_6><text>当たり前だろ！</text><translation>That's obvious, right!</translation></item_6><item_7><text>何か勝手に入れたのか？</text><translation>Did you just do something擅自?</translation></item_7><item_8><text>．．．お前</text><translation>...you</translation></item_8><item_9><text>！</text><translation>!</translation></item_9><item_10><text>、</text><translation>,</translation></item_10><item_11><text>！</text><translation>!</translation></item_11><item_12><text>だってあれには大事な．．．</text><translation>But that's important...</translation></item_12><item_13><text>だっだめです</text><translation>That's not allowed!</translation></item_13><item_14><text>私の大切なもの</text><translation>My important thing</translation></item_14>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.jpg
+Original text not matching
+Output: 私の大切なもの
+Ground Truth: 私の大切なものが．．
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/016.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/017.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/018.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/019.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/020.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/021.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/022.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/023.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/024.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/025.jpg
+Original text not matching
+Output: ン
+Ground Truth: ん
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.jpg
+Original text not matching
+Output: ．．
+Ground Truth: ん
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.jpg
+Original text not matching
+Output: ．．
+Ground Truth: ん
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.jpg
+Original text not matching
+Output: ．．
+Ground Truth: ん
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.jpg
+Original text not matching
+Output: ．．
+Ground Truth: ん
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.jpg
+Original text not matching
+Output: ．．
+Ground Truth: ん
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.jpg
+<item_0><text>    まさか地球の写真撮るついでに    </text><translation>    By the way, taking photos of the Earth    </translation></item_0><item_1><text>    だからお前が寝込んでる間探しといてやったんだ    </text><translation>    So I looked for it while you were sleeping.    </translation></item_1><item_2><text>    ロケットを供養しようとしてるなんてな    </text><translation>    I can't believe you're trying to offer a rocket as a memorial.    </translation></item_2><item_3><text>    お前がそこまでこだわってんのがなんなのか    </text><translation>    What is it about you that you're so obsessed with?    </translation></item_3><item_4><text>    十年前に売られてた    </text><translation>    It was sold ten years ago.    </translation></item_4><item_5><text>    気になったんだよ    </text><translation>    I was curious, you know.    </translation></item_5><item_6><text>    「あさがお」の限定キーホルダー    </text><translation>    "Asagao" limited keychain    </translation></item_6><item_7><text>    ．．．    </text><translation>    ...    </translation></item_7><item_8><text>    ＞    </text><translation>    >    </translation></item_8><item_9><text>    しかし、    </text><translation>    However,    </translation></item_9><item_10><text>    んー、    </text><translation>    Huh,    </translation></item_10><item_11><text>    ．．    </text><translation>    ...    </translation></item_11><item_12><text>    、    </text><translation>    ,    </translation></item_12><item_13><text>    これだろ    </text><translation>    This is it, right?    </translation></item_13><item_14><text>    ．．．    </text><translation>    ...    </translation></item_14><item_15><text>    お前が入れた大事なものって    </text><translation>    What important thing did you put in there?    </translation></item_15><item_16><text>    ．．    </text><translation>    ...    </translation></item_16><item_17><text>    ．．    </text><translation>    ...    </translation></item_17><item_18><text>    （    </text><translation>    (    </translation></item_18>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.jpg
+Original text not matching
+Output: ．．
+Ground Truth: ん
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/026.jpg
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/027.jpg
+Original text not matching
+Output: 恐いだろ普通．．．おはようございます。挫折とか後悔とか
+Ground Truth: 恐いだろ普通．．．おはようございません。挫折とか後悔とか
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.jpg
+Original text not matching
+Output: 恐いだろ普通．．．おはようございます。挫折とか後悔とか
+Ground Truth: 恐いだろ普通．．．おはようございません。挫折とか後悔とか
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.jpg
+Original text not matching
+Output: 恐いだろ普通．．．おはようございます。挫折とか後悔とか
+Ground Truth: 恐いだろ普通．．．おはようございません。挫折とか後悔とか
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.jpg
+Original text not matching
+Output: 恐いだろ普通．．．おはようございます。挫折とか後悔とか
+Ground Truth: 恐いだろ普通．．．おはようございません。挫折とか後悔とか
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.jpg
+Original text not matching
+Output: 恐いだろ普通．．．おはようございます。挫折とか後悔とか
+Ground Truth: 恐いだろ普通．．．おはようございません。挫折とか後悔とか
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.jpg
+Original text not matching
+Output: 恐いだろ普通．．．おはようございます。挫折とか後悔とか
+Ground Truth: 恐いだろ普通．．．おはようございません。挫折とか後悔とか
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.jpg
+<item_0><text>偽物だったらどうしようとか</text><translation>What should I do if it's a fake?</translation></item_0><item_1><text>自分の翼が</text><translation>My own wings...</translation></item_1><item_2><text>失敗したらすべて失っちまう</text><translation>If I fail, I'll lose everything.</translation></item_2><item_3><text>あんなの見たら不安になるだろ</text><translation>Wouldn't you feel anxious if you saw that?</translation></item_3><item_4><text>恐いだろ普通．．．おはようございます。挫折とか後悔とか</text><translation>It's scary, isn't it? Ordinary... Good morning. Failure or regret.</translation></item_4><item_5><text>蝗で固めたまがい物の翼だった</text><translation>The wings were made of a fake grasshopper.</translation></item_5><item_6><text>色んな人の夢だった「あさがお」は</text><translation>The 'Asagao' was a dream for many people.</translation></item_6>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.jpg
+Original text not matching
+Output: 恐いだろ普通．．．おはようございます。挫折とか後悔とか
+Ground Truth: 恐いだろ普通．．．おはようございません。挫折とか後悔とか
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/028.jpg
+Original text not matching
+Output: あ、それ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.jpg
+Original text not matching
+Output: あ、それ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.jpg
+Original text not matching
+Output: あ、それ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.jpg
+Original text not matching
+Output: あ、それ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.jpg
+Original text not matching
+Output: あ、それ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.jpg
+Original text not matching
+Output: あ、それ
+Ground Truth: ッ
+Retrying /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.jpg
+<item_0><text>あ、それ</text><translation>Oh, that</translation></item_0><item_1><text>だから私は</text><translation>So I</translation></item_1><item_2><text>その苦しみだってはばたいてた証なんです</text><translation>That's the proof that I was flapping</translation></item_2><item_3><text>本当の翼だから</text><translation>Because it's the real wing</translation></item_3><item_4><text>それがきっと</text><translation>That's definitely</translation></item_4><item_5><text>翼が折れたときに本当に苦しいのは</text><translation>It's really painful when the wing is broken</translation></item_5><item_6><text>飛べなかったとき</text><translation>When I couldn't fly</translation></item_6><item_7><text>偽物の翼なんて</text><translation>What a fake wing</translation></item_7><item_8><text>ありません</text><translation>There isn't</translation></item_8><item_9><text>＞</text><translation>&gt;</translation></item_9>
+Failed to get correct output after 5 retries. Skipping /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.jpg
+Original text not matching
+Output: あ、それ
+Ground Truth: ッ
+Translated /work/pi_miyyer_umass_edu/ctpham/cs670-manga/data/input/raw/balloon_dream/029.jpg
+Traceback (most recent call last):
+  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/translation/qwen.py", line 168, in <module>
+    inference(model, processor, df, output_file)
+  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/translation/qwen.py", line 120, in inference
+    df_specific['text_translated'] = [
+  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/translation/qwen.py", line 121, in <listcomp>
+    extract_tag_text(extract_tag_text(output_text, f'item_{j}').strip(), 'translation').strip() or "" 
+AttributeError: 'NoneType' object has no attribute 'strip'
