@@ -1,7 +1,0 @@
-Removing cuda version 12.6
-Removing conda
-Loading conda
-Traceback (most recent call last):
-  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/model_torch.py", line 19, in <module>
-    os.mkdir(output_folder, exist_ok=True)
-TypeError: 'exist_ok' is an invalid keyword argument for mkdir()

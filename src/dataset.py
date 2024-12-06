@@ -80,6 +80,7 @@ class Dataset(torch.utils.data.Dataset):
         self.data = self.load_flist(flist)
         self.line_data = self.load_flist(line_flist)
         self.mask_data = self.load_flist(mask_flist)
+        #print('data:', self.data, '\nline:', self.line_data, '\nmask:', self.mask_data)
 
         self.input_size = config.INPUT_SIZE
         self.line = config.LINE
@@ -99,7 +100,8 @@ class Dataset(torch.utils.data.Dataset):
 
     def load_name(self, index):
         name = self.data[index]
-        return os.path.basename(name)
+        path_components = name.split(os.sep)
+        return os.path.join(*path_components[-2:])
 
     def load_item(self, index):
         size = self.input_size
@@ -116,9 +118,9 @@ class Dataset(torch.utils.data.Dataset):
             pos = self.get_pos(img_gray, size)
             img_gray = self.crop(img_gray, pos, size)
             line = self.crop(line, pos, size)
-            mask = self.load_mask(size, index, pos)
+            mask = self.load_mask(size, index, img_gray.shape[1], img_gray.shape[0], pos)
         else:
-            mask = self.load_mask(size, index)
+            mask = self.load_mask(size, index, img_gray.shape[1], img_gray.shape[0])
 
         # img = torch.from_numpy(img.transpose(2,0,1).copy()).float()
         line = torch.from_numpy(line.copy()).unsqueeze(0).float()
@@ -174,12 +176,23 @@ class Dataset(torch.utils.data.Dataset):
         line = imresize(line, img.shape[:2], interp='bilinear')
         return line
 
-    def load_mask(self, size, index, pos=None):
+    def load_mask(self, size, index, imgX=None, imgY=None, pos=None):
         imgh, imgw = size, size
         mask_type = self.mask
 
         mask = imread(self.mask_data[index])
-        mask = rgb2gray(mask)
+        # #Resize mask, using 0 as padding
+        mask = cv2.resize(mask, (imgX, imgY), interpolation=cv2.INTER_NEAREST)
+
+
+        # import matplotlib.pyplot as plt
+
+        # plt.imshow(mask, cmap='gray')
+        # plt.title('Mask')
+        # plt.show()
+
+        if mask.ndim == 3 and mask.shape[2] == 3:
+            mask = rgb2gray(mask)
         mask = (mask > 0.5).astype(np.uint8)
         if pos is not None:
             mask = self.crop(mask, pos, size)
@@ -211,7 +224,9 @@ class Dataset(torch.utils.data.Dataset):
         # flist: image file path, image directory path, text file flist path
         if isinstance(flist, str):
             if os.path.isdir(flist):
-                flist = list(glob.glob(flist + '/*.jpg')) + list(glob.glob(flist + '/*.png'))
+                flist = list(glob.glob(os.path.join(flist, '**', '*.jpg'), recursive=True)) + \
+                        list(glob.glob(os.path.join(flist, '**', '*.png'), recursive=True))
+                #flist = list(glob.glob(flist + '/*.jpg')) + list(glob.glob(flist + '/*.png'))
                 flist.sort()
                 return flist
             

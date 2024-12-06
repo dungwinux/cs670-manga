@@ -118,8 +118,13 @@ def inference(model, processor, df, output_file):
         
         if check_inference(output_text, df_specific): 
             df_specific['text_translated'] = [
-                extract_tag_text(extract_tag_text(output_text, f'item_{j}').strip(), 'translation').strip() or "" 
-                for j in range(len(df_specific))
+                (extracted_translation.strip() if extracted_translation else "") 
+                for extracted_translation in [
+                    extract_tag_text(
+                        extract_tag_text(output_text, f'item_{j}') or "", 'translation'
+                    )
+                    for j in range(len(df_specific))
+                ]
             ]
         else: 
             df_specific['text_translated'] = [
@@ -135,7 +140,7 @@ def inference(model, processor, df, output_file):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name", type=str, default="qwen_7", help="Model name")
+    parser.add_argument("--model_name", type=str, help="Model name")
     args = parser.parse_args()
     model_name = args.model_name
     print("Inferencing with:", model_name)
@@ -163,6 +168,6 @@ if __name__ == "__main__":
     # Read in dataframe ----
     df = pd.read_csv("../data/output/detection/merged.csv")
     if not os.path.exists(output_file):
-        pd.DataFrame(columns=['path', 'outputs']).to_csv(output_file, index=False)
+        pd.DataFrame(columns=['path', 'coordinates', 'outputs', 'text_translated']).to_csv(output_file, index=False)
 
     inference(model, processor, df, output_file)

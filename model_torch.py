@@ -304,8 +304,6 @@ if __name__ == "__main__":
 
     with torch.no_grad():
         for imname in tqdm(filelists):
-            if not run_line_model:
-                break
             src = cv2.imread(imname,cv2.IMREAD_GRAYSCALE)
             head, tail = os.path.split(imname)
             
