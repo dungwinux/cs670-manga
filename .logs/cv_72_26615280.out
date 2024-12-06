@@ -1,0 +1,7 @@
+Removing cuda version 12.6
+Removing conda
+Loading conda
+/scratch/workspace/ctpham_umass_edu-llama/envs/manga/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Inferencing with: qwen_72
+Downloading shards:   0%|          | 0/38 [00:00<?, ?it/s]Downloading shards:   3%|▎         | 1/38 [01:33<57:30, 93.25s/it]Downloading shards:   5%|▌         | 2/38 [03:04<55:05, 91.83s/it]

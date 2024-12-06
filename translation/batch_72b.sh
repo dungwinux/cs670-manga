@@ -1,7 +1,6 @@
 #!/bin/bash -l
 #SBATCH -J cv_72
 #SBATCH --partition=gpu-preempt
-#SBATCH --ntasks=4                # Total of 8 tasks (1 task per GPU)
 #SBATCH --gres=gpu:4              # Request 1 GPU per task (distributed across nodes)
 #SBATCH --mem=400GB
 #SBATCH --constraint=a100-80g

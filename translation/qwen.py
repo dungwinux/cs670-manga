@@ -21,13 +21,13 @@ def extract_tag_text(text, tag, random=False):
     return matches[0] if matches else None
 
 
-def single_inference(model, processor, page_spec, image_path, do_sample=False):
+def single_inference(model, processor, page_spec, path, do_sample=False):
     messages = [{
         "role": "user",
         "content": [
             {
                 "type": "image",
-                "image": image_path,
+                "image": path,
             },
             {
                 "type": "text", 
@@ -45,7 +45,7 @@ def single_inference(model, processor, page_spec, image_path, do_sample=False):
         return_tensors="pt",
     ).to("cuda")
     
-    generated_ids = model.generate(**inputs, max_new_tokens=5000, do_sample=do_sample)
+    generated_ids = model.generate(**inputs, max_new_tokens=3000, do_sample=do_sample)
     generated_ids_trimmed = [
         out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
     ]
@@ -59,7 +59,6 @@ def check_inference(output_text, df_specific):
     '''
     Verify if the output has the correct number of text-translation pairs and matches original Japanese text
     '''
-    # Split output into pairs
     pairs = re.findall(r'<text>(.*?)</text>\s*<translation>(.*?)</translation>', output_text, re.DOTALL)
     
     # Check if the count of pairs matches the ground truth
@@ -71,7 +70,7 @@ def check_inference(output_text, df_specific):
     # Iterate through pairs and verify each against the ground truth
     for i, (text, translation) in enumerate(pairs):
         original_text = text.strip()
-        ground_truth_text = df_specific.text_ja.iloc[i].strip()
+        ground_truth_text = df_specific.text.iloc[i].strip()
         
         # Check if the original Japanese text matches
         if original_text != ground_truth_text:
@@ -79,8 +78,6 @@ def check_inference(output_text, df_specific):
             print(f"Output: {original_text}")
             print(f"Ground Truth: {ground_truth_text}")
             return False
-        
-        # Optional: add logic here to handle the extracted translation if needed
 
     return True
 
@@ -89,33 +86,34 @@ def inference(model, processor, df, output_file):
     '''
     Run inference over the dataset
     '''
-    paths = sorted(list(set(df.image_path.tolist())))
+    paths = sorted(list(set(df.path.tolist())))
     
-    for image_path in tqdm(paths): 
-        df_specific = df[df['image_path'] == image_path].reset_index(drop=True)
+    for path in tqdm(paths): 
+        # Get a subset of the data that correspond to the book path in question 
+        df_specific = df[df['path'] == path].reset_index(drop=True)
         
-        if len(df_specific) == 1 and len(df_specific.text_ja.iloc[0]) <= 1:
-            print("Empty text, skipping", image_path)
+        if len(df_specific) == 1 and len(df_specific.text.iloc[0]) <= 1:
+            print("Empty text, skipping", path)
             continue
-        if os.path.exists(output_file) and image_path in pd.read_csv(output_file).image_path.tolist():
-            print("Skipping", image_path)
+        if os.path.exists(output_file) and path in pd.read_csv(output_file).path.tolist():
+            print("Skipping", path)
             continue
 
         page_spec = "\n\n".join(
-            [f"<item_{j}>    <text>    {df_specific.text_ja.iloc[j]}    </text></item_{j}>"
+            [f"<item_{j}>    <text>    {df_specific.text.iloc[j]}    </text></item_{j}>"
              for j in range(len(df_specific))]
         )
 
-        output_text = single_inference(model, processor, page_spec, image_path).replace('\n', '')
+        output_text = single_inference(model, processor, page_spec, path).replace('\n', '')
 
         retry_count = 0
         while not check_inference(output_text, df_specific):
-            print("Retrying", image_path)
-            output_text = single_inference(model, processor, page_spec + "\n\n Please follow the output template strictly.", image_path, do_sample=True).replace('\n', '')
+            print("Retrying", path)
+            output_text = single_inference(model, processor, page_spec + "\n\n Please follow the output template strictly.", path, do_sample=True).replace('\n', '')
             retry_count += 1
             if retry_count > 5:
                 print(output_text)
-                print("Failed to get correct output after 5 retries. Skipping", image_path)
+                print("Failed to get correct output after 5 retries. Skipping", path)
                 break
         
         if check_inference(output_text, df_specific): 
@@ -128,11 +126,11 @@ def inference(model, processor, df, output_file):
                 "" for j in range(len(df_specific))
             ]
         df_specific['outputs'] = [output_text] * len(df_specific)
-        df_specific['text_original'] = df_specific.text_ja
-        df_specific['image_path'] = image_path
+        df_specific['text_original'] = df_specific.text
+        df_specific['path'] = path
 
         df_specific.to_csv(output_file, mode='a', index=False, header=False)
-        print("Translated", image_path)
+        print("Translated", path)
 
 
 if __name__ == "__main__":
@@ -151,7 +149,7 @@ if __name__ == "__main__":
             cache_dir="/scratch3/workspace/ctpham_umass_edu-ft/.cache"
         )
         processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-72B-Instruct")
-        output_file = 'data/output/qwen_72b.csv'
+        output_file = '../data/output/qwen_72b_openmantra.csv'
     elif model_name == "qwen_7":
         model = Qwen2VLForConditionalGeneration.from_pretrained(
             "Qwen/Qwen2-VL-7B-Instruct",
@@ -160,10 +158,11 @@ if __name__ == "__main__":
             device_map="auto",
         )
         processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-7B-Instruct")
-        output_file = 'data/output/qwen_7b.csv'
+        output_file = '../data/output/qwen_7b_openmantra.csv'
 
-    df = pd.read_csv("data/annotation/annotation_cleaned.csv")
+    # Read in dataframe ----
+    df = pd.read_csv("../data/output/detection/merged.csv")
     if not os.path.exists(output_file):
-        pd.DataFrame(columns=['image_path', 'outputs']).to_csv(output_file, index=False)
+        pd.DataFrame(columns=['path', 'outputs']).to_csv(output_file, index=False)
 
     inference(model, processor, df, output_file)

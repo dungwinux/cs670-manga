@@ -10,8 +10,9 @@ def detect(path, coordinates, mocr, save=True):
     Given an image stored in a path, crop the image based on 
     the given coordinates and optionally save cropped images.
     ''' 
-    # extend the path to the image
-    path = "../" + path
+    if not os.path.exists(path): 
+        print(f"No corresponding raw image found for {path}.")
+        return None
     image = cv2.imread(path)
     
     texts = []
@@ -49,15 +50,19 @@ def main():
     for f in tqdm(d): 
         path = f['path']
         coordinates = f['coordinates']
-        f['text'] = detect(path, coordinates, mocr)
+        detected = detect(path, coordinates, mocr)
+        if detected: 
+            f['text'] = detected
+        else: 
+            continue
 
     # Save the updated JSON file
     output_dir = os.path.dirname(args.location_file).replace("input", "output")
     os.makedirs(output_dir, exist_ok=True)
     output_path = os.path.join(output_dir, os.path.basename(args.location_file))
-
-    with open(output_path, 'w') as f:
-        json.dump(d, f, indent=4)
+    
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(d, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__": 
     main()
