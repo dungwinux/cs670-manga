@@ -8,6 +8,8 @@ from mts import MTS
 import cv2
 import numpy as np
 import processing as proc
+import algorithm as al
+import argparse
 
 manga109_dirs = [
     "AisazuNihaIrarenai",
@@ -177,13 +179,49 @@ def old_main():
         td.execute(test)
 
 def main():
+    parser = argparse.ArgumentParser(description='Batch processing at port')
+    parser.add_argument('--er', action='store_true')
+    parser.add_argument('--swt', action='store_true')
+    parser.add_argument('--db', action='store_true')
+    parser.add_argument('--east', action='store_true')
+    parser.add_argument('--textboxes', action='store_true')
+    parser.add_argument('--stub', action='store_true')
+    args = parser.parse_args()
+
     cwd = Path('/home/saratoga/cs670-manga/')
+    filt = '/00*.jpg'
 
     prepare(cwd, manga109_dirs)
 
     import port
     td = port.TextDetection(cwd)
-    test_set = glob.glob('**/00*.jpg', root_dir=td.input_base, recursive=True)
+
+    if args.stub:
+        print('Running Stub algorithm')
+        td.cv2_model = al.Stub()
+    elif args.textboxes:
+        print('Running CNNTextBoxes algorithm')
+        td.cv2_model = al.CNNTextBoxes()
+    elif args.east:
+        print('Running EAST algorithm')
+        td.cv2_model = al.DNN_EAST()
+        al.enable_CUDA_if_available(td.cv2_model)
+    elif args.db:
+        print('Running DB algorithm')
+        td.cv2_model = al.DNN_DB()
+        al.enable_CUDA_if_available(td.cv2_model)
+    elif args.swt:
+        print('Running SWT algorithm')
+        td.cv2_model = al.Text_SWT()
+    elif args.er:
+        print('Running ER algorithm')
+        td.cv2_model = al.Text_ER()
+
+    
+    test_set = []
+    for d in manga109_dirs:
+        test_set.extend(glob.glob(d + filt, root_dir=td.input_base, recursive=True))
+    
     for test in tqdm(test_set):
         if is_problematic(test):
             continue

@@ -16,7 +16,7 @@ class Text_SWT:
 
     def process(self, img):
         rects, draw, chainBBs = cv2.text.detectTextSWT(img, True)
-        return (rects_to_polys(rects), rects_to_polys(chainBBs[0]), True)
+        return (rects_to_polys(rects), [] if chainBBs is None else rects_to_polys(chainBBs[0]), True)
 
 class DNN_DB:
     db_model_path = model_path + "DB_TD500_resnet50.onnx"
