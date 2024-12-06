@@ -140,7 +140,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_name", type=str, default="qwen_7", help="Model name")
     args = parser.parse_args()
     model_name = args.model_name
-    print(model_name)
+    print("Inferencing with:", model_name)
 
     if model_name == "qwen_72":
         model = Qwen2VLForConditionalGeneration.from_pretrained(
@@ -148,6 +148,7 @@ if __name__ == "__main__":
             torch_dtype=torch.bfloat16,
             attn_implementation="flash_attention_2",
             device_map="auto",
+            cache_dir="/scratch3/workspace/ctpham_umass_edu-ft/.cache"
         )
         processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-72B-Instruct")
         output_file = 'data/output/qwen_72b.csv'
