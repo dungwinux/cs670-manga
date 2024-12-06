@@ -14,13 +14,18 @@ import dataset as dataset
 
 class _MTS:
     m_learner: List[Learner] = [None]
-    def __init__(self, model_path: str = 'models', model_count: int = 5, model_load_bitmask: int = 0b10101):
-        
-        self.m_learner = [load_learner(model_path, f'fold.{_}.-.final.refined.model.2.pkl') for _ in range(model_count) if (1 << _) & model_load_bitmask]
+    model_count: int = 5
+    def __init__(self, cwd = pathlib.Path(__file__).parents[1].resolve(), model_count: int = 5, model_load_bitmask: int = -1):
+        model_path = 'models'
+        self.model_count = model_count
+        # Batch prediction does not work because the base model does not support it
+        # input_set = ImageList.from_folder(cwd / 'input_test', extensions=['.jpg'], recurse=True)
+        self.m_learner = {_: load_learner(str(root / model_path), f'fold.{_}.-.final.refined.model.2.pkl') for _ in range(model_count) if (1 << _) & model_load_bitmask}
+        print(f"Loaded {len(self.m_learner)} out of {self.model_count} models")
 
     def process(self, path_to_image_input: Union[Path, str]):
         im = open_image(path_to_image_input)
-        pred = [learner.predict(im) for learner in self.m_learner]
+        pred = [learner.predict(im) for (_, learner) in self.m_learner.items()]
         return (im, pred)
 
 MTS = _MTS()
