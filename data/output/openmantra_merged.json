@@ -539,7 +539,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "（",
                     "color": "black",
                     "position": {
                         "x": 368,
@@ -2039,7 +2039,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "RI",
                     "color": "black",
                     "position": {
                         "x": 537,
@@ -2067,6 +2067,16 @@
                         "w": 191,
                         "h": 134
                     }
+                },
+                {
+                    "text": "ri",
+                    "color": "black",
+                    "position": {
+                        "x": 537,
+                        "y": 911,
+                        "w": 58,
+                        "h": 110
+                    }
                 }
             ]
         },
@@ -2074,7 +2084,7 @@
             "image_path": "data/output/balloon_dream/003.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "、",
                     "color": "black",
                     "position": {
                         "x": 182,
@@ -2174,7 +2184,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Ten years later—summer",
                     "color": "black",
                     "position": {
                         "x": 681,
@@ -3114,7 +3124,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "KU",
                     "color": "black",
                     "position": {
                         "x": 579,
@@ -3124,7 +3134,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "50",
                     "color": "black",
                     "position": {
                         "x": 359,
@@ -3894,7 +3904,7 @@
                     }
                 },
                 {
-                    "text": "I have to chase after it... ",
+                    "text": "I have to chase after it...",
                     "color": "black",
                     "position": {
                         "x": 387,
@@ -4144,7 +4154,7 @@
             "image_path": "data/output/balloon_dream/017.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "、",
                     "color": "black",
                     "position": {
                         "x": 379,
@@ -4769,7 +4779,7 @@
                     }
                 },
                 {
-                    "text": "This isn't about being wasteful... ",
+                    "text": "This isn't about being wasteful...",
                     "color": "black",
                     "position": {
                         "x": 116,
@@ -5059,7 +5069,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "What!?",
                     "color": "black",
                     "position": {
                         "x": 179,
@@ -5429,7 +5439,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "（",
                     "color": "black",
                     "position": {
                         "x": 296,
@@ -5664,7 +5674,7 @@
             "image_path": "data/output/balloon_dream/029.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "ッ",
                     "color": "black",
                     "position": {
                         "x": 313,
@@ -5754,7 +5764,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "＞",
                     "color": "black",
                     "position": {
                         "x": 661,
@@ -6954,7 +6964,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "It must have been such a beautiful face, I imagine.",
                     "color": "black",
                     "position": {
                         "x": 382,
@@ -7022,6 +7032,16 @@
                         "w": 195,
                         "h": 393
                     }
+                },
+                {
+                    "text": "It must have been a truly beautiful face.",
+                    "color": "black",
+                    "position": {
+                        "x": 382,
+                        "y": 722,
+                        "w": 63,
+                        "h": 129
+                    }
                 }
             ]
         },
@@ -7049,7 +7069,7 @@
                     }
                 },
                 {
-                    "text": "&gt;",
+                    "text": "＞",
                     "color": "black",
                     "position": {
                         "x": 191,
@@ -7109,7 +7129,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "…I couldn't bring myself to say, 'It'll be okay from now on,' but that's how it is, isn't it? No, that's not it. I guess this is fine… or maybe not. It's just one of those things, isn't it?",
                     "color": "black",
                     "position": {
                         "x": 605,
@@ -7166,6 +7186,26 @@
                         "y": 183,
                         "w": 27,
                         "h": 61
+                    }
+                },
+                {
+                    "text": "&gt;",
+                    "color": "black",
+                    "position": {
+                        "x": 191,
+                        "y": 608,
+                        "w": 46,
+                        "h": 38
+                    }
+                },
+                {
+                    "text": "I couldn’t bring myself to say, \"It’ll be okay from now on,\" but that’s just how it is, isn’t it? No, that’s not quite right. I guess it’s fine… or maybe not. It’s just one of those things.",
+                    "color": "black",
+                    "position": {
+                        "x": 605,
+                        "y": 372,
+                        "w": 44,
+                        "h": 86
                     }
                 }
             ]
@@ -7609,7 +7649,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "／",
                     "color": "black",
                     "position": {
                         "x": 181,
@@ -8104,7 +8144,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "So you're working to earn your own money while attending a vocational school, huh?",
                     "color": "black",
                     "position": {
                         "x": 706,
@@ -8202,6 +8242,16 @@
                         "w": 40,
                         "h": 95
                     }
+                },
+                {
+                    "text": "So you're earning your own money while attending vocational school, huh?",
+                    "color": "black",
+                    "position": {
+                        "x": 706,
+                        "y": 784,
+                        "w": 64,
+                        "h": 143
+                    }
                 }
             ]
         },
@@ -8209,7 +8259,7 @@
             "image_path": "data/output/boureisougi/014.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "! 4",
                     "color": "black",
                     "position": {
                         "x": 70,
@@ -8604,7 +8654,7 @@
                     }
                 },
                 {
-                    "text": "I didn't want to cause any more trouble... ",
+                    "text": "I didn't want to cause any more trouble...",
                     "color": "black",
                     "position": {
                         "x": 93,
@@ -9019,7 +9069,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "It's not something you should decide on your own, right?",
                     "color": "black",
                     "position": {
                         "x": 187,
@@ -10104,7 +10154,7 @@
                     }
                 },
                 {
-                    "text": "I had been keeping it as my sister's遗物.",
+                    "text": "We were keeping it here as part of your sister's belongings.",
                     "color": "black",
                     "position": {
                         "x": 469,
@@ -10131,6 +10181,16 @@
                         "y": 76,
                         "w": 45,
                         "h": 84
+                    }
+                },
+                {
+                    "text": "I had been keeping it as my sister's遗物.",
+                    "color": "black",
+                    "position": {
+                        "x": 469,
+                        "y": 146,
+                        "w": 63,
+                        "h": 157
                     }
                 }
             ]
@@ -10779,7 +10839,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "-1",
                     "color": "black",
                     "position": {
                         "x": 618,
@@ -11144,7 +11204,17 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "If you say a demon has nested in your heart...",
+                    "color": "black",
+                    "position": {
+                        "x": 721,
+                        "y": 31,
+                        "w": 60,
+                        "h": 202
+                    }
+                },
+                {
+                    "text": "If a demon has taken root in your heart...",
                     "color": "black",
                     "position": {
                         "x": 721,
@@ -11199,7 +11269,7 @@
                     }
                 },
                 {
-                    "text": "Ah... ",
+                    "text": "Ah...",
                     "color": "black",
                     "position": {
                         "x": 405,
@@ -11309,7 +11379,7 @@
                     }
                 },
                 {
-                    "text": "Stop... ",
+                    "text": "Stop...",
                     "color": "black",
                     "position": {
                         "x": 466,
@@ -11584,7 +11654,7 @@
             "image_path": "data/output/rasetugari/009.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "ッ",
                     "color": "black",
                     "position": {
                         "x": 506,
@@ -12299,7 +12369,7 @@
             "image_path": "data/output/rasetugari/014.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "い！",
                     "color": "black",
                     "position": {
                         "x": 299,
@@ -12309,7 +12379,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "（．．",
                     "color": "black",
                     "position": {
                         "x": 202,
@@ -12319,7 +12389,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "fu—",
                     "color": "black",
                     "position": {
                         "x": 232,
@@ -12329,7 +12399,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Be",
                     "color": "black",
                     "position": {
                         "x": 87,
@@ -12339,7 +12409,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "And that’s complete annihilation.",
                     "color": "black",
                     "position": {
                         "x": 445,
@@ -12369,7 +12439,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "i",
                     "color": "black",
                     "position": {
                         "x": 144,
@@ -12379,7 +12449,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "to",
                     "color": "black",
                     "position": {
                         "x": 98,
@@ -12429,7 +12499,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "o",
                     "color": "black",
                     "position": {
                         "x": 473,
@@ -12439,7 +12509,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "However...",
                     "color": "black",
                     "position": {
                         "x": 297,
@@ -12449,7 +12519,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "a",
                     "color": "black",
                     "position": {
                         "x": 592,
@@ -12459,13 +12529,63 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "a",
                     "color": "black",
                     "position": {
                         "x": 92,
                         "y": 5,
                         "w": 86,
                         "h": 109
+                    }
+                },
+                {
+                    "text": "i!",
+                    "color": "black",
+                    "position": {
+                        "x": 299,
+                        "y": 1019,
+                        "w": 49,
+                        "h": 70
+                    }
+                },
+                {
+                    "text": "fu--",
+                    "color": "black",
+                    "position": {
+                        "x": 232,
+                        "y": 962,
+                        "w": 67,
+                        "h": 112
+                    }
+                },
+                {
+                    "text": "be",
+                    "color": "black",
+                    "position": {
+                        "x": 87,
+                        "y": 919,
+                        "w": 112,
+                        "h": 141
+                    }
+                },
+                {
+                    "text": "That was complete annihilation.",
+                    "color": "black",
+                    "position": {
+                        "x": 445,
+                        "y": 749,
+                        "w": 39,
+                        "h": 144
+                    }
+                },
+                {
+                    "text": "To offer such things...!!",
+                    "color": "black",
+                    "position": {
+                        "x": 98,
+                        "y": 678,
+                        "w": 38,
+                        "h": 44
                     }
                 }
             ]
@@ -12884,7 +13004,7 @@
             "image_path": "data/output/rasetugari/017.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "A!",
                     "color": "black",
                     "position": {
                         "x": 448,
@@ -12894,7 +13014,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "De",
                     "color": "black",
                     "position": {
                         "x": 331,
@@ -12914,7 +13034,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "・",
                     "color": "black",
                     "position": {
                         "x": 657,
@@ -12924,7 +13044,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "And then",
                     "color": "black",
                     "position": {
                         "x": 568,
@@ -12934,7 +13054,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ん",
                     "color": "black",
                     "position": {
                         "x": 391,
@@ -12944,7 +13064,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "17",
                     "color": "black",
                     "position": {
                         "x": 82,
@@ -12954,7 +13074,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "1",
                     "color": "black",
                     "position": {
                         "x": 355,
@@ -12964,7 +13084,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ん",
                     "color": "black",
                     "position": {
                         "x": 398,
@@ -12974,7 +13094,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ノ",
                     "color": "black",
                     "position": {
                         "x": 339,
@@ -12984,7 +13104,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "」",
                     "color": "black",
                     "position": {
                         "x": 232,
@@ -12994,7 +13114,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 720,
@@ -13004,7 +13124,77 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "A—",
+                    "color": "black",
+                    "position": {
+                        "x": 82,
+                        "y": 3,
+                        "w": 149,
+                        "h": 238
+                    }
+                },
+                {
+                    "text": "Ah!",
+                    "color": "black",
+                    "position": {
+                        "x": 448,
+                        "y": 973,
+                        "w": 80,
+                        "h": 115
+                    }
+                },
+                {
+                    "text": "de",
+                    "color": "black",
+                    "position": {
+                        "x": 331,
+                        "y": 950,
+                        "w": 66,
+                        "h": 140
+                    }
+                },
+                {
+                    "text": "And so",
+                    "color": "black",
+                    "position": {
+                        "x": 568,
+                        "y": 776,
+                        "w": 162,
+                        "h": 286
+                    }
+                },
+                {
+                    "text": "n",
+                    "color": "black",
+                    "position": {
+                        "x": 391,
+                        "y": 646,
+                        "w": 21,
+                        "h": 42
+                    }
+                },
+                {
+                    "text": "n",
+                    "color": "black",
+                    "position": {
+                        "x": 398,
+                        "y": 513,
+                        "w": 83,
+                        "h": 123
+                    }
+                },
+                {
+                    "text": "no",
+                    "color": "black",
+                    "position": {
+                        "x": 339,
+                        "y": 508,
+                        "w": 54,
+                        "h": 33
+                    }
+                },
+                {
+                    "text": "Ah!",
                     "color": "black",
                     "position": {
                         "x": 82,
@@ -13019,7 +13209,7 @@
             "image_path": "data/output/rasetugari/018.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "一",
                     "color": "black",
                     "position": {
                         "x": 87,
@@ -13029,7 +13219,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "、",
                     "color": "black",
                     "position": {
                         "x": 370,
@@ -13039,7 +13229,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 147,
@@ -13049,7 +13239,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！！",
                     "color": "black",
                     "position": {
                         "x": 502,
@@ -13079,7 +13269,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "、、",
                     "color": "black",
                     "position": {
                         "x": 322,
@@ -13089,7 +13279,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 359,
@@ -13099,7 +13289,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ん",
                     "color": "black",
                     "position": {
                         "x": 104,
@@ -13109,7 +13299,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "・",
                     "color": "black",
                     "position": {
                         "x": 125,
@@ -13119,7 +13309,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "1",
                     "color": "black",
                     "position": {
                         "x": 103,
@@ -13167,6 +13357,16 @@
                         "w": 79,
                         "h": 152
                     }
+                },
+                {
+                    "text": "n",
+                    "color": "black",
+                    "position": {
+                        "x": 104,
+                        "y": 391,
+                        "w": 20,
+                        "h": 19
+                    }
                 }
             ]
         },
@@ -13174,7 +13374,7 @@
             "image_path": "data/output/rasetugari/019.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "ッ",
                     "color": "black",
                     "position": {
                         "x": 591,
@@ -13234,7 +13434,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ッ",
                     "color": "black",
                     "position": {
                         "x": 387,
@@ -13284,7 +13484,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ッ",
                     "color": "black",
                     "position": {
                         "x": 759,
@@ -13294,7 +13494,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Because I'm going",
                     "color": "black",
                     "position": {
                         "x": 69,
@@ -13361,6 +13561,16 @@
                         "y": 35,
                         "w": 108,
                         "h": 155
+                    }
+                },
+                {
+                    "text": "I'm going now",
+                    "color": "black",
+                    "position": {
+                        "x": 69,
+                        "y": 299,
+                        "w": 214,
+                        "h": 143
                     }
                 }
             ]
@@ -13519,7 +13729,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Oooohhhh!?",
                     "color": "black",
                     "position": {
                         "x": 35,
@@ -13529,7 +13739,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Just couldn't help but..",
                     "color": "black",
                     "position": {
                         "x": 467,
@@ -14034,7 +14244,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "／",
                     "color": "black",
                     "position": {
                         "x": 647,
@@ -14294,7 +14504,7 @@
             "image_path": "data/output/rasetugari/025.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "．．",
                     "color": "black",
                     "position": {
                         "x": 606,
@@ -14304,7 +14514,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "－",
                     "color": "black",
                     "position": {
                         "x": 101,
@@ -14909,7 +15119,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "（",
                     "color": "black",
                     "position": {
                         "x": 440,
@@ -15104,7 +15314,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "（",
                     "color": "black",
                     "position": {
                         "x": 430,
@@ -15179,7 +15389,7 @@
             "image_path": "data/output/rasetugari/030.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "i!",
                     "color": "black",
                     "position": {
                         "x": 665,
@@ -15539,7 +15749,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Ahhhh-",
                     "color": "black",
                     "position": {
                         "x": 100,
@@ -15549,7 +15759,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "＞＞",
                     "color": "black",
                     "position": {
                         "x": 681,
@@ -15749,7 +15959,7 @@
             "image_path": "data/output/rasetugari/034.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "ッ",
                     "color": "black",
                     "position": {
                         "x": 221,
@@ -15759,7 +15969,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "７／",
                     "color": "black",
                     "position": {
                         "x": 105,
@@ -15874,7 +16084,7 @@
             "image_path": "data/output/rasetugari/035.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "＞",
                     "color": "black",
                     "position": {
                         "x": 217,
@@ -16124,7 +16334,7 @@
             "image_path": "data/output/rasetugari/037.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "こ",
                     "color": "black",
                     "position": {
                         "x": 332,
@@ -16134,7 +16344,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ッ",
                     "color": "black",
                     "position": {
                         "x": 251,
@@ -16144,7 +16354,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ダ",
                     "color": "black",
                     "position": {
                         "x": 107,
@@ -16384,7 +16594,7 @@
             "image_path": "data/output/rasetugari/039.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "、",
                     "color": "black",
                     "position": {
                         "x": 430,
@@ -17774,7 +17984,7 @@
             "image_path": "data/output/rasetugari/047.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "・",
                     "color": "black",
                     "position": {
                         "x": 240,
@@ -17784,7 +17994,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 255,
@@ -17794,7 +18004,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 636,
@@ -17804,7 +18014,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 169,
@@ -17814,7 +18024,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 110,
@@ -17824,7 +18034,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！！",
                     "color": "black",
                     "position": {
                         "x": 438,
@@ -17849,7 +18059,7 @@
             "image_path": "data/output/rasetugari/048.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 143,
@@ -17859,7 +18069,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "し",
                     "color": "black",
                     "position": {
                         "x": 60,
@@ -17869,7 +18079,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！！",
                     "color": "black",
                     "position": {
                         "x": 707,
@@ -17879,7 +18089,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "いを",
                     "color": "black",
                     "position": {
                         "x": 213,
@@ -17899,7 +18109,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "that thought",
                     "color": "black",
                     "position": {
                         "x": 210,
@@ -18014,7 +18224,7 @@
                     }
                 },
                 {
-                    "text": "\"",
+                    "text": NaN,
                     "color": "black",
                     "position": {
                         "x": 402,
@@ -18224,7 +18434,7 @@
             "image_path": "data/output/rasetugari/051.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "・",
                     "color": "black",
                     "position": {
                         "x": 127,
@@ -18349,7 +18559,7 @@
             "image_path": "data/output/rasetugari/052.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 572,
@@ -18369,7 +18579,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Ｖッ",
                     "color": "black",
                     "position": {
                         "x": 242,
@@ -18474,7 +18684,7 @@
             "image_path": "data/output/rasetugari/053.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "ッ",
                     "color": "black",
                     "position": {
                         "x": 513,
@@ -18999,7 +19209,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "（",
                     "color": "black",
                     "position": {
                         "x": 70,
@@ -19019,7 +19229,7 @@
                     }
                 },
                 {
-                    "text": "I don't have my wallet... ",
+                    "text": "I don't have my wallet...",
                     "color": "black",
                     "position": {
                         "x": 368,
@@ -19324,7 +19534,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "＞",
                     "color": "black",
                     "position": {
                         "x": 401,
@@ -19479,7 +19689,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "no",
                     "color": "black",
                     "position": {
                         "x": 166,
@@ -20924,7 +21134,7 @@
             "image_path": "data/output/tencho_isoro/013.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "fu --",
                     "color": "black",
                     "position": {
                         "x": 119,
@@ -20934,7 +21144,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "n",
                     "color": "black",
                     "position": {
                         "x": 231,
@@ -20944,7 +21154,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "１ッ",
                     "color": "black",
                     "position": {
                         "x": 73,
@@ -20954,7 +21164,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "、",
                     "color": "black",
                     "position": {
                         "x": 81,
@@ -20964,7 +21174,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "～",
                     "color": "black",
                     "position": {
                         "x": 160,
@@ -20974,7 +21184,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "いえ",
                     "color": "black",
                     "position": {
                         "x": 603,
@@ -20984,7 +21194,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 726,
@@ -20994,7 +21204,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "・",
                     "color": "black",
                     "position": {
                         "x": 639,
@@ -21004,7 +21214,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "じる",
                     "color": "black",
                     "position": {
                         "x": 463,
@@ -21014,7 +21224,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "、",
                     "color": "black",
                     "position": {
                         "x": 167,
@@ -21054,7 +21264,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 118,
@@ -21069,7 +21279,7 @@
             "image_path": "data/output/tencho_isoro/014.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 68,
@@ -21169,7 +21379,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "i!",
                     "color": "black",
                     "position": {
                         "x": 191,
@@ -21584,7 +21794,7 @@
             "image_path": "data/output/tencho_isoro/019.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "、",
                     "color": "black",
                     "position": {
                         "x": 675,
@@ -21594,7 +21804,7 @@
                     }
                 },
                 {
-                    "text": "!",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 703,
@@ -21604,7 +21814,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ん",
                     "color": "black",
                     "position": {
                         "x": 699,
@@ -21614,7 +21824,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "、",
                     "color": "black",
                     "position": {
                         "x": 625,
@@ -21674,7 +21884,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "、",
                     "color": "black",
                     "position": {
                         "x": 686,
@@ -21789,7 +21999,7 @@
             "image_path": "data/output/tencho_isoro/020.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "＞",
                     "color": "black",
                     "position": {
                         "x": 40,
@@ -22189,7 +22399,7 @@
                     }
                 },
                 {
-                    "text": "And... ",
+                    "text": "And...",
                     "color": "black",
                     "position": {
                         "x": 87,
@@ -22199,7 +22409,7 @@
                     }
                 },
                 {
-                    "text": "And... ",
+                    "text": "And...",
                     "color": "black",
                     "position": {
                         "x": 67,
@@ -22564,7 +22774,7 @@
             "image_path": "data/output/tencho_isoro/025.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "Shi",
                     "color": "black",
                     "position": {
                         "x": 102,
@@ -22584,7 +22794,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 698,
@@ -22604,7 +22814,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！！",
                     "color": "black",
                     "position": {
                         "x": 716,
@@ -22624,7 +22834,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．",
                     "color": "black",
                     "position": {
                         "x": 698,
@@ -22919,7 +23129,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "I'll teach you, so just give it a try for now.",
                     "color": "black",
                     "position": {
                         "x": 239,
@@ -23339,7 +23549,7 @@
                     }
                 },
                 {
-                    "text": "\"",
+                    "text": NaN,
                     "color": "black",
                     "position": {
                         "x": 698,
@@ -23414,7 +23624,7 @@
             "image_path": "data/output/tencho_isoro/031.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "＞",
                     "color": "black",
                     "position": {
                         "x": 116,
@@ -23424,7 +23634,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "～",
                     "color": "black",
                     "position": {
                         "x": 194,
@@ -23434,7 +23644,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "キナ",
                     "color": "black",
                     "position": {
                         "x": 713,
@@ -23504,7 +23714,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 112,
@@ -23534,7 +23744,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ーっ",
                     "color": "black",
                     "position": {
                         "x": 631,
@@ -23544,7 +23754,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 135,
@@ -23564,7 +23774,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ku",
                     "color": "black",
                     "position": {
                         "x": 420,
@@ -23584,7 +23794,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "At that point",
                     "color": "black",
                     "position": {
                         "x": 186,
@@ -23954,7 +24164,7 @@
             "image_path": "data/output/tencho_isoro/035.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "da",
                     "color": "black",
                     "position": {
                         "x": 182,
@@ -23974,7 +24184,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "n",
                     "color": "black",
                     "position": {
                         "x": 113,
@@ -23984,7 +24194,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "no",
                     "color": "black",
                     "position": {
                         "x": 128,
@@ -23994,7 +24204,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "So",
                     "color": "black",
                     "position": {
                         "x": 704,
@@ -24024,7 +24234,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 691,
@@ -24034,7 +24244,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ku",
                     "color": "black",
                     "position": {
                         "x": 305,
@@ -24044,7 +24254,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ku",
                     "color": "black",
                     "position": {
                         "x": 387,
@@ -24209,7 +24419,7 @@
             "image_path": "data/output/tencho_isoro/038.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "Shi",
                     "color": "black",
                     "position": {
                         "x": 292,
@@ -25034,7 +25244,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Sorry... I'm \"closed-eyed\" and can't see, so I ended up stumbling.",
                     "color": "black",
                     "position": {
                         "x": 416,
@@ -25169,7 +25379,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Plaan",
                     "color": "black",
                     "position": {
                         "x": 431,
@@ -25374,7 +25584,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "What the hell are you showing me!!",
                     "color": "black",
                     "position": {
                         "x": 705,
@@ -25404,7 +25614,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "（",
                     "color": "black",
                     "position": {
                         "x": 132,
@@ -25604,7 +25814,7 @@
             "image_path": "data/output/tojime_no_siora/007.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "no",
                     "color": "black",
                     "position": {
                         "x": 688,
@@ -26609,7 +26819,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "（",
                     "color": "black",
                     "position": {
                         "x": 327,
@@ -26704,7 +26914,7 @@
             "image_path": "data/output/tojime_no_siora/013.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "っ",
                     "color": "black",
                     "position": {
                         "x": 108,
@@ -26914,7 +27124,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "ku",
                     "color": "black",
                     "position": {
                         "x": 322,
@@ -28049,7 +28259,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "（",
                     "color": "black",
                     "position": {
                         "x": 166,
@@ -28259,7 +28469,7 @@
             "image_path": "data/output/tojime_no_siora/024.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "＞",
                     "color": "black",
                     "position": {
                         "x": 120,
@@ -28324,7 +28534,7 @@
             "image_path": "data/output/tojime_no_siora/025.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "．．",
                     "color": "black",
                     "position": {
                         "x": 752,
@@ -28364,7 +28574,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "／／",
                     "color": "black",
                     "position": {
                         "x": 686,
@@ -28374,7 +28584,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "10",
                     "color": "black",
                     "position": {
                         "x": 652,
@@ -28384,7 +28594,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 198,
@@ -28394,7 +28604,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 244,
@@ -28404,7 +28614,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Ｗｉ－",
                     "color": "black",
                     "position": {
                         "x": 86,
@@ -28414,7 +28624,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "っ",
                     "color": "black",
                     "position": {
                         "x": 391,
@@ -28424,7 +28634,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 765,
@@ -28434,7 +28644,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 278,
@@ -28464,7 +28674,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "！",
                     "color": "black",
                     "position": {
                         "x": 110,
@@ -28719,7 +28929,7 @@
                     }
                 },
                 {
-                    "text": "Blam!? ",
+                    "text": "Blam!?",
                     "color": "black",
                     "position": {
                         "x": 647,
@@ -28974,7 +29184,7 @@
                     }
                 },
                 {
-                    "text": "I can't believe it's this kid... ",
+                    "text": "I can't believe it's this kid...",
                     "color": "black",
                     "position": {
                         "x": 166,
@@ -29099,7 +29309,7 @@
                     }
                 },
                 {
-                    "text": "This guy's light... ",
+                    "text": "This guy's light...",
                     "color": "black",
                     "position": {
                         "x": 683,
@@ -29109,7 +29319,7 @@
                     }
                 },
                 {
-                    "text": "\"",
+                    "text": NaN,
                     "color": "black",
                     "position": {
                         "x": 639,
@@ -29329,7 +29539,7 @@
             "image_path": "data/output/tojime_no_siora/032.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 568,
@@ -29359,7 +29569,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 455,
@@ -29479,7 +29689,7 @@
             "image_path": "data/output/tojime_no_siora/034.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "．．．",
                     "color": "black",
                     "position": {
                         "x": 190,
@@ -29489,7 +29699,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "n",
                     "color": "black",
                     "position": {
                         "x": 620,
@@ -29499,7 +29709,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "to",
                     "color": "black",
                     "position": {
                         "x": 16,
@@ -29509,7 +29719,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "fi",
                     "color": "black",
                     "position": {
                         "x": 564,
@@ -29529,7 +29739,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "This is",
                     "color": "black",
                     "position": {
                         "x": 53,
@@ -29969,7 +30179,7 @@
             "image_path": "data/output/tojime_no_siora/038.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "i",
                     "color": "black",
                     "position": {
                         "x": 19,
@@ -29989,7 +30199,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "っ",
                     "color": "black",
                     "position": {
                         "x": 379,
@@ -29999,7 +30209,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "？",
                     "color": "black",
                     "position": {
                         "x": 336,
@@ -30179,7 +30389,7 @@
             "image_path": "data/output/tojime_no_siora/040.png",
             "text_to_render": [
                 {
-                    "text": "ERROR",
+                    "text": "ッ",
                     "color": "black",
                     "position": {
                         "x": 139,
@@ -30199,7 +30409,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "fu!",
                     "color": "black",
                     "position": {
                         "x": 682,
@@ -30229,7 +30439,7 @@
                     }
                 },
                 {
-                    "text": "ERROR",
+                    "text": "Ｖ／",
                     "color": "black",
                     "position": {
                         "x": 58,
