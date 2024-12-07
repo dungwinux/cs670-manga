@@ -1,17 +1,15 @@
+#Data
+Manga109*/
+Lines*/
+.logs/
+inputs/
+masks/
+outputs/
+rendered_images/
+examples/
+
 #models
 models/
-Manga109*
-
-inputs/
-lines*/
-outputs/
-examples/
-masks/
-.DS_Store
-
-environment.yaml
-package-list.txt
-
 .vscode
 erika.pth
 
@@ -131,5 +129,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-line_model.jit
-manga_inpaintor.jit

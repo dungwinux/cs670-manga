@@ -1,0 +1,8 @@
+name: inpainting
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+prefix: /opt/anaconda3/envs/inpainting
