@@ -201,7 +201,7 @@ def main():
         td.cv2_model = al.Stub()
     elif args.textboxes:
         print('Running CNNTextBoxes algorithm')
-        td.cv2_model = al.CNNTextBoxes()
+        td.cv2_model = al.Text_CNNTextBoxes()
     elif args.east:
         print('Running EAST algorithm')
         td.cv2_model = al.DNN_EAST()

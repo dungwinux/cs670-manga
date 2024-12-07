@@ -238,7 +238,7 @@ class TextDetectionResult:
 
 def text_detection(image_path, input_dir, *, cv2_model, mts_level=3, group_kernel=None, use_cache=None):
     poly_area_threshold = 0.0001 # 0.01%
-    overlap_area_threshold = 0.05 # 5%
+    overlap_area_threshold = 0.1 # 10%
     image_abspath = Path(input_dir) / image_path
     
     # First, we use MTS to find the base mask of text
