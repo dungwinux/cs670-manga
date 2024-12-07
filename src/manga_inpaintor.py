@@ -44,12 +44,15 @@ class MangaInpaintor():
         index = 0
         for items in test_loader:
             name = self.test_dataset.load_name(index)
-            print(index, name)
             images, lines, masks = self.cuda(*items[:3])
+            h, w = items[3]
             index += 1
-            h,w = items[3]
 
-            dilate = Dilation2d(1,1,3, soft_max=False)
+            # Print input dimensions
+            print(f"Processing: {name}")
+            print(f"Original Input Dimensions: Images {images.shape}, Lines {lines.shape}, Masks {masks.shape}")
+
+            dilate = Dilation2d(1, 1, 3, soft_max=False)
             masks = dilate(masks, iterations=2)
             manga_masked = (images * (1 - masks)) + masks
             lines_masked = (lines * (1 - masks)) + masks
@@ -64,27 +67,37 @@ class MangaInpaintor():
 
             screen = screenl[-1]
             lines = linesl[-1]
-            screen_decode = screen_masked *(1-masks) + screen * masks
-            lines_decode = lines_masked *(1-masks) + lines * masks
-            
-            outputs = self.manga_inpaint_model(images, torch.cat([screen, lines],1), masks)
-            outputs_merged = (outputs * masks) + (images * (1 - masks))
-            outputs_merged_l = (outputs_merged + 1)*(lines+1)/2 -1
+            screen_decode = screen_masked * (1 - masks) + screen * masks
+            lines_decode = lines_masked * (1 - masks) + lines * masks
 
-            self.save_images(outputs_merged[:,:,:h,:w], name, '')
-            
+            outputs = self.manga_inpaint_model(images, torch.cat([screen, lines], 1), masks)
+            outputs_merged = (outputs * masks) + (images * (1 - masks))
+            outputs_merged_l = (outputs_merged + 1) * (lines + 1) / 2 - 1
+
+            # Print output dimensions
+            print(f"Output Dimensions: {outputs_merged.shape}")
+
+            # Ensure dimensions match original input before saving
+            if outputs_merged.shape[2] >= h and outputs_merged.shape[3] >= w:
+                self.save_images(outputs_merged[:, :, :h, :w], name, '')
+                print(f"Saved output for {name}")
+            else:
+                print(f"Error: Output dimensions {outputs_merged.shape} are smaller than input dimensions ({h}, {w}). Skipping file.")
+
             torch.cuda.empty_cache()
 
         print('\nEnd test....')
 
     def save_images(self, img, name, fld_name):
-        # if img.shape[1] > 3:
-        #     img = img[:,:3,:,:]
         output = self.postprocess(img)[0]
+        print(f"Postprocessed Image Dimensions: {output.shape}")
         os.makedirs(os.path.join(self.results_path, fld_name), exist_ok=True)
         path = os.path.join(self.results_path, fld_name, name)
-        print("NOCE", path)
+
+        # Print saved file path and output dimensions
+        print(f"Saving image at: {path}, Image Dimensions: {output.shape}")
         imsave(output, path)
+
 
     def log(self, logs):
         with open(self.log_file, 'a') as f:

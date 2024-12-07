@@ -6,7 +6,7 @@ NMS: 0              # 0: no non-max-suppression, 1: applies non-max-suppression 
 SEED: 2021            # random seed
 GPU: [0]            # list of gpu ids
 DEBUG: 0            # turns on debugging mode
-VERBOSE: 0          # turns on verbose mode in the output console
+VERBOSE: 1          # turns on verbose mode in the output console
 NCOLORS: 1  
 
 TRAIN_FLIST: ./datasets/manga_train.flist

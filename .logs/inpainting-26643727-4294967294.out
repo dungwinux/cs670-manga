@@ -1,0 +1,1562 @@
+Removing conda
+Loading conda
+/scratch/workspace/ctpham_umass_edu-llama/envs/inpainting/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Using CUDA
+Cleared line folder
+Cleared output folder
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/GakuenNoise
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/EienNoWith
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/Akuhamu
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/ByebyeC-BOY
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/GinNoChimera
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/ARMS
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/EverydayOsakanaChan
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/DollGun
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/AppareKappore
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/Count3DeKimeteAgeru
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/GarakutayaManta
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/BokuHaSitatakaKun
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/BurariTessenTorimonocho
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/DualJustice
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/GOOD_KISS_Ver2
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/AkkeraKanjinchou
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/EvaLady
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/AosugiruHaru
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/BakuretsuKungFuGirl
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/Arisa
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/BEMADER_P
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/Donburakokko
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/Belmondo
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/lines/AisazuNihaIrarenai
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai
+  0%|          | 0/240 [00:00<?, ?it/s]  0%|          | 1/240 [00:00<02:29,  1.60it/s]  1%|          | 2/240 [00:01<02:04,  1.90it/s]  1%|▏         | 3/240 [00:01<01:57,  2.02it/s]  2%|▏         | 4/240 [00:01<01:53,  2.08it/s]  2%|▏         | 5/240 [00:02<01:50,  2.12it/s]  2%|▎         | 6/240 [00:02<01:49,  2.15it/s]  3%|▎         | 7/240 [00:03<01:47,  2.17it/s]  3%|▎         | 8/240 [00:03<01:45,  2.20it/s]  4%|▍         | 9/240 [00:04<01:45,  2.20it/s]  4%|▍         | 10/240 [00:04<01:45,  2.19it/s]  5%|▍         | 11/240 [00:05<01:44,  2.20it/s]  5%|▌         | 12/240 [00:05<01:44,  2.18it/s]  5%|▌         | 13/240 [00:06<01:42,  2.22it/s]  6%|▌         | 14/240 [00:06<01:41,  2.24it/s]  6%|▋         | 15/240 [00:06<01:40,  2.24it/s]  7%|▋         | 16/240 [00:07<01:41,  2.22it/s]  7%|▋         | 17/240 [00:07<01:40,  2.21it/s]  8%|▊         | 18/240 [00:08<01:41,  2.20it/s]  8%|▊         | 19/240 [00:08<01:39,  2.22it/s]  8%|▊         | 20/240 [00:09<01:40,  2.20it/s]  9%|▉         | 21/240 [00:09<01:39,  2.19it/s]  9%|▉         | 22/240 [00:10<01:39,  2.19it/s] 10%|▉         | 23/240 [00:10<01:38,  2.21it/s] 10%|█         | 24/240 [00:11<01:37,  2.22it/s] 10%|█         | 25/240 [00:11<01:37,  2.21it/s] 11%|█         | 26/240 [00:11<01:36,  2.21it/s] 11%|█▏        | 27/240 [00:12<01:35,  2.23it/s] 12%|█▏        | 28/240 [00:12<01:35,  2.22it/s] 12%|█▏        | 29/240 [00:13<01:34,  2.22it/s] 12%|█▎        | 30/240 [00:13<01:35,  2.20it/s] 13%|█▎        | 31/240 [00:14<01:35,  2.19it/s] 13%|█▎        | 32/240 [00:14<01:35,  2.18it/s] 14%|█▍        | 33/240 [00:15<01:35,  2.17it/s] 14%|█▍        | 34/240 [00:15<01:35,  2.15it/s] 15%|█▍        | 35/240 [00:16<01:34,  2.17it/s] 15%|█▌        | 36/240 [00:16<01:34,  2.16it/s] 15%|█▌        | 37/240 [00:17<01:33,  2.16it/s] 16%|█▌        | 38/240 [00:17<01:33,  2.15it/s] 16%|█▋        | 39/240 [00:17<01:33,  2.16it/s] 17%|█▋        | 40/240 [00:18<01:32,  2.17it/s] 17%|█▋        | 41/240 [00:18<01:31,  2.18it/s] 18%|█▊        | 42/240 [00:19<01:31,  2.17it/s] 18%|█▊        | 43/240 [00:19<01:30,  2.18it/s] 18%|█▊        | 44/240 [00:20<01:30,  2.18it/s] 19%|█▉        | 45/240 [00:20<01:29,  2.19it/s] 19%|█▉        | 46/240 [00:21<01:29,  2.17it/s] 20%|█▉        | 47/240 [00:21<01:28,  2.18it/s] 20%|██        | 48/240 [00:22<01:28,  2.16it/s] 20%|██        | 49/240 [00:22<01:28,  2.17it/s] 21%|██        | 50/240 [00:22<01:27,  2.17it/s] 21%|██▏       | 51/240 [00:23<01:28,  2.15it/s] 22%|██▏       | 52/240 [00:23<01:25,  2.19it/s] 22%|██▏       | 53/240 [00:24<01:26,  2.16it/s] 22%|██▎       | 54/240 [00:24<01:27,  2.13it/s] 23%|██▎       | 55/240 [00:25<01:26,  2.14it/s] 23%|██▎       | 56/240 [00:25<01:27,  2.11it/s] 24%|██▍       | 57/240 [00:26<01:26,  2.11it/s] 24%|██▍       | 58/240 [00:26<01:26,  2.10it/s] 25%|██▍       | 59/240 [00:27<01:24,  2.14it/s] 25%|██▌       | 60/240 [00:27<01:25,  2.12it/s] 25%|██▌       | 61/240 [00:28<01:23,  2.14it/s] 26%|██▌       | 62/240 [00:28<01:22,  2.15it/s] 26%|██▋       | 63/240 [00:29<01:22,  2.15it/s] 27%|██▋       | 64/240 [00:29<01:22,  2.14it/s] 27%|██▋       | 65/240 [00:30<01:20,  2.16it/s] 28%|██▊       | 66/240 [00:30<01:20,  2.15it/s] 28%|██▊       | 67/240 [00:30<01:20,  2.16it/s] 28%|██▊       | 68/240 [00:31<01:19,  2.15it/s] 29%|██▉       | 69/240 [00:31<01:19,  2.16it/s] 29%|██▉       | 70/240 [00:32<01:19,  2.15it/s] 30%|██▉       | 71/240 [00:32<01:19,  2.13it/s] 30%|███       | 72/240 [00:33<01:19,  2.12it/s] 30%|███       | 73/240 [00:33<01:18,  2.12it/s] 31%|███       | 74/240 [00:34<01:18,  2.11it/s] 31%|███▏      | 75/240 [00:34<01:18,  2.10it/s] 32%|███▏      | 76/240 [00:35<01:18,  2.09it/s] 32%|███▏      | 77/240 [00:35<01:17,  2.09it/s] 32%|███▎      | 78/240 [00:36<01:17,  2.09it/s] 33%|███▎      | 79/240 [00:36<01:16,  2.09it/s] 33%|███▎      | 80/240 [00:37<01:16,  2.09it/s] 34%|███▍      | 81/240 [00:37<01:16,  2.09it/s] 34%|███▍      | 82/240 [00:38<01:15,  2.10it/s] 35%|███▍      | 83/240 [00:38<01:14,  2.11it/s] 35%|███▌      | 84/240 [00:39<01:14,  2.10it/s] 35%|███▌      | 85/240 [00:39<01:13,  2.11it/s] 36%|███▌      | 86/240 [00:39<01:12,  2.11it/s] 36%|███▋      | 87/240 [00:40<01:12,  2.12it/s] 37%|███▋      | 88/240 [00:40<01:12,  2.11it/s] 37%|███▋      | 89/240 [00:41<01:11,  2.11it/s] 38%|███▊      | 90/240 [00:41<01:11,  2.09it/s] 38%|███▊      | 91/240 [00:42<01:10,  2.10it/s] 38%|███▊      | 92/240 [00:42<01:10,  2.11it/s] 39%|███▉      | 93/240 [00:43<01:09,  2.11it/s] 39%|███▉      | 94/240 [00:43<01:09,  2.10it/s] 40%|███▉      | 95/240 [00:44<01:08,  2.13it/s] 40%|████      | 96/240 [00:44<01:08,  2.11it/s] 40%|████      | 97/240 [00:45<01:06,  2.14it/s] 41%|████      | 98/240 [00:45<01:06,  2.12it/s] 41%|████▏     | 99/240 [00:46<01:06,  2.12it/s] 42%|████▏     | 100/240 [00:46<01:06,  2.11it/s] 42%|████▏     | 101/240 [00:47<01:05,  2.12it/s] 42%|████▎     | 102/240 [00:47<01:05,  2.10it/s] 43%|████▎     | 103/240 [00:48<01:04,  2.11it/s] 43%|████▎     | 104/240 [00:48<01:04,  2.10it/s] 44%|████▍     | 105/240 [00:48<01:04,  2.11it/s] 44%|████▍     | 106/240 [00:49<01:03,  2.10it/s] 45%|████▍     | 107/240 [00:49<01:03,  2.11it/s] 45%|████▌     | 108/240 [00:50<01:02,  2.10it/s] 45%|████▌     | 109/240 [00:50<01:02,  2.10it/s] 46%|████▌     | 110/240 [00:51<01:02,  2.09it/s] 46%|████▋     | 111/240 [00:51<01:01,  2.10it/s] 47%|████▋     | 112/240 [00:52<01:00,  2.10it/s] 47%|████▋     | 113/240 [00:52<01:00,  2.10it/s] 48%|████▊     | 114/240 [00:53<01:00,  2.09it/s] 48%|████▊     | 115/240 [00:53<00:59,  2.10it/s] 48%|████▊     | 116/240 [00:54<00:59,  2.09it/s] 49%|████▉     | 117/240 [00:54<00:58,  2.09it/s] 49%|████▉     | 118/240 [00:55<00:58,  2.09it/s] 50%|████▉     | 119/240 [00:55<00:57,  2.09it/s] 50%|█████     | 120/240 [00:56<00:57,  2.08it/s] 50%|█████     | 121/240 [00:56<00:56,  2.10it/s] 51%|█████     | 122/240 [00:57<00:56,  2.09it/s] 51%|█████▏    | 123/240 [00:57<00:55,  2.09it/s] 52%|█████▏    | 124/240 [00:58<00:55,  2.10it/s] 52%|█████▏    | 125/240 [00:58<00:54,  2.12it/s] 52%|█████▎    | 126/240 [00:58<00:53,  2.11it/s] 53%|█████▎    | 127/240 [00:59<00:53,  2.11it/s] 53%|█████▎    | 128/240 [00:59<00:53,  2.10it/s] 54%|█████▍    | 129/240 [01:00<00:52,  2.11it/s] 54%|█████▍    | 130/240 [01:00<00:52,  2.10it/s] 55%|█████▍    | 131/240 [01:01<00:52,  2.09it/s] 55%|█████▌    | 132/240 [01:01<00:51,  2.08it/s] 55%|█████▌    | 133/240 [01:02<00:51,  2.08it/s] 56%|█████▌    | 134/240 [01:02<00:51,  2.07it/s] 56%|█████▋    | 135/240 [01:03<00:50,  2.08it/s] 57%|█████▋    | 136/240 [01:03<00:49,  2.09it/s] 57%|█████▋    | 137/240 [01:04<00:49,  2.09it/s] 57%|█████▊    | 138/240 [01:04<00:48,  2.09it/s] 58%|█████▊    | 139/240 [01:05<00:48,  2.10it/s] 58%|█████▊    | 140/240 [01:05<00:47,  2.09it/s] 59%|█████▉    | 141/240 [01:06<00:47,  2.09it/s] 59%|█████▉    | 142/240 [01:06<00:46,  2.09it/s] 60%|█████▉    | 143/240 [01:07<00:46,  2.09it/s] 60%|██████    | 144/240 [01:07<00:46,  2.08it/s] 60%|██████    | 145/240 [01:08<00:45,  2.10it/s] 61%|██████    | 146/240 [01:08<00:45,  2.08it/s] 61%|██████▏   | 147/240 [01:09<00:44,  2.11it/s] 62%|██████▏   | 148/240 [01:09<00:43,  2.09it/s] 62%|██████▏   | 149/240 [01:09<00:43,  2.09it/s] 62%|██████▎   | 150/240 [01:10<00:43,  2.08it/s] 63%|██████▎   | 151/240 [01:10<00:42,  2.09it/s] 63%|██████▎   | 152/240 [01:11<00:42,  2.09it/s] 64%|██████▍   | 153/240 [01:11<00:41,  2.10it/s] 64%|██████▍   | 154/240 [01:12<00:41,  2.10it/s] 65%|██████▍   | 155/240 [01:12<00:40,  2.09it/s] 65%|██████▌   | 156/240 [01:13<00:40,  2.09it/s] 65%|██████▌   | 157/240 [01:13<00:39,  2.08it/s] 66%|██████▌   | 158/240 [01:14<00:39,  2.08it/s] 66%|██████▋   | 159/240 [01:14<00:38,  2.10it/s] 67%|██████▋   | 160/240 [01:15<00:38,  2.09it/s] 67%|██████▋   | 161/240 [01:15<00:37,  2.10it/s] 68%|██████▊   | 162/240 [01:16<00:37,  2.09it/s] 68%|██████▊   | 163/240 [01:16<00:36,  2.10it/s] 68%|██████▊   | 164/240 [01:17<00:36,  2.09it/s] 69%|██████▉   | 165/240 [01:17<00:35,  2.11it/s] 69%|██████▉   | 166/240 [01:18<00:35,  2.11it/s] 70%|██████▉   | 167/240 [01:18<00:34,  2.11it/s] 70%|███████   | 168/240 [01:19<00:34,  2.09it/s] 70%|███████   | 169/240 [01:19<00:33,  2.11it/s] 71%|███████   | 170/240 [01:20<00:33,  2.09it/s] 71%|███████▏  | 171/240 [01:20<00:32,  2.11it/s] 72%|███████▏  | 172/240 [01:20<00:32,  2.10it/s] 72%|███████▏  | 173/240 [01:21<00:31,  2.11it/s] 72%|███████▎  | 174/240 [01:21<00:31,  2.10it/s] 73%|███████▎  | 175/240 [01:22<00:30,  2.12it/s] 73%|███████▎  | 176/240 [01:22<00:30,  2.12it/s] 74%|███████▍  | 177/240 [01:23<00:29,  2.15it/s] 74%|███████▍  | 178/240 [01:23<00:28,  2.16it/s] 75%|███████▍  | 179/240 [01:24<00:28,  2.16it/s] 75%|███████▌  | 180/240 [01:24<00:28,  2.14it/s] 75%|███████▌  | 181/240 [01:25<00:27,  2.13it/s] 76%|███████▌  | 182/240 [01:25<00:27,  2.12it/s] 76%|███████▋  | 183/240 [01:26<00:27,  2.10it/s] 77%|███████▋  | 184/240 [01:26<00:26,  2.09it/s] 77%|███████▋  | 185/240 [01:27<00:26,  2.09it/s] 78%|███████▊  | 186/240 [01:27<00:26,  2.08it/s] 78%|███████▊  | 187/240 [01:28<00:25,  2.09it/s] 78%|███████▊  | 188/240 [01:28<00:24,  2.08it/s] 79%|███████▉  | 189/240 [01:29<00:24,  2.08it/s] 79%|███████▉  | 190/240 [01:29<00:24,  2.08it/s] 80%|███████▉  | 191/240 [01:29<00:23,  2.10it/s] 80%|████████  | 192/240 [01:30<00:23,  2.08it/s] 80%|████████  | 193/240 [01:30<00:22,  2.09it/s] 81%|████████  | 194/240 [01:31<00:22,  2.08it/s] 81%|████████▏ | 195/240 [01:31<00:21,  2.07it/s] 82%|████████▏ | 196/240 [01:32<00:21,  2.09it/s] 82%|████████▏ | 197/240 [01:32<00:20,  2.09it/s] 82%|████████▎ | 198/240 [01:33<00:20,  2.07it/s] 83%|████████▎ | 199/240 [01:33<00:19,  2.09it/s] 83%|████████▎ | 200/240 [01:34<00:19,  2.08it/s] 84%|████████▍ | 201/240 [01:34<00:18,  2.07it/s] 84%|████████▍ | 202/240 [01:35<00:18,  2.07it/s] 85%|████████▍ | 203/240 [01:35<00:17,  2.07it/s] 85%|████████▌ | 204/240 [01:36<00:17,  2.06it/s] 85%|████████▌ | 205/240 [01:36<00:16,  2.08it/s] 86%|████████▌ | 206/240 [01:37<00:16,  2.06it/s] 86%|████████▋ | 207/240 [01:37<00:15,  2.07it/s] 87%|████████▋ | 208/240 [01:38<00:15,  2.09it/s] 87%|████████▋ | 209/240 [01:38<00:14,  2.07it/s] 88%|████████▊ | 210/240 [01:39<00:14,  2.07it/s] 88%|████████▊ | 211/240 [01:39<00:13,  2.08it/s] 88%|████████▊ | 212/240 [01:40<00:13,  2.07it/s] 89%|████████▉ | 213/240 [01:40<00:12,  2.08it/s] 89%|████████▉ | 214/240 [01:41<00:12,  2.07it/s] 90%|████████▉ | 215/240 [01:41<00:12,  2.08it/s] 90%|█████████ | 216/240 [01:42<00:11,  2.08it/s] 90%|█████████ | 217/240 [01:42<00:11,  2.08it/s] 91%|█████████ | 218/240 [01:42<00:10,  2.07it/s] 91%|█████████▏| 219/240 [01:43<00:10,  2.09it/s] 92%|█████████▏| 220/240 [01:43<00:09,  2.08it/s] 92%|█████████▏| 221/240 [01:44<00:09,  2.08it/s] 92%|█████████▎| 222/240 [01:44<00:08,  2.08it/s] 93%|█████████▎| 223/240 [01:45<00:08,  2.09it/s] 93%|█████████▎| 224/240 [01:45<00:07,  2.09it/s] 94%|█████████▍| 225/240 [01:46<00:07,  2.09it/s] 94%|█████████▍| 226/240 [01:46<00:06,  2.07it/s] 95%|█████████▍| 227/240 [01:47<00:06,  2.08it/s] 95%|█████████▌| 228/240 [01:47<00:05,  2.09it/s] 95%|█████████▌| 229/240 [01:48<00:05,  2.10it/s] 96%|█████████▌| 230/240 [01:48<00:04,  2.08it/s] 96%|█████████▋| 231/240 [01:49<00:04,  2.09it/s] 97%|█████████▋| 232/240 [01:49<00:03,  2.09it/s] 97%|█████████▋| 233/240 [01:50<00:03,  2.11it/s] 98%|█████████▊| 234/240 [01:50<00:02,  2.11it/s] 98%|█████████▊| 235/240 [01:51<00:02,  2.11it/s] 98%|█████████▊| 236/240 [01:51<00:01,  2.10it/s] 99%|█████████▉| 237/240 [01:52<00:01,  2.10it/s] 99%|█████████▉| 238/240 [01:52<00:00,  2.10it/s]100%|█████████▉| 239/240 [01:53<00:00,  2.10it/s]100%|██████████| 240/240 [01:53<00:00,  2.09it/s]100%|██████████| 240/240 [01:53<00:00,  2.11it/s]
+Done creating line images
+./checkpoints/mangainpaintor/config.yml
+Model configurations:
+---------------------------------
+MODE: 3             # 1: train, 2: test, 3: eval
+MODEL: 4            # 1: edge model, 2: inpaint model, 3: edge-inpaint model, 4: manga inpaint model, 5: joint model
+MASK: 3             # 1: random block, 2: half, 3: external, 4: (external, random block), 5: (external, random block, half)
+EDGE: 2             # 1: canny, 2: external
+NMS: 0              # 0: no non-max-suppression, 1: applies non-max-suppression on the external edges by multiplying by Canny
+SEED: 2021            # random seed
+GPU: [0]            # list of gpu ids
+DEBUG: 0            # turns on debugging mode
+VERBOSE: 1          # turns on verbose mode in the output console
+NCOLORS: 1  
+
+TRAIN_FLIST: ./datasets/manga_train.flist
+VAL_FLIST: ./datasets/manga_val.flist
+TEST_FLIST: ./datasets/manga_test.flist
+
+TRAIN_LINE_FLIST: ./datasets/manga_lines_train.flist
+VAL_LINE_FLIST: ./datasets/manga_lines_val.flist
+TEST_LINE_FLIST: ./datasets/manga_lines_test.flist
+
+TRAIN_MASK_FLIST: ./datasets/masks_train.flist
+VAL_MASK_FLIST: ./datasets/masks_val.flist
+TEST_MASK_FLIST: ./datasets/masks_test.flist
+
+LR: 0.0001                    # learning rate
+D2G_LR: 0.2                   # discriminator/generator learning rate ratio
+BETA1: 0.9                    # adam optimizer beta1
+BETA2: 0.999                    # adam optimizer beta2
+BATCH_SIZE: 4                 # input batch size for training
+INPUT_SIZE: 512               # input image size for training 0 for original size
+SIGMA: 2                      # standard deviation of the Gaussian filter used in Canny edge detector (0: random, -1: no edge)
+MAX_ITERS: 2e6                # maximum number of iterations to train the model
+
+SHRIK_ITERS: 5
+EDGE_THRESHOLD: 0.5           # edge detection threshold
+WEIGHTED_L1_LOSS_WEIGHT: 20   # structural line reconstruction weight
+L1_LOSS_WEIGHT: 20            # ScreenVAE map loss weight
+CONTENT_LOSS_WEIGHT: 200      # screentone reconstruction weight
+BINARY_LOSS_WEIGHT: 1         # binarization loss weight
+EDGE_LOSS_WEIGHT: 0           # edge loss weight
+INPAINT_ADV_LOSS_WEIGHT: 1    # adversarial loss weight
+FM_LOSS_WEIGHT: 5             # feature-matching loss weight
+
+GAN_LOSS: nsgan               # nsgan | lsgan | hinge
+GAN_POOL_SIZE: 0              # fake images pool size
+
+SAVE_INTERVAL: 1000           # how many iterations to wait before saving model (0: never)
+SAMPLE_INTERVAL: 1000         # how many iterations to wait before sampling (0: never)
+SAMPLE_SIZE: 6               # number of images to sample
+EVAL_INTERVAL: 0              # how many iterations to wait before model evaluation (0: never)
+LOG_INTERVAL: 10              # how many iterations to wait before logging training status (0: never)
+
+---------------------------------
+
+initialize network with normal
+initialize network with xavier
+loading the model from checkpoints/ScreenVAE/latest_net_enc.pth
+loading the model from checkpoints/ScreenVAE/latest_net_dec.pth
+Loading models...
+Loading SemanticInpaintingModel generator...
+Loading MangaInpaintingModel generator...
+Processing: ARMS/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/000.jpg
+Processing: ARMS/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/001.jpg
+Processing: ARMS/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/002.jpg
+Processing: ARMS/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/003.jpg
+Processing: ARMS/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/004.jpg
+Processing: ARMS/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/005.jpg
+Processing: ARMS/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/006.jpg
+Processing: ARMS/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/007.jpg
+Processing: ARMS/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/008.jpg
+Processing: ARMS/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ARMS/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ARMS/009.jpg
+Processing: AisazuNihaIrarenai/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/000.jpg
+Processing: AisazuNihaIrarenai/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/001.jpg
+Processing: AisazuNihaIrarenai/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/002.jpg
+Processing: AisazuNihaIrarenai/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/003.jpg
+Processing: AisazuNihaIrarenai/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/004.jpg
+Processing: AisazuNihaIrarenai/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/005.jpg
+Processing: AisazuNihaIrarenai/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/006.jpg
+Processing: AisazuNihaIrarenai/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/007.jpg
+Processing: AisazuNihaIrarenai/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/008.jpg
+Processing: AisazuNihaIrarenai/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AisazuNihaIrarenai/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AisazuNihaIrarenai/009.jpg
+Processing: AkkeraKanjinchou/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/000.jpg
+Processing: AkkeraKanjinchou/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/001.jpg
+Processing: AkkeraKanjinchou/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/002.jpg
+Processing: AkkeraKanjinchou/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/003.jpg
+Processing: AkkeraKanjinchou/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/004.jpg
+Processing: AkkeraKanjinchou/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/005.jpg
+Processing: AkkeraKanjinchou/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/006.jpg
+Processing: AkkeraKanjinchou/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/007.jpg
+Processing: AkkeraKanjinchou/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/008.jpg
+Processing: AkkeraKanjinchou/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AkkeraKanjinchou/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AkkeraKanjinchou/009.jpg
+Processing: Akuhamu/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/000.jpg
+Processing: Akuhamu/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/001.jpg
+Processing: Akuhamu/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/002.jpg
+Processing: Akuhamu/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/003.jpg
+Processing: Akuhamu/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/004.jpg
+Processing: Akuhamu/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/005.jpg
+Processing: Akuhamu/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/006.jpg
+Processing: Akuhamu/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/007.jpg
+Processing: Akuhamu/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/008.jpg
+Processing: Akuhamu/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Akuhamu/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Akuhamu/009.jpg
+Processing: AosugiruHaru/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/000.jpg
+Processing: AosugiruHaru/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/001.jpg
+Processing: AosugiruHaru/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/002.jpg
+Processing: AosugiruHaru/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/003.jpg
+Processing: AosugiruHaru/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/004.jpg
+Processing: AosugiruHaru/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/005.jpg
+Processing: AosugiruHaru/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/006.jpg
+Processing: AosugiruHaru/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/007.jpg
+Processing: AosugiruHaru/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/008.jpg
+Processing: AosugiruHaru/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AosugiruHaru/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AosugiruHaru/009.jpg
+Processing: AppareKappore/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/000.jpg
+Processing: AppareKappore/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/001.jpg
+Processing: AppareKappore/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/002.jpg
+Processing: AppareKappore/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/003.jpg
+Processing: AppareKappore/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/004.jpg
+Processing: AppareKappore/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/005.jpg
+Processing: AppareKappore/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/006.jpg
+Processing: AppareKappore/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/007.jpg
+Processing: AppareKappore/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/008.jpg
+Processing: AppareKappore/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/AppareKappore/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for AppareKappore/009.jpg
+Processing: Arisa/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/000.jpg
+Processing: Arisa/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/001.jpg
+Processing: Arisa/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/002.jpg
+Processing: Arisa/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/003.jpg
+Processing: Arisa/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/004.jpg
+Processing: Arisa/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/005.jpg
+Processing: Arisa/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/006.jpg
+Processing: Arisa/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/007.jpg
+Processing: Arisa/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/008.jpg
+Processing: Arisa/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Arisa/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Arisa/009.jpg
+Processing: BEMADER_P/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/000.jpg
+Processing: BEMADER_P/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/001.jpg
+Processing: BEMADER_P/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/002.jpg
+Processing: BEMADER_P/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/003.jpg
+Processing: BEMADER_P/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/004.jpg
+Processing: BEMADER_P/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/005.jpg
+Processing: BEMADER_P/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/006.jpg
+Processing: BEMADER_P/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/007.jpg
+Processing: BEMADER_P/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/008.jpg
+Processing: BEMADER_P/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BEMADER_P/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BEMADER_P/009.jpg
+Processing: BakuretsuKungFuGirl/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/000.jpg
+Processing: BakuretsuKungFuGirl/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/001.jpg
+Processing: BakuretsuKungFuGirl/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/002.jpg
+Processing: BakuretsuKungFuGirl/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/003.jpg
+Processing: BakuretsuKungFuGirl/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/004.jpg
+Processing: BakuretsuKungFuGirl/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/005.jpg
+Processing: BakuretsuKungFuGirl/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/006.jpg
+Processing: BakuretsuKungFuGirl/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/007.jpg
+Processing: BakuretsuKungFuGirl/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/008.jpg
+Processing: BakuretsuKungFuGirl/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BakuretsuKungFuGirl/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BakuretsuKungFuGirl/009.jpg
+Processing: Belmondo/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/000.jpg
+Processing: Belmondo/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/001.jpg
+Processing: Belmondo/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/002.jpg
+Processing: Belmondo/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/003.jpg
+Processing: Belmondo/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/004.jpg
+Processing: Belmondo/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/005.jpg
+Processing: Belmondo/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/006.jpg
+Processing: Belmondo/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/007.jpg
+Processing: Belmondo/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/008.jpg
+Processing: Belmondo/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Belmondo/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Belmondo/009.jpg
+Processing: BokuHaSitatakaKun/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/000.jpg
+Processing: BokuHaSitatakaKun/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/001.jpg
+Processing: BokuHaSitatakaKun/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/002.jpg
+Processing: BokuHaSitatakaKun/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/003.jpg
+Processing: BokuHaSitatakaKun/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/004.jpg
+Processing: BokuHaSitatakaKun/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/005.jpg
+Processing: BokuHaSitatakaKun/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/006.jpg
+Processing: BokuHaSitatakaKun/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/007.jpg
+Processing: BokuHaSitatakaKun/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/008.jpg
+Processing: BokuHaSitatakaKun/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BokuHaSitatakaKun/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BokuHaSitatakaKun/009.jpg
+Processing: BurariTessenTorimonocho/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/000.jpg
+Processing: BurariTessenTorimonocho/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/001.jpg
+Processing: BurariTessenTorimonocho/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/002.jpg
+Processing: BurariTessenTorimonocho/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/003.jpg
+Processing: BurariTessenTorimonocho/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/004.jpg
+Processing: BurariTessenTorimonocho/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/005.jpg
+Processing: BurariTessenTorimonocho/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/006.jpg
+Processing: BurariTessenTorimonocho/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/007.jpg
+Processing: BurariTessenTorimonocho/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/008.jpg
+Processing: BurariTessenTorimonocho/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/BurariTessenTorimonocho/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for BurariTessenTorimonocho/009.jpg
+Processing: ByebyeC-BOY/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/000.jpg
+Processing: ByebyeC-BOY/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/001.jpg
+Processing: ByebyeC-BOY/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/002.jpg
+Processing: ByebyeC-BOY/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/003.jpg
+Processing: ByebyeC-BOY/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/004.jpg
+Processing: ByebyeC-BOY/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/005.jpg
+Processing: ByebyeC-BOY/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/006.jpg
+Processing: ByebyeC-BOY/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/007.jpg
+Processing: ByebyeC-BOY/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/008.jpg
+Processing: ByebyeC-BOY/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/ByebyeC-BOY/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for ByebyeC-BOY/009.jpg
+Processing: Count3DeKimeteAgeru/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/000.jpg
+Processing: Count3DeKimeteAgeru/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/001.jpg
+Processing: Count3DeKimeteAgeru/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/002.jpg
+Processing: Count3DeKimeteAgeru/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/003.jpg
+Processing: Count3DeKimeteAgeru/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/004.jpg
+Processing: Count3DeKimeteAgeru/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/005.jpg
+Processing: Count3DeKimeteAgeru/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/006.jpg
+Processing: Count3DeKimeteAgeru/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/007.jpg
+Processing: Count3DeKimeteAgeru/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/008.jpg
+Processing: Count3DeKimeteAgeru/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Count3DeKimeteAgeru/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Count3DeKimeteAgeru/009.jpg
+Processing: DollGun/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/000.jpg
+Processing: DollGun/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/001.jpg
+Processing: DollGun/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/002.jpg
+Processing: DollGun/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/003.jpg
+Processing: DollGun/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/004.jpg
+Processing: DollGun/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/005.jpg
+Processing: DollGun/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/006.jpg
+Processing: DollGun/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/007.jpg
+Processing: DollGun/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/008.jpg
+Processing: DollGun/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DollGun/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DollGun/009.jpg
+Processing: Donburakokko/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/000.jpg
+Processing: Donburakokko/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/001.jpg
+Processing: Donburakokko/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/002.jpg
+Processing: Donburakokko/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/003.jpg
+Processing: Donburakokko/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/004.jpg
+Processing: Donburakokko/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/005.jpg
+Processing: Donburakokko/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/006.jpg
+Processing: Donburakokko/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/007.jpg
+Processing: Donburakokko/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/008.jpg
+Processing: Donburakokko/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/Donburakokko/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for Donburakokko/009.jpg
+Processing: DualJustice/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/000.jpg
+Processing: DualJustice/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/001.jpg
+Processing: DualJustice/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/002.jpg
+Processing: DualJustice/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/003.jpg
+Processing: DualJustice/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/004.jpg
+Processing: DualJustice/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/005.jpg
+Processing: DualJustice/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/006.jpg
+Processing: DualJustice/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/007.jpg
+Processing: DualJustice/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/008.jpg
+Processing: DualJustice/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/DualJustice/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for DualJustice/009.jpg
+Processing: EienNoWith/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/000.jpg
+Processing: EienNoWith/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/001.jpg
+Processing: EienNoWith/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/002.jpg
+Processing: EienNoWith/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/003.jpg
+Processing: EienNoWith/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/004.jpg
+Processing: EienNoWith/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/005.jpg
+Processing: EienNoWith/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/006.jpg
+Processing: EienNoWith/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/007.jpg
+Processing: EienNoWith/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/008.jpg
+Processing: EienNoWith/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EienNoWith/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EienNoWith/009.jpg
+Processing: EvaLady/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/000.jpg
+Processing: EvaLady/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/001.jpg
+Processing: EvaLady/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/002.jpg
+Processing: EvaLady/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/003.jpg
+Processing: EvaLady/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/004.jpg
+Processing: EvaLady/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/005.jpg
+Processing: EvaLady/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/006.jpg
+Processing: EvaLady/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/007.jpg
+Processing: EvaLady/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/008.jpg
+Processing: EvaLady/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EvaLady/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EvaLady/009.jpg
+Processing: EverydayOsakanaChan/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/000.jpg
+Processing: EverydayOsakanaChan/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/001.jpg
+Processing: EverydayOsakanaChan/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/002.jpg
+Processing: EverydayOsakanaChan/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/003.jpg
+Processing: EverydayOsakanaChan/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/004.jpg
+Processing: EverydayOsakanaChan/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/005.jpg
+Processing: EverydayOsakanaChan/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/006.jpg
+Processing: EverydayOsakanaChan/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/007.jpg
+Processing: EverydayOsakanaChan/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/008.jpg
+Processing: EverydayOsakanaChan/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/EverydayOsakanaChan/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for EverydayOsakanaChan/009.jpg
+Processing: GOOD_KISS_Ver2/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/000.jpg
+Processing: GOOD_KISS_Ver2/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/001.jpg
+Processing: GOOD_KISS_Ver2/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/002.jpg
+Processing: GOOD_KISS_Ver2/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/003.jpg
+Processing: GOOD_KISS_Ver2/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/004.jpg
+Processing: GOOD_KISS_Ver2/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/005.jpg
+Processing: GOOD_KISS_Ver2/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/006.jpg
+Processing: GOOD_KISS_Ver2/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/007.jpg
+Processing: GOOD_KISS_Ver2/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/008.jpg
+Processing: GOOD_KISS_Ver2/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GOOD_KISS_Ver2/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GOOD_KISS_Ver2/009.jpg
+Processing: GakuenNoise/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/000.jpg
+Processing: GakuenNoise/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/001.jpg
+Processing: GakuenNoise/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/002.jpg
+Processing: GakuenNoise/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/003.jpg
+Processing: GakuenNoise/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/004.jpg
+Processing: GakuenNoise/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/005.jpg
+Processing: GakuenNoise/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/006.jpg
+Processing: GakuenNoise/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/007.jpg
+Processing: GakuenNoise/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/008.jpg
+Processing: GakuenNoise/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GakuenNoise/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GakuenNoise/009.jpg
+Processing: GarakutayaManta/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/000.jpg
+Processing: GarakutayaManta/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/001.jpg
+Processing: GarakutayaManta/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/002.jpg
+Processing: GarakutayaManta/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/003.jpg
+Processing: GarakutayaManta/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/004.jpg
+Processing: GarakutayaManta/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/005.jpg
+Processing: GarakutayaManta/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/006.jpg
+Processing: GarakutayaManta/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/007.jpg
+Processing: GarakutayaManta/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/008.jpg
+Processing: GarakutayaManta/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GarakutayaManta/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GarakutayaManta/009.jpg
+Processing: GinNoChimera/000.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/000.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/000.jpg
+Processing: GinNoChimera/001.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/001.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/001.jpg
+Processing: GinNoChimera/002.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/002.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/002.jpg
+Processing: GinNoChimera/003.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/003.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/003.jpg
+Processing: GinNoChimera/004.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/004.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/004.jpg
+Processing: GinNoChimera/005.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/005.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/005.jpg
+Processing: GinNoChimera/006.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/006.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/006.jpg
+Processing: GinNoChimera/007.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/007.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/007.jpg
+Processing: GinNoChimera/008.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/008.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/008.jpg
+Processing: GinNoChimera/009.jpg
+Original Input Dimensions: Images torch.Size([1, 1, 1280, 1664]), Lines torch.Size([1, 1, 1280, 1664]), Masks torch.Size([1, 1, 1280, 1664])
+Output Dimensions: torch.Size([1, 1, 1280, 1664])
+Postprocessed Image Dimensions: torch.Size([1170, 1654, 1])
+Saving image at: /scratch3/workspace/ctpham_umass_edu-ft/cs670-manga/outputs_reprod/GinNoChimera/009.jpg, Image Dimensions: torch.Size([1170, 1654, 1])
+Saved output for GinNoChimera/009.jpg
+
+End test....

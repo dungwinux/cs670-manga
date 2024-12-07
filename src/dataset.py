@@ -182,7 +182,8 @@ class Dataset(torch.utils.data.Dataset):
 
         mask = imread(self.mask_data[index])
         # #Resize mask, using 0 as padding
-        mask = cv2.resize(mask, (imgX, imgY), interpolation=cv2.INTER_NEAREST)
+        #mask = cv2.resize(mask, (imgX, imgY), interpolation=cv2.INTER_NEAREST)
+        #mask[mask != 0] = 255
 
 
         # import matplotlib.pyplot as plt

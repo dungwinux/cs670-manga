@@ -256,6 +256,7 @@ if __name__ == "__main__":
     input_image_folder = "/scratch3/workspace/ctpham_umass_edu-ft/input/raw/"
     line_image_output_folder = "/scratch3/workspace/ctpham_umass_edu-ft/input/lines/"
     output_folder = "/scratch3/workspace/ctpham_umass_edu-ft/input/output/"
+    os.makedirs(output_folder, exist_ok=True)
     filelists = loadImages(input_image_folder)
     #print(filelists)
 

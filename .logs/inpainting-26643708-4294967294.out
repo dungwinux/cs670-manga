@@ -1,0 +1,17 @@
+Removing conda
+Loading conda
+/scratch/workspace/ctpham_umass_edu-llama/envs/inpainting/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Using CUDA
+Cleared line folder
+Cleared output folder
+Traceback (most recent call last):
+  File "/work/pi_miyyer_umass_edu/ctpham/cs670-manga/model_torch.py", line 303, in <module>
+    os.makedirs(line_image_output_folder, exist_ok=True)
+  File "/scratch/workspace/ctpham_umass_edu-llama/envs/inpainting/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/scratch/workspace/ctpham_umass_edu-llama/envs/inpainting/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/scratch/workspace/ctpham_umass_edu-llama/envs/inpainting/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/scratch3/workspace/ctpham_umass_edu-hp'

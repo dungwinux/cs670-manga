@@ -97,12 +97,10 @@ def inpaint(mode=None, line_model_info=None):
     model = MangaInpaintor(config)
     model.load()
 
-    print('\nStart Model Inpainting...\n')
     with torch.autocast(device_type="cuda"): #used to be cuda
     	with torch.inference_mode():
     	    with torch.no_grad():
                 model.test()
-    print("Done testing")
 
 #line_model_info is passed in from the line model when it calls inpaint, default is None
 def load_config(mode=None, line_model_info = None):

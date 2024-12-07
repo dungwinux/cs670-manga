@@ -11,6 +11,6 @@
 
 
 module load conda/latest
-conda activate /scratch/workspace/ctpham_umass_edu-llama/envs/manga/
+conda activate /scratch/workspace/ctpham_umass_edu-llama/envs/inpainting/
 
 python3 model_torch.py
