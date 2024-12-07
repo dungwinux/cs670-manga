@@ -177,7 +177,7 @@ def typeset_all_images(pages, font=None):
 
 #Open to_typeset.json and read the data
 import json
-with open("to_typeset.json") as f:
+with open("data/output/openmantra.json") as f:
     data = json.load(f)
 
 #use typeset_all_images function to render text on all images

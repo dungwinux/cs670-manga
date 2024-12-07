@@ -1,0 +1,320 @@
+Removing conda
+Loading conda
+/work/pi_miyyer_umass_edu/ctpham/cs670-manga/model_torch.py:242: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load('erika.pth'))
+/work/pi_miyyer_umass_edu/ctpham/cs670-manga/src/svae.py:43: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(
+/work/pi_miyyer_umass_edu/ctpham/cs670-manga/src/models.py:28: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  data = torch.load(self.gen_weights_path)
+Using CUDA
+Cleared line folder
+Cleared output folder
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/line/balloon_dream
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/output/balloon_dream
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/line/TsubasaNoKioku
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/output/TsubasaNoKioku
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/line/tencho_isoro
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/output/tencho_isoro
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/line/rasetugari
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/output/rasetugari
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/line/boureisougi
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/output/boureisougi
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/line/test
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/output/test
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/line/tojime_no_siora
+Created folder:  /scratch3/workspace/ctpham_umass_edu-ft/input/output/tojime_no_siora
+Done creating line images
+./checkpoints/mangainpaintor/config.yml
+Model configurations:
+---------------------------------
+MODE: 3             # 1: train, 2: test, 3: eval
+MODEL: 4            # 1: edge model, 2: inpaint model, 3: edge-inpaint model, 4: manga inpaint model, 5: joint model
+MASK: 3             # 1: random block, 2: half, 3: external, 4: (external, random block), 5: (external, random block, half)
+EDGE: 2             # 1: canny, 2: external
+NMS: 0              # 0: no non-max-suppression, 1: applies non-max-suppression on the external edges by multiplying by Canny
+SEED: 2021            # random seed
+GPU: [0]            # list of gpu ids
+DEBUG: 0            # turns on debugging mode
+VERBOSE: 0          # turns on verbose mode in the output console
+NCOLORS: 1  
+
+TRAIN_FLIST: ./datasets/manga_train.flist
+VAL_FLIST: ./datasets/manga_val.flist
+TEST_FLIST: ./datasets/manga_test.flist
+
+TRAIN_LINE_FLIST: ./datasets/manga_lines_train.flist
+VAL_LINE_FLIST: ./datasets/manga_lines_val.flist
+TEST_LINE_FLIST: ./datasets/manga_lines_test.flist
+
+TRAIN_MASK_FLIST: ./datasets/masks_train.flist
+VAL_MASK_FLIST: ./datasets/masks_val.flist
+TEST_MASK_FLIST: ./datasets/masks_test.flist
+
+LR: 0.0001                    # learning rate
+D2G_LR: 0.2                   # discriminator/generator learning rate ratio
+BETA1: 0.9                    # adam optimizer beta1
+BETA2: 0.999                    # adam optimizer beta2
+BATCH_SIZE: 4                 # input batch size for training
+INPUT_SIZE: 512               # input image size for training 0 for original size
+SIGMA: 2                      # standard deviation of the Gaussian filter used in Canny edge detector (0: random, -1: no edge)
+MAX_ITERS: 2e6                # maximum number of iterations to train the model
+
+SHRIK_ITERS: 5
+EDGE_THRESHOLD: 0.5           # edge detection threshold
+WEIGHTED_L1_LOSS_WEIGHT: 20   # structural line reconstruction weight
+L1_LOSS_WEIGHT: 20            # ScreenVAE map loss weight
+CONTENT_LOSS_WEIGHT: 200      # screentone reconstruction weight
+BINARY_LOSS_WEIGHT: 1         # binarization loss weight
+EDGE_LOSS_WEIGHT: 0           # edge loss weight
+INPAINT_ADV_LOSS_WEIGHT: 1    # adversarial loss weight
+FM_LOSS_WEIGHT: 5             # feature-matching loss weight
+
+GAN_LOSS: nsgan               # nsgan | lsgan | hinge
+GAN_POOL_SIZE: 0              # fake images pool size
+
+SAVE_INTERVAL: 1000           # how many iterations to wait before saving model (0: never)
+SAMPLE_INTERVAL: 1000         # how many iterations to wait before sampling (0: never)
+SAMPLE_SIZE: 6               # number of images to sample
+EVAL_INTERVAL: 0              # how many iterations to wait before model evaluation (0: never)
+LOG_INTERVAL: 10              # how many iterations to wait before logging training status (0: never)
+
+
+---------------------------------
+
+initialize network with normal
+initialize network with xavier
+loading the model from checkpoints/ScreenVAE/latest_net_enc.pth
+loading the model from checkpoints/ScreenVAE/latest_net_dec.pth
+Loading models...
+Loading SemanticInpaintingModel generator...
+Loading MangaInpaintingModel generator...
+
+start testing...
+
+0 TsubasaNoKioku/064.png
+1 TsubasaNoKioku/065.png
+2 TsubasaNoKioku/066.png
+3 TsubasaNoKioku/067.png
+4 TsubasaNoKioku/068.png
+5 TsubasaNoKioku/069.png
+6 TsubasaNoKioku/070.png
+7 TsubasaNoKioku/071.png
+8 TsubasaNoKioku/072.png
+9 balloon_dream/000.png
+10 balloon_dream/001.png
+11 balloon_dream/002.png
+12 balloon_dream/003.png
+13 balloon_dream/004.png
+14 balloon_dream/005.png
+15 balloon_dream/006.png
+16 balloon_dream/007.png
+17 balloon_dream/008.png
+18 balloon_dream/009.png
+19 balloon_dream/010.png
+20 balloon_dream/011.png
+21 balloon_dream/012.png
+22 balloon_dream/013.png
+23 balloon_dream/014.png
+24 balloon_dream/015.png
+25 balloon_dream/016.png
+26 balloon_dream/017.png
+27 balloon_dream/018.png
+28 balloon_dream/019.png
+29 balloon_dream/020.png
+30 balloon_dream/021.png
+31 balloon_dream/022.png
+32 balloon_dream/023.png
+33 balloon_dream/024.png
+34 balloon_dream/025.png
+35 balloon_dream/026.png
+36 balloon_dream/027.png
+37 balloon_dream/028.png
+38 balloon_dream/029.png
+39 balloon_dream/030.png
+40 balloon_dream/031.png
+41 balloon_dream/032.png
+42 balloon_dream/033.png
+43 balloon_dream/034.png
+44 balloon_dream/035.png
+45 balloon_dream/036.png
+46 balloon_dream/037.png
+47 boureisougi/000.png
+48 boureisougi/001.png
+49 boureisougi/002.png
+50 boureisougi/003.png
+51 boureisougi/004.png
+52 boureisougi/005.png
+53 boureisougi/006.png
+54 boureisougi/007.png
+55 boureisougi/008.png
+56 boureisougi/009.png
+57 boureisougi/010.png
+58 boureisougi/011.png
+59 boureisougi/012.png
+60 boureisougi/013.png
+61 boureisougi/014.png
+62 boureisougi/015.png
+63 boureisougi/016.png
+64 boureisougi/017.png
+65 boureisougi/018.png
+66 boureisougi/019.png
+67 boureisougi/020.png
+68 boureisougi/021.png
+69 boureisougi/022.png
+70 boureisougi/023.png
+71 boureisougi/024.png
+72 boureisougi/025.png
+73 boureisougi/026.png
+74 boureisougi/027.png
+75 boureisougi/028.png
+76 boureisougi/029.png
+77 boureisougi/030.png
+78 boureisougi/031.png
+79 boureisougi/032.png
+80 boureisougi/033.png
+81 boureisougi/034.png
+82 boureisougi/035.png
+83 rasetugari/000.png
+84 rasetugari/001.png
+85 rasetugari/002.png
+86 rasetugari/003.png
+87 rasetugari/004.png
+88 rasetugari/005.png
+89 rasetugari/006.png
+90 rasetugari/007.png
+91 rasetugari/008.png
+92 rasetugari/009.png
+93 rasetugari/010.png
+94 rasetugari/011.png
+95 rasetugari/012.png
+96 rasetugari/013.png
+97 rasetugari/014.png
+98 rasetugari/015.png
+99 rasetugari/016.png
+100 rasetugari/017.png
+101 rasetugari/018.png
+102 rasetugari/019.png
+103 rasetugari/020.png
+104 rasetugari/021.png
+105 rasetugari/022.png
+106 rasetugari/023.png
+107 rasetugari/024.png
+108 rasetugari/025.png
+109 rasetugari/026.png
+110 rasetugari/027.png
+111 rasetugari/028.png
+112 rasetugari/029.png
+113 rasetugari/030.png
+114 rasetugari/031.png
+115 rasetugari/032.png
+116 rasetugari/033.png
+117 rasetugari/034.png
+118 rasetugari/035.png
+119 rasetugari/036.png
+120 rasetugari/037.png
+121 rasetugari/038.png
+122 rasetugari/039.png
+123 rasetugari/040.png
+124 rasetugari/041.png
+125 rasetugari/042.png
+126 rasetugari/043.png
+127 rasetugari/044.png
+128 rasetugari/045.png
+129 rasetugari/046.png
+130 rasetugari/047.png
+131 rasetugari/048.png
+132 rasetugari/049.png
+133 rasetugari/050.png
+134 rasetugari/051.png
+135 rasetugari/052.png
+136 rasetugari/053.png
+137 tencho_isoro/000.png
+138 tencho_isoro/001.png
+139 tencho_isoro/002.png
+140 tencho_isoro/003.png
+141 tencho_isoro/004.png
+142 tencho_isoro/005.png
+143 tencho_isoro/006.png
+144 tencho_isoro/007.png
+145 tencho_isoro/008.png
+146 tencho_isoro/009.png
+147 tencho_isoro/010.png
+148 tencho_isoro/011.png
+149 tencho_isoro/012.png
+150 tencho_isoro/013.png
+151 tencho_isoro/014.png
+152 tencho_isoro/015.png
+153 tencho_isoro/016.png
+154 tencho_isoro/017.png
+155 tencho_isoro/018.png
+156 tencho_isoro/019.png
+157 tencho_isoro/020.png
+158 tencho_isoro/021.png
+159 tencho_isoro/022.png
+160 tencho_isoro/023.png
+161 tencho_isoro/024.png
+162 tencho_isoro/025.png
+163 tencho_isoro/026.png
+164 tencho_isoro/027.png
+165 tencho_isoro/028.png
+166 tencho_isoro/029.png
+167 tencho_isoro/030.png
+168 tencho_isoro/031.png
+169 tencho_isoro/032.png
+170 tencho_isoro/033.png
+171 tencho_isoro/034.png
+172 tencho_isoro/035.png
+173 tencho_isoro/036.png
+174 tencho_isoro/037.png
+175 tencho_isoro/038.png
+176 tencho_isoro/039.png
+loading error: /scratch3/workspace/ctpham_umass_edu-ft/input/raw/test/test.png
+177 test/test.png
+178 tojime_no_siora/000.png
+179 tojime_no_siora/001.png
+180 tojime_no_siora/002.png
+181 tojime_no_siora/003.png
+182 tojime_no_siora/004.png
+183 tojime_no_siora/005.png
+184 tojime_no_siora/006.png
+185 tojime_no_siora/007.png
+186 tojime_no_siora/008.png
+187 tojime_no_siora/009.png
+188 tojime_no_siora/010.png
+189 tojime_no_siora/011.png
+190 tojime_no_siora/012.png
+191 tojime_no_siora/013.png
+192 tojime_no_siora/014.png
+193 tojime_no_siora/015.png
+194 tojime_no_siora/016.png
+195 tojime_no_siora/017.png
+196 tojime_no_siora/018.png
+197 tojime_no_siora/019.png
+198 tojime_no_siora/020.png
+199 tojime_no_siora/021.png
+200 tojime_no_siora/022.png
+201 tojime_no_siora/023.png
+202 tojime_no_siora/024.png
+203 tojime_no_siora/025.png
+204 tojime_no_siora/026.png
+205 tojime_no_siora/027.png
+206 tojime_no_siora/028.png
+207 tojime_no_siora/029.png
+208 tojime_no_siora/030.png
+209 tojime_no_siora/031.png
+210 tojime_no_siora/032.png
+211 tojime_no_siora/033.png
+212 tojime_no_siora/034.png
+213 tojime_no_siora/035.png
+214 tojime_no_siora/036.png
+215 tojime_no_siora/037.png
+216 tojime_no_siora/038.png
+217 tojime_no_siora/039.png
+218 tojime_no_siora/040.png
+219 tojime_no_siora/041.png
+220 tojime_no_siora/042.png
+221 tojime_no_siora/043.png
+222 tojime_no_siora/044.png
+223 tojime_no_siora/045.png
+
+End test....
