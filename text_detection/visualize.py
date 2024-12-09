@@ -1,5 +1,4 @@
 import cv2
-import mts
 from matplotlib import pyplot as plt
 
 figsize = (10, 10)
@@ -21,6 +20,7 @@ def visualize_cv2(img: cv2.typing.MatLike):
     return img
 
 def visualize_mts(pred, background):
+    import mts
     mts.torch.zeros(4, pred.shape[0], pred.shape[1]).int()
     segment = mts.ImageSegment(pred)
     background.show(y = segment, figsize=figsize, alpha=0.8)

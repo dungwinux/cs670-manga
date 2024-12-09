@@ -3,12 +3,9 @@ from shapely.errors import GEOSException
 import numpy as np
 import mts
 import cv2
-import algorithm as al
 from dataclasses import astuple, dataclass
 from typing import Tuple
-import tempfile
 from pathlib import Path
-import torch
 
 # points: (n, 1, 2)
 # Polygon: (n + 1, 2)
@@ -210,7 +207,7 @@ def fix_invalid_polygon(p1):
     elif p2.geom_type == 'Point':
         return []
     else:
-        assert False, (f"Don't know how to fix {p2.geom_type}: {p2}")
+        print(f"WARN: Don't know how to fix {p2.geom_type}: {p2}. Returning empty.")
     return []
 
 @dataclass
@@ -237,8 +234,8 @@ class TextDetectionResult:
         return iter(astuple(self))
 
 def text_detection(image_path, input_dir, *, cv2_model, mts_level=3, group_kernel=None, use_cache=None):
-    poly_area_threshold = 0.0001 # 0.01%
-    overlap_area_threshold = 0.1 # 10%
+    poly_area_threshold = 0.00015 # 0.015%
+    overlap_area_threshold = 0.15 # 15%
     image_abspath = Path(input_dir) / image_path
     
     # First, we use MTS to find the base mask of text
@@ -254,7 +251,7 @@ def text_detection(image_path, input_dir, *, cv2_model, mts_level=3, group_kerne
                 mask_np = mts_process_from_cache(image_path, Path(input_dir), layer_agreement=mts_level, cache_path=cache)
     except:
         print(f"Failed to process {use_cache=} {cache=} {image_path=}")        
-        raise    
+        raise
     # We will build bb based on 
     # i don't remember why i had to cut
     # mask_np = mask[0].astype(np.uint8)
@@ -265,57 +262,62 @@ def text_detection(image_path, input_dir, *, cv2_model, mts_level=3, group_kerne
     # visualize_al(polys_cv2, cv2.imread(sample))
 
     # Post-Processing 1: We use CV2 in algorithm to find SFX
-    polys = convert_pointslist_to_polygons([p for p in polys_cv2 if len(p) >= 3])
-    # Remove noises
-    im_area = mask_np.shape[0] * mask_np.shape[1]
-    polys = [p for p in polys if (p.area / im_area) > poly_area_threshold]
-    # polys = [p if p.is_valid else simplify(p, 3) for p in polys]
-    # visualize_al(convert_polygons_to_pointslist(polys), cv2.imread(sample))
-
-    if len(polys) == 0:
-        print("WARN filter is too strict. Receive 0 results from CV2")
-
     chars, img = cv2_process(image_abspath, cv2_model)
 
-    # dup_check(chars)
+    # Skip if we don't find anything new
+    if len(chars) != 0:
+        polys = convert_pointslist_to_polygons([p for p in polys_cv2 if len(p) >= 3])
+        # Remove noises
+        im_area = mask_np.shape[0] * mask_np.shape[1]
+        polys = [p for p in polys if (p.area / im_area) > poly_area_threshold]
+        # polys = [p if p.is_valid else simplify(p, 3) for p in polys]
+        # visualize_al(convert_polygons_to_pointslist(polys), cv2.imread(sample))
 
-    marks = []
-    for char in chars:
-        # We are dropping anything beyond 10-edges
-        # if len(char) > 8:
-        #     continue
-        overlaps = 0
-        boxes = convert_points_to_polygons(char)
-        for p in polys:
-            overlap_area = 0.
-            for box in boxes:
-                if p.overlaps(box) or p.intersects(box):
-                    try:
-                        inter = normalize(p.intersection(box))
-                        # print(f"{inter.area=} {p.area=}")
-                        overlap_area += inter.area
-                    except GEOSException as e:
-                        # print(f"{p=}, {box=}")
-                        print(p)
-                        print(box)
-                        raise e
-            if (overlap_area / p.area) > overlap_area_threshold:
-                overlaps += 1
-                # else:
-                #     print(f"Does not overlap: {p} {box}")
-        if overlaps > 0:
-            marks.append(char)
-    # print(f"Found {len(marks)} possible overlaps out of {len(chars)}")
-    if len(polys) != 0 and len(marks) == 0:
-        print("WARN overlap area threshold is too strict. Receive 0 results")
-    # visualize_cv2(mask_np)
-    new_mask = cv2.cvtColor(mask_np, cv2.COLOR_GRAY2RGB)
-    # Since all contours are disjoints, we can do in one line
-    new_draw = cv2.drawContours(new_mask, marks, -1, color=(255, 255, 255), thickness=cv2.FILLED)
-    # for i in range(len(marks)):
-    #     new_draw = cv2.drawContours(new_mask, marks, i, color=(i, 255, i), thickness=cv2.FILLED)
-    # visualize_cv2(new_draw)
-    final_mask = cv2.cvtColor(new_draw, cv2.COLOR_RGB2GRAY)
+        if len(polys) == 0:
+            print("WARN filter is too strict. Receive 0 results from CV2")
+
+
+        # dup_check(chars)
+
+        marks = []
+        for char in chars:
+            # We are dropping anything beyond 10-edges
+            # if len(char) > 8:
+            #     continue
+            overlaps = 0
+            boxes = convert_points_to_polygons(char)
+            for p in polys:
+                overlap_area = 0.
+                for box in boxes:
+                    if p.intersects(box) and p.overlaps(box):
+                        try:
+                            inter = normalize(p.intersection(box))
+                            # print(f"{inter.area=} {p.area=}")
+                            overlap_area += inter.area
+                        except GEOSException as e:
+                            # print(f"{p=}, {box=}")
+                            print(p)
+                            print(box)
+                            raise e
+                if (overlap_area / p.area) > overlap_area_threshold:
+                    overlaps += 1
+                    # else:
+                    #     print(f"Does not overlap: {p} {box}")
+            if overlaps > 0:
+                marks.append(char)
+        # print(f"Found {len(marks)} possible overlaps out of {len(chars)}")
+        if len(polys) != 0 and len(marks) == 0:
+            print("WARN overlap area threshold is too strict. Receive 0 results")
+        # visualize_cv2(mask_np)
+        new_mask = cv2.cvtColor(mask_np, cv2.COLOR_GRAY2RGB)
+        # Since all contours are disjoints, we can do in one line
+        new_draw = cv2.drawContours(new_mask, marks, -1, color=(255, 255, 255), thickness=cv2.FILLED)
+        # for i in range(len(marks)):
+        #     new_draw = cv2.drawContours(new_mask, marks, i, color=(i, 255, i), thickness=cv2.FILLED)
+        # visualize_cv2(new_draw)
+        final_mask = cv2.cvtColor(new_draw, cv2.COLOR_RGB2GRAY)
+    else:
+        final_mask = mask_np
 
     # print(f"{img.shape=}, {final_mask.shape=}")
     img[final_mask == 0] = (255, 255, 255)

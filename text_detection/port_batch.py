@@ -1,3 +1,5 @@
+from concurrent.futures import ThreadPoolExecutor
+from itertools import repeat
 from pathlib import Path
 from tqdm import tqdm
 import glob
@@ -178,6 +180,12 @@ def old_main():
     for test in tqdm(test_set):
         td.execute(test)
 
+def execute(td, test):
+    if is_problematic(test):
+        return
+    if not (td.output_base2 / test).with_suffix('.png').exists():
+        td.execute(test, use_mts_cache=True)
+
 def main():
     parser = argparse.ArgumentParser(description='Batch processing at port')
     parser.add_argument('--er', action='store_true')
@@ -186,6 +194,8 @@ def main():
     parser.add_argument('--east', action='store_true')
     parser.add_argument('--textboxes', action='store_true')
     parser.add_argument('--stub', action='store_true')
+
+    parser.add_argument('--fold', type=int, choices=range(1, 6), default=2)
     args = parser.parse_args()
 
     cwd = Path('/home/saratoga/cs670-manga/')
@@ -217,16 +227,27 @@ def main():
         print('Running ER algorithm')
         td.cv2_model = al.Text_ER()
 
+    if args.fold:
+        print(f'Setting MTS level of agreement to {args.fold}')
+        td.mts_level = args.fold
+
+    # if args.thread:
+    #     use_thread = True
+    #     thread_count = args.thread
+    # else:
+    #     use_thread = False
+    use_thread = False
     
     test_set = []
     for d in manga109_dirs:
         test_set.extend(glob.glob(d + filt, root_dir=td.input_base, recursive=True))
     
-    for test in tqdm(test_set):
-        if is_problematic(test):
-            continue
-        if not (td.output_base2 / test).with_suffix('.png').exists():
-            td.execute(test, use_mts_cache=True)
+    if use_thread:
+        with ThreadPoolExecutor(max_workers=thread_count) as executor:
+            list(tqdm(executor.map(execute, repeat(td), test_set), total=len(test_set)))
+    else:
+        for test in tqdm(test_set):
+            execute(td, test)
 
 with torch.inference_mode():
     main()
